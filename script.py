@@ -28,6 +28,55 @@ from tulip import tlp
 # The main(graph) function must be defined 
 # to run the script on the current graph
 
+# Part 1
+
+# Function to display the labels on the network's peaks/nodes
+# 
+# Parameters: g (graph), label (viewLabel), locus
+# Return: None
+#
+def displayLabels(g,label,locus):
+  #for node in g.getNodes():
+    #label[node] = locus[node]
+  pass
+
+
+# Function to set the nodes size
+# 
+# Parameters: g (graph), viewSize
+# Return: None
+#
+def setNodesSize(g,viewSize):
+  pass
+
+
+# Function to display the labels on the network's peaks/nodes
+# 
+# Parameters: g (graph)
+# Return: None
+#
+def setDisplayOfEdges(g):
+  pass
+
+
+# Function to set nodes' positions
+# 
+# Parameters: g (graph)
+# Return: None
+#
+def setNodesPosition(g):
+  pass
+
+
+
+# Part 2
+# def recursiveCall(tree, racine, cluster_courant):
+  # addSommetntoTree
+  # merge racine to n
+  # recursive call for each subcluster
+    # recursive call(tree, n, subcluster i )
+
+
 def main(graph): 
   Locus = graph.getStringProperty("Locus")
   Negative = graph.getBooleanProperty("Negative")
