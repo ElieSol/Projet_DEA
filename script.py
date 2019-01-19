@@ -28,6 +28,13 @@ from tulip import tlp
 # The main(graph) function must be defined 
 # to run the script on the current graph
 
+
+# Variables
+
+NODE_WIDTH = 12
+NODE_HEIGHT = 4
+
+
 # Part 1
 
 # Function to display the labels on the network's peaks/nodes
@@ -36,36 +43,51 @@ from tulip import tlp
 # Return: None
 #
 def displayLabels(g,label,locus):
-  #for node in g.getNodes():
-    #label[node] = locus[node]
-  pass
+  for node in g.getNodes():
+    label[node] = locus[node]
 
 
 # Function to set the nodes size
 # 
-# Parameters: g (graph), viewSize
+# Parameters: g (graph), size (viewSize)
 # Return: None
 #
-def setNodesSize(g,viewSize):
-  pass
+def setNodesSize(g,size):
+  nodeSize = tlp.Size(NODE_WIDTH, NODE_HEIGHT,0)
+  for node in g.getNodes():
+    size[node] = nodeSize
 
 
-# Function to display the labels on the network's peaks/nodes
+# Function to set edges colors depending on regulation types
+# - Positive Regulations are colored in green 
+# - Negative Regulations are colored in red
+# - Neutral Regulations are colored in violet
+#
+# Parameters: g (graph), color (viewColor), positive, negative
+# Return: None
+#
+def setDisplayOfEdges(g, viewColor, positive, negative):
+  for edge in g.getEdges():
+    if positive[edge] == True and negative[edge] == False:
+      viewColor[edge] = tlp.Color.Green
+    if positive[edge] == False and negative[edge] == True:
+      viewColor[edge] = tlp.Color.Red
+    if positive[edge] == True and negative[edge] == True:
+      viewColor[edge] = tlp.Color.Violet
+  updateVisualization()
+  
+
+
+# Function to set nodes' positions and graph form by using Tulips' drawing Algorithm
 # 
-# Parameters: g (graph)
+# Parameters: g (graph), layout (viewLayout)
 # Return: None
 #
-def setDisplayOfEdges(g):
-  pass
-
-
-# Function to set nodes' positions
-# 
-# Parameters: g (graph)
-# Return: None
-#
-def setNodesPosition(g):
-  pass
+def setNodesPosition(g, layout):
+  parameters = tlp.getDefaultPluginParameters("Circular (OGDF)")
+  parameters["Unit edge length"] = 80
+  g.applyLayoutAlgorithm('Circular (OGDF)', layout, parameters)
+  updateVisualization()
 
 
 
@@ -122,6 +144,9 @@ def main(graph):
   viewTexture = graph.getStringProperty("viewTexture")
   viewTgtAnchorShape = graph.getIntegerProperty("viewTgtAnchorShape")
   viewTgtAnchorSize = graph.getSizeProperty("viewTgtAnchorSize")
-
-  for n in graph.getNodes():
-    print n
+   
+  displayLabels(graph,viewLabel,Locus)
+  setNodesSize(graph,viewSize)
+  setDisplayOfEdges(graph, viewColor, Positive, Negative)
+  setNodesPosition(graph, viewLayout)
+  updateVisualization()
