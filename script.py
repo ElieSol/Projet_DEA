@@ -97,6 +97,28 @@ def setNodesPosition(g, layout):
   # merge racine to n
   # recursive call for each subcluster
     # recursive call(tree, n, subcluster i )
+    
+def recursiveCall(tree,root,cluster):
+    if (tree.numberOfNodes()==0):
+      tree.addNode(root)
+      recursiveCall(tree,root,cluster)
+    
+    elif (len(cluster)==0):
+      tree.addNode(root)
+    else:
+      for node in cluster:
+        tree.addNode(node)
+        tree.addEdge(root,node)
+        current_node=node
+        current_cluster=tree.getSubGraphs(current_node)
+        recursiveCall(tree,current_node,current_cluster)
+
+  
+
+def hierarchicalTree(tree,root):
+    cluster=tree.getSubGraphs(root)
+    recursiveCall(tree,root,cluster)
+  
 
 
 def main(graph): 
@@ -150,3 +172,6 @@ def main(graph):
   setDisplayOfEdges(graph, viewColor, Positive, Negative)
   setNodesPosition(graph, viewLayout)
   updateVisualization()
+  
+  #question 2.1
+  hierarchicalTree(tree,root)
