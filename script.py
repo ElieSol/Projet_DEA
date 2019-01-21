@@ -14,6 +14,7 @@
 #   * Ctrl + Space  : show auto-completion dialog.
 
 from tulip import tlp
+from collections import deque
 
 # The updateVisualization(centerViews = True) function can be called
 # during script execution to update the opened views
@@ -45,8 +46,10 @@ NODE_HEIGHT = 4
 # Return: None
 #
 def displayLabels(g,label,locus):
+  labelPosition = g.getIntegerProperty("viewLabelPosition")
   for node in g.getNodes():
     label[node] = locus[node]
+    labelPosition[node]=tlp.LabelPosition.Center
   
 
 # Function to set the nodes size
@@ -140,6 +143,48 @@ def colorNodes(g, property, color):
   params['color scale']='BiologicalHeatMap.png'
   g.applyColorAlgorithm('Alpha Mapping', params)
   
+#
+#
+#
+#
+#
+
+def dijsktra(graph, initial, end):
+    # shortest paths is a dict of nodes
+    # whose value is a tuple of (previous node, weight)
+    shortest_paths = {initial: (None, 0)}
+    current_node = initial
+    visited = set()
+    
+    while current_node != end:
+        visited.add(current_node)
+        destinations = graph.getInOutEdges(current_node)
+        weight_to_current_node = shortest_paths[current_node][1]
+
+        for next_node in destinations:
+            weight = graph.weights[(current_node, next_node)] + weight_to_current_node
+            if next_node not in shortest_paths:
+                shortest_paths[next_node] = (current_node, weight)
+            else:
+                current_shortest_weight = shortest_paths[next_node][1]
+                if current_shortest_weight > weight:
+                    shortest_paths[next_node] = (current_node, weight)
+        
+        next_destinations = {node: shortest_paths[node] for node in shortest_paths if node not in visited}
+        if not next_destinations:
+            return "Route Not Possible"
+        # next node is the destination with the lowest weight
+        current_node = min(next_destinations, key=lambda k: next_destinations[k][1])
+    
+    # Work back through destinations in shortest path
+    path = []
+    while current_node is not None:
+        path.append(current_node)
+        next_node = shortest_paths[current_node][0]
+        current_node = next_node
+    # Reverse path
+    path = path[::-1]
+    return path
 
 
 def main(graph): 
@@ -205,3 +250,11 @@ def main(graph):
   getRadialTreeVersion(graph.getSubGraph("Hierarchical Tree"))
   
   colorNodes(graph.getSubGraph("Hierarchical Tree"), viewMetric, viewColor)
+
+  list_node = []
+  
+  for n in graph.getNodes():
+    list_node.append(n)
+  
+    
+#  dijsktra(graph, graph.getOneNode(), list_node[5])
