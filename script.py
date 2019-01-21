@@ -47,7 +47,7 @@ NODE_HEIGHT = 4
 def displayLabels(g,label,locus):
   for node in g.getNodes():
     label[node] = locus[node]
-
+  
 
 # Function to set the nodes size
 # 
@@ -133,6 +133,13 @@ def getRadialTreeVersion(tree):
 # Return: None
 #
 
+def colorNodes(g, property, color):
+  params = tlp.getDefaultPluginParameters('Alpha Mapping', g)
+  params['input property']=property
+  params['target']='nodes'
+  params['color scale']='BiologicalHeatMap.png'
+  g.applyColorAlgorithm('Alpha Mapping', params)
+  
 
 
 def main(graph): 
@@ -196,3 +203,5 @@ def main(graph):
 
   # question 2.2
   getRadialTreeVersion(graph.getSubGraph("Hierarchical Tree"))
+  
+  colorNodes(graph.getSubGraph("Hierarchical Tree"), viewMetric, viewColor)
