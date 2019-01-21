@@ -74,6 +74,8 @@ def setDisplayOfEdges(g, viewColor, positive, negative):
       viewColor[edge] = tlp.Color.Red
     if positive[edge] == True and negative[edge] == True:
       viewColor[edge] = tlp.Color.Violet
+    if positive[edge] == False and negative[edge] == False:
+      viewColor[edge] = tlp.Color.Black
   updateVisualization()
   
 
@@ -98,27 +100,17 @@ def setNodesPosition(g, layout):
   # recursive call for each subcluster
     # recursive call(tree, n, subcluster i )
     
-def recursiveCall(tree,root,cluster):
-    if (tree.numberOfNodes()==0):
-      tree.addNode(root)
-      recursiveCall(tree,root,cluster)
-    
-    elif (len(cluster)==0):
-      tree.addNode(root)
-    else:
-      for node in cluster:
-        tree.addNode(node)
-        tree.addEdge(root,node)
-        current_node=node
-        current_cluster=tree.getSubGraphs(current_node)
-        recursiveCall(tree,current_node,current_cluster)
-
-  
-
-def hierarchicalTree(tree,root):
-    cluster=tree.getSubGraphs(root)
-    recursiveCall(tree,root,cluster)
-  
+def createHierarchicalTree(tree,root,cluster):
+  #if(cluster.numberOfSubGraphs()!=0):
+  for sub_graph in cluster:
+    node=tree.addNode()
+    tree.addEdge(root,node)
+    current_cluster=sub_graph.getSubGraphs()
+    createHierarchicalTree(tree,node,current_cluster)
+    if sub_graph.numberOfSubGraphs()==0:
+      for n in sub_graph.getNodes():
+        tree.addNode(n)
+        tree.addEdge(node,n)
 
 
 def main(graph): 
@@ -174,4 +166,8 @@ def main(graph):
   updateVisualization()
   
   #question 2.1
-  hierarchicalTree(tree,root)
+  tree = graph.addSubGraph("Hierarchical Tree")
+  racine = tree.addNode()
+  genes_interaction= graph.getSubGraph("Genes interactions")
+  cluster= genes_interaction.getSubGraphs()
+  createHierarchicalTree(tree,racine,cluster)
