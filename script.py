@@ -35,7 +35,9 @@ NODE_WIDTH = 12
 NODE_HEIGHT = 4
 
 
-# Part 1
+##########
+# Part 1 #
+##########
 
 # Function to display the labels on the network's peaks/nodes
 # 
@@ -92,14 +94,16 @@ def setNodesPosition(g, layout):
   updateVisualization()
 
 
+##########
+# Part 2 #
+##########
 
-# Part 2
-# def recursiveCall(tree, racine, cluster_courant):
-  # addSommetntoTree
-  # merge racine to n
-  # recursive call for each subcluster
-    # recursive call(tree, n, subcluster i )
-    
+# Function to create a Hierarchical Tree
+# 
+# Parameters: tree (empty subgraph), root (node), cluster (list of subgraphs)
+# Return: None
+#
+
 def createHierarchicalTree(tree,root,cluster):
   #if(cluster.numberOfSubGraphs()!=0):
   for sub_graph in cluster:
@@ -111,6 +115,24 @@ def createHierarchicalTree(tree,root,cluster):
       for n in sub_graph.getNodes():
         tree.addNode(n)
         tree.addEdge(node,n)
+
+
+# Function to create a radial version of the Hierarchical Tree
+# 
+# Parameters: tree (Hierarchical Tree)
+# Return: None
+#
+
+def getRadialTreeVersion(tree):
+  params = tlp.getDefaultPluginParameters('Tree Radial', tree)
+  tree.applyLayoutAlgorithm('Tree Radial', params)
+  
+# Function to color nodes by using values of the 'Double Property'
+# 
+# Parameters: graph, property
+# Return: None
+#
+
 
 
 def main(graph): 
@@ -171,3 +193,6 @@ def main(graph):
   genes_interaction= graph.getSubGraph("Genes interactions")
   cluster= genes_interaction.getSubGraphs()
   createHierarchicalTree(tree,racine,cluster)
+
+  # question 2.2
+  getRadialTreeVersion(graph.getSubGraph("Hierarchical Tree"))
