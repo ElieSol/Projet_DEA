@@ -162,6 +162,7 @@ def dijsktra(graph, initial, end):
         weight_to_current_node = shortest_paths[current_node][1]
 
         for next_node in destinations:
+            distance = 0
             weight = graph.weights[(current_node, next_node)] + weight_to_current_node
             if next_node not in shortest_paths:
                 shortest_paths[next_node] = (current_node, weight)
@@ -185,7 +186,28 @@ def dijsktra(graph, initial, end):
     # Reverse path
     path = path[::-1]
     return path
+    
 
+def findShortestPath(g, start, end, path=[]):
+  print("start at ", start)
+  print("end at ", end)
+  path = path + [start]
+  if start == end:
+    return path
+  if g.isElement(start)!=True:
+    return None
+  shortest = None
+  for node in g.getInOutNodes(start):
+    if node not in path:
+      newpath = findShortestPath(g, node, end, path)
+      if(newpath!=None):
+        print("size of newpath = ",len(newpath))
+      if(shortest!=None):
+        print("size of shortest = ",len(shortest))
+      if newpath:
+        if not shortest or len(newpath) < len(shortest):
+          shortest = newpath
+  return shortest
 
 def main(graph): 
   Locus = graph.getStringProperty("Locus")
@@ -257,4 +279,5 @@ def main(graph):
     list_node.append(n)
   
     
-#  dijsktra(graph, graph.getOneNode(), list_node[5])
+  #dijsktra(graph, graph.getOneNode(), list_node[5])
+  print(findShortestPath(tree, tree.getOneNode(), list_node[5], path=[]))
