@@ -143,54 +143,13 @@ def colorNodes(g, property, color):
   params['color scale']='BiologicalHeatMap.png'
   g.applyColorAlgorithm('Alpha Mapping', params)
   
+# Function to find the shortest path between two nodes in a graph
 #
+# Parameters: graph, start (node1), end (node2), path (list of node in the path, empty when the function is called)
+# Return: List of node in the shortest path
 #
-#
-#
-#
-
-def dijsktra(graph, initial, end):
-    # shortest paths is a dict of nodes
-    # whose value is a tuple of (previous node, weight)
-    shortest_paths = {initial: (None, 0)}
-    current_node = initial
-    visited = set()
-    
-    while current_node != end:
-        visited.add(current_node)
-        destinations = graph.getInOutEdges(current_node)
-        weight_to_current_node = shortest_paths[current_node][1]
-
-        for next_node in destinations:
-            distance = 0
-            weight = graph.weights[(current_node, next_node)] + weight_to_current_node
-            if next_node not in shortest_paths:
-                shortest_paths[next_node] = (current_node, weight)
-            else:
-                current_shortest_weight = shortest_paths[next_node][1]
-                if current_shortest_weight > weight:
-                    shortest_paths[next_node] = (current_node, weight)
-        
-        next_destinations = {node: shortest_paths[node] for node in shortest_paths if node not in visited}
-        if not next_destinations:
-            return "Route Not Possible"
-        # next node is the destination with the lowest weight
-        current_node = min(next_destinations, key=lambda k: next_destinations[k][1])
-    
-    # Work back through destinations in shortest path
-    path = []
-    while current_node is not None:
-        path.append(current_node)
-        next_node = shortest_paths[current_node][0]
-        current_node = next_node
-    # Reverse path
-    path = path[::-1]
-    return path
-    
 
 def findShortestPath(g, start, end, path=[]):
-  print("start at ", start)
-  print("end at ", end)
   path = path + [start]
   if start == end:
     return path
@@ -200,12 +159,8 @@ def findShortestPath(g, start, end, path=[]):
   for node in g.getInOutNodes(start):
     if node not in path:
       newpath = findShortestPath(g, node, end, path)
-      if(newpath!=None):
-        print("size of newpath = ",len(newpath))
-      if(shortest!=None):
-        print("size of shortest = ",len(shortest))
       if newpath:
-        if not shortest or len(newpath) < len(shortest):
+        if(not shortest or len(newpath) < len(shortest) and len(newpath!=0)):
           shortest = newpath
   return shortest
 
@@ -261,6 +216,9 @@ def main(graph):
   setNodesPosition(graph, viewLayout)
   updateVisualization()
   
+  if(graph.getSubGraph("Hierarchical Tree")!=None):
+    graph.delSubGraph(graph.getSubGraph("Hierarchical Tree"))
+    
   #question 2.1
   tree = graph.addSubGraph("Hierarchical Tree")
   racine = tree.addNode()
@@ -274,10 +232,14 @@ def main(graph):
   colorNodes(graph.getSubGraph("Hierarchical Tree"), viewMetric, viewColor)
 
   list_node = []
+     
+  tree = graph.getSubGraph("Hierarchical Tree")
   
-  for n in graph.getNodes():
-    list_node.append(n)
+  i=0
   
-    
-  #dijsktra(graph, graph.getOneNode(), list_node[5])
-  print(findShortestPath(tree, tree.getOneNode(), list_node[5], path=[]))
+  for n in tree.getNodes():
+    list_node.append(n) 
+    i+=1  
+  print(list_node[5])
+  print(list_node[0])
+  print(findShortestPath(tree, list_node[0], list_node[15], path=[]))
