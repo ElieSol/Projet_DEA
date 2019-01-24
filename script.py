@@ -143,26 +143,78 @@ def colorNodes(g, property, color):
   params['color scale']='BiologicalHeatMap.png'
   g.applyColorAlgorithm('Alpha Mapping', params)
   
-# Function to find the shortest path between two nodes in a graph
 #
-# Parameters: graph, start (node1), end (node2), path (list of node in the path, empty when the function is called)
-# Return: List of node in the shortest path
+#
+#
+#
 #
 
-def findShortestPath(g, start, end, path=[]):
-  path = path + [start]
-  if start == end:
-    return path
-  if g.isElement(start)!=True:
-    return None
-  shortest = None
-  for node in g.getInOutNodes(start):
-    if node not in path:
-      newpath = findShortestPath(g, node, end, path)
-      if newpath:
-        if(not shortest or len(newpath) < len(shortest) and len(newpath!=0)):
-          shortest = newpath
-  return shortest
+def dfs_recursive(g, node, racine, path=[]): 
+  path += [node]
+  if node==racine:
+  	return path    
+  for neighbor in g.getInOutNodes (node): 
+  	print("The neighbour of node: ",node,"is",neighbor)
+  	if neighbor == racine:
+  		print("Root found")
+  		break
+  		return path
+  	if neighbor in path:
+  		print("neigbor in path")
+  		print(path)
+  		break
+  		return path
+  		break
+  	else:
+	  	path = dfs_recursive(g, neighbor, racine, path) 
+  return path 
+
+def findShortestPath (g, node_start, node_end,racine):
+	viewColor = graph.getColorProperty("viewColor")
+	viewSize = graph.getSizeProperty("viewSize")
+	viewShape = graph.getIntegerProperty("viewShape")
+	baseSize = tlp.Size(20,20,20)
+	pathFromRoot=dfs_recursive (g,node_end,racine, path=[])
+	pathFromRoot.pop(len(pathFromRoot)-1)
+	racine=pathFromRoot.pop(len(pathFromRoot)-1)
+	print("new racine =",racine)
+	print("pathFromRoot=",pathFromRoot)
+	pathToRoot=dfs_recursive (g,node_start,racine, path=[])
+	print("pathToRoot=", pathToRoot)
+	pathFromRoot=pathFromRoot[::-1]
+	print("pathFromRootReverse=",pathFromRoot)
+	pathToRootf = pathToRoot+[racine]
+	print("pathToRoot=", pathToRootf)
+	finalPath=pathToRootf+pathFromRoot
+	print("final path is =", finalPath)
+	for node in finalPath:
+		viewColor[node]=tlp.Color.Violet
+		viewSize[node] = baseSize
+		viewShape[node] = tlp.NodeShape.Square
+
+
+	return finalPath
+#
+#
+#
+#
+#
+def createBundles(g, gLayout):
+  for edge in g.getEdges():
+    print (edge)
+    list_node = []
+    i=0
+    for n in g.getNodes():
+      list_node.append(n) 
+      i+=1  
+    shortestpath=findShortestPath(g, list_node[2], list_node[5], list_node[0])
+    #shortestpath=findShortestPath(g,g.source(edge), g.target(edge),path=[])
+    nodesPath=[]
+    for node in shortestpath:
+      nodesPath.append(gLayout[node])
+    gLayout.setEdgeValue(edge,nodesPath)
+  shape.setAllEdgeValue(16)
+
 
 def main(graph): 
   Locus = graph.getStringProperty("Locus")
@@ -216,9 +268,6 @@ def main(graph):
   setNodesPosition(graph, viewLayout)
   updateVisualization()
   
-  if(graph.getSubGraph("Hierarchical Tree")!=None):
-    graph.delSubGraph(graph.getSubGraph("Hierarchical Tree"))
-    
   #question 2.1
   tree = graph.addSubGraph("Hierarchical Tree")
   racine = tree.addNode()
@@ -232,14 +281,10 @@ def main(graph):
   colorNodes(graph.getSubGraph("Hierarchical Tree"), viewMetric, viewColor)
 
   list_node = []
-     
-  tree = graph.getSubGraph("Hierarchical Tree")
   
-  i=0
+  for n in graph.getNodes():
+    list_node.append(n)
   
-  for n in tree.getNodes():
-    list_node.append(n) 
-    i+=1  
-  print(list_node[5])
-  print(list_node[0])
-  print(findShortestPath(tree, list_node[0], list_node[15], path=[]))
+
+  #print(findShortestPath(tree, tree.getOneNode(), list_node[5],path=[]))
+  createBundles(genes_interaction, viewLayout)
