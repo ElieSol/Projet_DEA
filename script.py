@@ -203,7 +203,7 @@ def findShortestPath(g,source,target):
 def createBundle(g,glayout):
 	for edge in g.getEdges():
 		path=findShortestPath(g,g.source(edge),g.target(edge))
-		print path
+		print(path)
 		#for node in path:
     #  nodesPath.append(gLayout[node])
 	  #  gLayout.setEdgeValue(edge,nodesPath)
@@ -292,6 +292,40 @@ def createBundle(g,glayout):
  # shape.setAllEdgeValue(16)
 
 
+# Function to create the small multiples graph
+#
+# Parameters: g (graph racine), timelapse (list of tp_*), gInteractions (graph)
+# Return None
+# 
+def createSmallMultiples(g, timelapse):
+  smallMultiples = g.addCloneSubGraph("smallMultiples",False,False)
+  list_node = []
+  for n in smallMultiples.getNodes():
+    list_node.append(n) 
+  i=1
+  for lapse in timelapse:
+    name = "tp "+str(i)
+    tp = smallMultiples.addCloneSubGraph(name,False,False)
+    metricTP = tp.getLocalDoubleProperty("viewMetric")
+    for node in tp.getNodes():
+      metricTP[node]= lapse[node]
+    i+=1
+
+# Function to color the small multiples graphs by geneexpression
+#
+# Parameters: g (graph small multiples)
+# Return None
+# 
+def colorSmallMultiples(g):
+  for smaliImg in g.getSubGraphs():
+    localproperty = smaliImg.getLocalDoubleProperty("viewMetric")
+    color = smaliImg.getLocalColorProperty("viewColor")
+    colorNodes(smaliImg, localproperty, color)
+  
+
+
+
+
 def main(graph): 
   Locus = graph.getStringProperty("Locus")
   Negative = graph.getBooleanProperty("Negative")
@@ -355,15 +389,19 @@ def main(graph):
   getRadialTreeVersion(graph.getSubGraph("Hierarchical Tree"))
   
   colorNodes(graph.getSubGraph("Hierarchical Tree"), viewMetric, viewColor)
-
-  list_node = []
-  
-  for n in graph.getNodes():
-    list_node.append(n)
     
-  createBundle(genes_interaction,viewLayout)
+#  createBundle(genes_interaction,viewLayout)
   
   #findShortestPath()
   #print(findShortestPath(tree, tree.getOneNode(), list_node[5],path=[]))
   #createBundles(genes_interaction, viewLayout)
+  
+   
+  # Partie 3
+  # question 3.1
+  tp = [tp1_s,tp2_s,tp3_s,tp4_s,tp5_s,tp6_s,tp7_s,tp8_s,tp9_s,tp10_s,tp11_s,tp12_s,tp13_s,tp14_s ,tp15_s ,tp16_s ,tp17_s]
+  createSmallMultiples(graph, tp)
+  smallMult = graph.getSubGraph("smallMultiples")
+  # question 3.2
+  colorSmallMultiples(smallMult)
  
