@@ -143,88 +143,153 @@ def colorNodes(g, property, color):
   params['color scale']='BiologicalHeatMap.png'
   g.applyColorAlgorithm('Alpha Mapping', params)
   
+#
+#
+#
+#
+#
+	
 # Function to find the shortest path between two nodes in a graph
 #
 # Parameters: graph, start (node1), end (node2), path (list of node in the path, empty when the function is called)
 # Return: List of node in the shortest path
 #
 
-def findPath(graph, n, root, path=[]):
-  path+=[n]
-  if(n==root):
-#    print("n==root")
-    return path
-  if graph.isElement(n)!=True:
-    return None
-  for neigbor in graph.getInOutNodes(n):
-#    print("neighbour of ",n, " is :", neigbor)
-    findPath(graph, neigbor, root, path)
-    if(neigbor == root):
-#      print("ROOT ",root," EQUALS NEIGHBOUR")
-      return path;
-    if(neigbor in path):
-      return path
-    if(neigbor!= root and neigbor not in path):
-#      print("neighbour not in path")
-      findPath(graph, neigbor, root, path)
-  return path  
+def getDepth(g,root,node, depth):
+	if node!=root:
+		for n in g.getInOutNodes(root):
+			if n!=node:
+				depth+=1
+				getDepth(g,n,node,depth)
+			else:
+				depth+=1
+				return depth
+			
+def getminimaldepth(g,root,source,depthsource):
+	bestdepth=depthsource
+	for n in g.getInOutNodes(source):
+		currentdepth=0
+		currentdepth=getDepth(g,root,n,currentdepth)
+		if currentdepth<bestdepth:
+			bestdepth=currentdepth
+	return bestdepth
 
-def removeDuplicate(list_1,list_2):
-  match = list(set(list_1) & set(list_2))
-  if len(match)<=2:
-     root = match[len(match)-1]
-  elif len(match)>2:
-     root=match[0]
-#  print("match = ",match)
-  list_2=list_2[::-1]
-#  print("pathway 2 after reversal =",list_2)
-  for el in match:
-    list_1.remove(el)
-    list_2.remove(el)
-  finalList = list_1 +[root]+ list_2
-  return finalList
+def findPath(g,source,path):
+	root=g.getOneNode()
+	sourceDepth=0
+	getDepth(g,root,source,sourceDepth)
+	if (sourceDepth!=0):
+		path.append(source)
+		minimaldepth=getminimaldepth(g,root,source,sourceDepth)
+		for n in g.getInOutNodes(source):
+			currentdepth=0
+			currentdepth=getDepth(g,root,n,currentdepth)
+			if currentdepth==minimaldepth:
+				findpath(g,n,path)
+	else:
+		path.append(source)
+		
+def findShortestPath(g,source,target):
+	sourcePath=[]
+	targetPath=[]
+	findPath(g,source,sourcePath)
+	findPath(g,target,targetPath)
+	targetPath.reverse()
+	targetPath.remove(targetPath[0])
+	path=[]
+	path=sourcePath+targetPath
+	return path
+	
+def createBundle(g,glayout):
+	for edge in g.getEdges():
+		path=findShortestPath(g,g.source(edge),g.target(edge))
+		print path
+		#for node in path:
+    #  nodesPath.append(gLayout[node])
+	  #  gLayout.setEdgeValue(edge,nodesPath)
+  #shape.setAllEdgeValue(16)
+		
+	
+#def findPath(graph, n, root, path=[]):
+ # path+=[n]
+ # if(n==root):
+ #   print("n==root")
+ #   return path
+ # if graph.isElement(n)!=True:
+ #   return None
+ # for neigbor in graph.getInOutNodes(n):
+ #   print("neighbour of ",n, " is :", neigbor)
+ #   findPath(graph, neigbor, root, path)
+ #   if(neigbor == root):
+ #     print("ROOT ",root," EQUALS NEIGHBOUR")
+ #     return path;
+ #   if(neigbor in path):
+ #     return path
+ #   if(neigbor!= root and neigbor not in path):
+ #     print("neighbour not in path")
+ #     findPath(graph, neigbor, root, path)
+ # return path  
 
-def findShortestPath(graph, n1, n2):
-  viewColor = graph.getColorProperty("viewColor")
-  viewSize = graph.getSizeProperty("viewSize")
-  viewShape = graph.getIntegerProperty("viewShape")
-  baseSize = tlp.Size(50,50,50)
-  list_node = []
-  tree = graph.getSubGraph("Hierarchical Tree")
-  i=0
-  for n in tree.getNodes():
-    list_node.append(n) 
-    i+=1
-  root = list_node[0]
-#  print(n1)
-#  print(n2)
-  pathway_1=findPath(tree, n1, root, path=[])
-#  print("pathway 1 =",pathway_1)
-  pathway_2=findPath(tree, n2, root, path=[])
-#  print("pathway 2 =",pathway_2)
-  pathway = removeDuplicate(pathway_1,pathway_2)
-  for node in pathway:
-    viewColor[node]=tlp.Color.Violet
-    viewSize[node] = baseSize
-    viewShape[node] = tlp.NodeShape.Square
-#  print(pathway)
-#  print("final pathway= ",pathway)
-  return pathway
+#def removeDuplicate(list_1,list_2):
+ # match = list(set(list_1) & set(list_2))
+ # if len(match)<=2:
+ #    root = match[len(match)-1]
+ # elif len(match)>2:
+ #    root=match[0]
+ # print("match = ",match)
+ # list_2=list_2[::-1]
+ # print("pathway 2 after reversal =",list_2)
+ # for el in match:
+ #   list_1.remove(el)
+ #   list_2.remove(el)
+ # finalList = list_1 +[root]+ list_2
+ # return finalList
 
+#def findShortestPath():
+ # viewColor = graph.getColorProperty("viewColor")
+ # viewSize = graph.getSizeProperty("viewSize")
+ # viewShape = graph.getIntegerProperty("viewShape")
+ # baseSize = tlp.Size(50,50,50)
+ # list_node = []
+ # tree = graph.getSubGraph("Hierarchical Tree")
+ # i=0
+ # for n in tree.getNodes():
+ #   list_node.append(n) 
+ #   i+=1
+ # root = list_node[0]
+ # print(list_node[5])
+ # print(list_node[900])
+ # pathway_1=findPath(tree, list_node[5], root, path=[])
+ # print("pathway 1 =",pathway_1)
+ # pathway_2=findPath(tree, list_node[900], root, path=[])
+ # print("pathway 2 =",pathway_2)
+ # pathway = removeDuplicate(pathway_1,pathway_2)
+ # for node in pathway:
+ #   viewColor[node]=tlp.Color.Violet
+ #   viewSize[node] = baseSize
+ #   viewShape[node] = tlp.NodeShape.Square
+ # print(pathway)
+ # print("path of node ", list_node[5]," path= ",pathway)
 #
 #
 #
 #
 #
-def createBundles(g, gLayout):
-  for edge in g.getEdges():
-    print("EDGE = ",edge)
-    shortestpath=findShortestPath(g,g.source(edge), g.target(edge))
-    nodesPath=[]
-    for node in shortestpath:
-      nodesPath.append(gLayout[node])
-    print("path=",nodesPath)
-    gLayout.setEdgeValue(edge,nodesPath)
+#def createBundles(g, gLayout):
+ # for edge in g.getEdges():
+ #   print (edge)
+ #   list_node = []
+ #   i=0
+ #   for n in g.getNodes():
+ #     list_node.append(n) 
+ #     i+=1  
+ #   #shortestpath=findShortestPath(g, list_node[2], list_node[5], list_node[0])
+    #shortestpath=findShortestPath(g,g.source(edge), g.target(edge),path=[])
+ #   nodesPath=[]
+ #   for node in shortestpath:
+ #     nodesPath.append(gLayout[node])
+ #   gLayout.setEdgeValue(edge,nodesPath)
+ # shape.setAllEdgeValue(16)
 
 
 def main(graph): 
@@ -278,9 +343,6 @@ def main(graph):
   setDisplayOfEdges(graph, viewColor, Positive, Negative)
   setNodesPosition(graph, viewLayout)
   updateVisualization()
-
-  if(graph.getSubGraph("Hierarchical Tree")!=None):
-  	graph.delSubGraph(graph.getSubGraph("Hierarchical Tree"))  
   
   #question 2.1
   tree = graph.addSubGraph("Hierarchical Tree")
@@ -293,7 +355,15 @@ def main(graph):
   getRadialTreeVersion(graph.getSubGraph("Hierarchical Tree"))
   
   colorNodes(graph.getSubGraph("Hierarchical Tree"), viewMetric, viewColor)
+
+  list_node = []
   
-  createBundles(graph, viewLayout)
-#  viewLayout.setAllEdgeValue()
-#  findShortestPath()
+  for n in graph.getNodes():
+    list_node.append(n)
+    
+  createBundle(genes_interaction,viewLayout)
+  
+  #findShortestPath()
+  #print(findShortestPath(tree, tree.getOneNode(), list_node[5],path=[]))
+  #createBundles(genes_interaction, viewLayout)
+ 
