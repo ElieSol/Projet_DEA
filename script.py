@@ -161,8 +161,6 @@ def findParent(graph,u,v,viewLevel):
 	vPath=[]
 	uAncestor=u
 	vAncestor=v
-	uPath.append(uAncestor)
-	vPath.append(vAncestor)
 	while uAncestor!=vAncestor:
 		if viewLevel[uAncestor]>viewLevel[vAncestor]:
 			for uAnc in graph.getInNodes(uAncestor):
@@ -190,21 +188,39 @@ def findParent(graph,u,v,viewLevel):
 			path.append(uAncestor)
 			vPath.reverse()
 			for node in vPath:
-				path.append(node)
+				if node!=uAncestor:
+					path.append(node)
 			return path
 		
 
-def findPath(graph, viewLevel):
-	for u in graph.getNodes():
-		for v in graph.getOutNodes(u):
-			path=findParent(graph,u,v,viewLevel)
-			print path
+def findPath(tree, graph, viewLevel,gLayout):
+	shape = graph.getIntegerProperty("viewShape")
+	for u in tree.getNodes():
+		for v in tree.getOutNodes(u):
+			path=findParent(tree,u,v,viewLevel)
+			print(path)
 			nodePath=[]
+			if path!= None:
+				for node in path:
+					nodePath.append(gLayout[node])
+	shape.setAllEdgeValue(16)
+
+
+def createBundles(tree, graph, viewLevel,gLayout,gShape):
+	for edge in graph.getEdges():
+		print(edge)
+		u = graph.source(edge)
+		v = graph.target(edge)
+		print("viewLevel u = ",viewLevel[u])
+		print("viewLevel v = ",viewLevel[v])
+		path=findParent(tree,u,v,viewLevel)
+		print("path = ",path)
+		nodePath=[]
+		if path!= None:
 			for node in path:
-				nodesPath.append(gLayout[node])
-    gLayout.setEdgeValue(edge,nodesPath)
-  shape.setAllEdgeValue(16)
-				
+				nodePath.append(gLayout[node])
+			gLayout.setEdgeValue(edge,nodePath)
+	gShape.setAllEdgeValue(16)		
 
 
 # Function to create the small multiples graph
@@ -306,11 +322,12 @@ def main(graph):
   getRadialTreeVersion(graph.getSubGraph("Hierarchical Tree"))
   
   colorNodes(graph.getSubGraph("Hierarchical Tree"), viewMetric, viewColor)
-    
   
+  tree = graph.getSubGraph("Hierarchical Tree")
+  viewLevel=graph.getIntegerProperty("viewLevel")
   tlp.dagLevel(graph,viewLevel)
   
-  findPath(graph, viewLevel)
+  createBundles(tree,graph, viewLevel,viewLayout, viewShape)
   #createBundles(genes_interaction, viewLayout)
    
   # Partie 3
