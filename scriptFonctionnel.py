@@ -1,37 +1,16 @@
 # Powered by Python 2.7
 
-# To cancel the modifications performed by the script
-# on the current graph, click on the undo button.
-
-# Some useful keyboards shortcuts : 
-#   * Ctrl + D : comment selected lines.
-#   * Ctrl + Shift + D  : uncomment selected lines.
-#   * Ctrl + I : indent selected lines.
-#   * Ctrl + Shift + I  : unindent selected lines.
-#   * Ctrl + Return  : run script.
-#   * Ctrl + F  : find selected text.
-#   * Ctrl + R  : replace selected text.
-#   * Ctrl + Space  : show auto-completion dialog.
-
+# DEA Project
+#
+# Authors: 
+#  - Economides Marie
+#  - Solacroup Julie
+#
 from tulip import tlp
 from collections import deque
 
-# The updateVisualization(centerViews = True) function can be called
-# during script execution to update the opened views
-
-# The pauseScript() function can be called to pause the script execution.
-# To resume the script execution, you will have to click on the "Run script " button.
-
-# The runGraphScript(scriptFile, graph) function can be called to launch
-# another edited script on a tlp.Graph object.
-# The scriptFile parameter defines the script name to call (in the form [a-zA-Z0-9_]+.py)
-
-# The main(graph) function must be defined 
-# to run the script on the current graph
-
 
 # Variables
-
 NODE_WIDTH = 12
 NODE_HEIGHT = 4
 
@@ -40,7 +19,7 @@ NODE_HEIGHT = 4
 # Part 1 #
 ##########
 
-# Function to display the labels on the network's peaks/nodes
+# Function to display the labels on the network's nodes
 # 
 # Parameters: g (graph), label (viewLabel), locus
 # Return: None
@@ -84,7 +63,6 @@ def setDisplayOfEdges(g, viewColor, positive, negative):
   updateVisualization()
   
 
-
 # Function to set nodes' positions and graph form by using Tulips' drawing Algorithm
 # 
 # Parameters: g (graph), layout (viewLayout)
@@ -97,6 +75,20 @@ def setNodesPosition(g, layout):
   updateVisualization()
 
 
+# Function to modify the general layout of the graph  
+# It allows the display of labels, the modification of the edges color, the modification of the nodes size and their position. 
+#
+# Parameters:
+# Return: 
+#
+def setGraphLayout(graph, label, locus, size, color, positive, negative, layout):
+  displayLabels(graph,label,locus)
+  setNodesSize(graph,size)
+  setDisplayOfEdges(graph, color, positive, negative)
+  setNodesPosition(graph, layout)
+  
+
+
 ##########
 # Part 2 #
 ##########
@@ -106,7 +98,6 @@ def setNodesPosition(g, layout):
 # Parameters: tree (empty subgraph), root (node), cluster (list of subgraphs)
 # Return: None
 #
-
 def createHierarchicalTree(tree,root,cluster):
   for sub_graph in cluster:
     node=tree.addNode()
@@ -124,30 +115,48 @@ def createHierarchicalTree(tree,root,cluster):
 # Parameters: tree (Hierarchical Tree)
 # Return: None
 #
-
 def getRadialTreeVersion(tree):
   params = tlp.getDefaultPluginParameters('Tree Radial', tree)
   tree.applyLayoutAlgorithm('Tree Radial', params)
+
   
 # Function to color nodes by using values of the 'Double Property'
 # 
-# Parameters: graph, property
+# Parameters: graph, property, color (viewColor)
 # Return: None
 #
-
 def colorNodes(g, property, color):
   params = tlp.getDefaultPluginParameters('Alpha Mapping', g)
   params['input property']=property
   params['target']='nodes'
   params['color scale']='BiologicalHeatMap.png'
   g.applyColorAlgorithm('Alpha Mapping', params)
+
+
+# Function to create, display a radial hierarchical tree (if an other hierarchical tree exists, it will be deleted and replace by a new one)
+#
+# Parameters : graph (root graph), metric (viewMetric), color (viewColor)
+# Return: None
+#  
+def displayHierarchicalTree(graph, metric, color):
+  if(graph.getSubGraph("Hierarchical Tree")!=None):
+  	graph.delSubGraph(graph.getSubGraph("Hierarchical Tree"))  
   
+  genes_interaction= graph.getSubGraph("Genes interactions")
+  cluster= genes_interaction.getSubGraphs()
+  tree = graph.addSubGraph("Hierarchical Tree")
+  racine = tree.addNode()
+  
+  createHierarchicalTree(tree,racine,cluster)
+  getRadialTreeVersion(graph.getSubGraph("Hierarchical Tree"))
+  colorNodes(graph.getSubGraph("Hierarchical Tree"), metric, color)
+  
+
 # Function to find the shortest path between two nodes in a graph
 #
 # Parameters: graph, start (node1), end (node2), path (list of node in the path, empty when the function is called)
 # Return: List of node in the shortest path
 #
-
 def findPath(graph, n, root, path=[]):
   path+=[n]
   if(n==root):
@@ -157,13 +166,19 @@ def findPath(graph, n, root, path=[]):
   for neigbor in graph.getInOutNodes(n):
     findPath(graph, neigbor, root, path)
     if(neigbor == root):
-      return path;
+      return path
     if(neigbor in path):
       return path
     if(neigbor!= root and neigbor not in path):
       findPath(graph, neigbor, root, path)
   return path  
 
+
+# Utility function to remove duplicates between two list (or path) and keep the root
+#
+# Parameters: list_1 (first path), list_2 (second path)
+# Return: list (the final path)
+#
 def removeDuplicate(list_1,list_2):
   match = list(set(list_1) & set(list_2))
   if len(match)<=2 and len(match)>0:
@@ -177,11 +192,13 @@ def removeDuplicate(list_1,list_2):
   finalList = list_1 +[root]+ list_2
   return finalList
 
+
+# Function to find the shortest path
+#
+# Parameters: graph (root graph), n1 (source node), n2 (target node)
+# Return: list (the final path)
+#
 def findShortestPath(graph, n1, n2):
-  viewColor = graph.getColorProperty("viewColor")
-  viewSize = graph.getSizeProperty("viewSize")
-  viewShape = graph.getIntegerProperty("viewShape")
-  baseSize = tlp.Size(50,50,50)
   list_node = []
   tree = graph.getSubGraph("Hierarchical Tree")
   i=0
@@ -194,16 +211,13 @@ def findShortestPath(graph, n1, n2):
   pathway = removeDuplicate(pathway_1,pathway_2)
   pathway.pop(0)
   pathway.pop(len(pathway)-1)
-  for node in pathway:
-    viewColor[node]=tlp.Color.Violet
-    viewSize[node] = baseSize
-    viewShape[node] = tlp.NodeShape.Square
   return pathway
 
+
+# Function to create the gene interactions graph with curved edge
 #
-#
-#
-#
+# Parameters: g (root graph), gLayout (viewLayout), gShape (viewShape)
+# Return: None
 #
 def createBundles(g, gLayout, gShape):
   for edge in g.getEdges():
@@ -216,6 +230,7 @@ def createBundles(g, gLayout, gShape):
   gShape.setAllEdgeValue(16)
 
 
+
 ##########
 # Part 3 #
 ##########
@@ -224,7 +239,7 @@ def createBundles(g, gLayout, gShape):
 # Function to create the small multiples graph and its subgraphs
 #
 # Parameters: g (graph racine), timelapse (list of tp_*)
-# Return None
+# Return: None
 # 
 def createSmallMultiples(g, timelapse):
   smallMultiples = g.addSubGraph("smallMultiples")
@@ -246,7 +261,7 @@ def createSmallMultiples(g, timelapse):
 # Function to color the small multiples graphs by geneexpression
 #
 # Parameters: g (graph racine), timelapse (list of tp_*), gInteractions (graph)
-# Return None
+# Return: None
 # 
 def colorSmallMultiples(g,color):
   for smaliImg in g.getSubGraphs():
@@ -258,7 +273,7 @@ def colorSmallMultiples(g,color):
 # Function to place each subgraphs of the small multiples graph in a grid according to a number of columns
 #
 # Parameters: g (root graph), timelapse (list of tp_*), gInteractions (genes interactions graph)
-# Return None
+# Return: None
 # 
 def positionSmallMultiples(g, smallG, columnNumber):
   layout = g.getLocalLayoutProperty("viewLayout")
@@ -282,15 +297,16 @@ def positionSmallMultiples(g, smallG, columnNumber):
 # Function to display the small version of each graph of each timelapse in a grid
 #
 # Parameters: g (graph racine), timelapse (list of tp_*), color (viewColor), numberOfColumn
-# Return None
+# Return: None
 #
-def displaySmallImages(g, timelapse, color, numberOfColumn):
+def displaySmallImages(graph, timelapse, color, numberOfColumn): 
   createSmallMultiples(graph, timelapse)
   smallMult = graph.getSubGraph("smallMultiples")
   colorSmallMultiples(smallMult,color)
   positionSmallMultiples(graph, smallMult, numberOfColumn)
 
 
+# MAIN #
 def main(graph): 
   Locus = graph.getStringProperty("Locus")
   Negative = graph.getBooleanProperty("Negative")
@@ -338,35 +354,26 @@ def main(graph):
   viewTgtAnchorSize = graph.getSizeProperty("viewTgtAnchorSize")
   
   tp = [tp1_s,tp2_s,tp3_s,tp4_s,tp5_s,tp6_s,tp7_s,tp8_s,tp9_s,tp10_s,tp11_s,tp12_s,tp13_s,tp14_s ,tp15_s ,tp16_s ,tp17_s]
-    
-  displayLabels(graph,viewLabel,Locus)
-  setNodesSize(graph,viewSize)
-  setDisplayOfEdges(graph, viewColor, Positive, Negative)
-  setNodesPosition(graph, viewLayout)
-  updateVisualization()
 
-  if(graph.getSubGraph("Hierarchical Tree")!=None):
-  	graph.delSubGraph(graph.getSubGraph("Hierarchical Tree"))  
+  # Part 1
+#  setGraphLayout(graph, viewLabel, Locus, viewSize, viewColor, Positive, Negative, viewLayout)
   
-#  question 2.1
-  tree = graph.addSubGraph("Hierarchical Tree")
-  racine = tree.addNode()
-  genes_interaction= graph.getSubGraph("Genes interactions")
-  cluster= genes_interaction.getSubGraphs()
-  createHierarchicalTree(tree,racine,cluster)
-
-  # question 2.2
-  getRadialTreeVersion(graph.getSubGraph("Hierarchical Tree"))
+  # Part 2
+#  displayHierarchicalTree(graph, viewMetric, viewColor) 
+#  createBundles(graph, viewLayout, viewShape)
   
-  colorNodes(graph.getSubGraph("Hierarchical Tree"), viewMetric, viewColor)
-  
-  createBundles(graph, viewLayout, viewShape)
   # Part 3
-  displaySmallImages(graph, tp, viewColor, 5)
- 
-  
-#  createSmallMultiples(graph, tp)
-#  smallMult = graph.getSubGraph("smallMultiples")
-#  colorSmallMultiples(smallMult,viewColor)
-#  positionSmallMultiples(graph, smallMult, 5)
+#  displaySmallImages(graph, tp, viewColor, 5)
 
+  # Part 4
+  gInteract = graph.getSubGraph("Genes interactions")
+  n = 1
+  for subg in gInteract.getSubGraphs():
+    print("----------------------------------------")
+    print("Cluster n ", n)
+    print("----------------------------------------")
+    for node in subg.getNodes():
+      print(Locus[node])
+    print("")
+    n+=1
+    
