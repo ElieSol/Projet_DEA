@@ -108,7 +108,6 @@ def setNodesPosition(g, layout):
 #
 
 def createHierarchicalTree(tree,root,cluster):
-  #if(cluster.numberOfSubGraphs()!=0):
   for sub_graph in cluster:
     node=tree.addNode()
     tree.addEdge(root,node)
@@ -199,7 +198,6 @@ def findShortestPath(graph, n1, n2):
     viewColor[node]=tlp.Color.Violet
     viewSize[node] = baseSize
     viewShape[node] = tlp.NodeShape.Square
-#  print("final pathway= ",pathway)
   return pathway
 
 #
@@ -225,7 +223,7 @@ def createBundles(g, gLayout, gShape):
  
 # Function to create the small multiples graph and its subgraphs
 #
-# Parameters: g (graph racine), timelapse (list of tp_*), gInteractions (graph)
+# Parameters: g (graph racine), timelapse (list of tp_*)
 # Return None
 # 
 def createSmallMultiples(g, timelapse):
@@ -244,6 +242,7 @@ def createSmallMultiples(g, timelapse):
       metricTP[node]= lapse[node]
     i+=1
 
+
 # Function to color the small multiples graphs by geneexpression
 #
 # Parameters: g (graph racine), timelapse (list of tp_*), gInteractions (graph)
@@ -255,9 +254,10 @@ def colorSmallMultiples(g,color):
     color = smaliImg.getLocalColorProperty("viewColor")
     colorNodes(smaliImg, localproperty, color)
 
-# Function to dii the small multiples graphs by geneexpression
+
+# Function to place each subgraphs of the small multiples graph in a grid according to a number of columns
 #
-# Parameters: g (graph racine), timelapse (list of tp_*), gInteractions (graph)
+# Parameters: g (root graph), timelapse (list of tp_*), gInteractions (genes interactions graph)
 # Return None
 # 
 def positionSmallMultiples(g, smallG, columnNumber):
@@ -269,17 +269,26 @@ def positionSmallMultiples(g, smallG, columnNumber):
   y = 0
   line=0
   for smallImg in smallG.getSubGraphs():
-    x = gWidth*n+(gWidth/2)
-    if n==columnNumber:
+    if n==columnNumber+1:
       line+=1
-      y=-gHeight*line+(gHeight/2)
-      x = 0
+      y=-gHeight*line*2
       n = 1
+    x = gWidth*n*2
     newCenter = tlp.Vec3f(x,y,0)
     layout.center(newCenter, smallImg)
-    
     n+=1
-    
+
+
+# Function to display the small version of each graph of each timelapse in a grid
+#
+# Parameters: g (graph racine), timelapse (list of tp_*), color (viewColor), numberOfColumn
+# Return None
+#
+def displaySmallImages(g, timelapse, color, numberOfColumn):
+  createSmallMultiples(graph, timelapse)
+  smallMult = graph.getSubGraph("smallMultiples")
+  colorSmallMultiples(smallMult,color)
+  positionSmallMultiples(graph, smallMult, numberOfColumn)
 
 
 def main(graph): 
@@ -352,10 +361,12 @@ def main(graph):
   colorNodes(graph.getSubGraph("Hierarchical Tree"), viewMetric, viewColor)
   
   createBundles(graph, viewLayout, viewShape)
+  # Part 3
+  displaySmallImages(graph, tp, viewColor, 5)
  
   
-  createSmallMultiples(graph, tp)
-  smallMult = graph.getSubGraph("smallMultiples")
-  colorSmallMultiples(smallMult,viewColor)
-  positionSmallMultiples(graph, smallMult, 5)
+#  createSmallMultiples(graph, tp)
+#  smallMult = graph.getSubGraph("smallMultiples")
+#  colorSmallMultiples(smallMult,viewColor)
+#  positionSmallMultiples(graph, smallMult, 5)
 
