@@ -36,7 +36,7 @@
 # (8) Evidence that supports the existence of the gene
 # (9) PMIDs list
 # (10) Evidence confidence level (Confirmed, Strong, Weak)
-ECK120001251	thrL	b0001	190	255	forward	 operon leader peptide	[IDA|S|Inferred from direct assay],[IMP|W|Inferred from mutant phenotype]	3112412,318654,6811557,	Strong
+ECK120001251	b0001	190	255	forward	 operon leader peptide	[IDA|S|Inferred from direct assay],[IMP|W|Inferred from mutant phenotype]	3112412,318654,6811557,	Strong
 ECK120000987	thrA	b0002	337	2799	forward	fused aspartate kinase/homoserine dehydrogenase 1
 ECK120000988	thrB	b0003	2801	3733	forward	homoserine kinase
 ECK120000989	thrC	b0004	3734	5020	forward	threonine synthase
@@ -44,7 +44,7 @@ ECK120002701	yaaX	b0005	5234	5530	forward	DUF2502 domain-containing protein YaaX
 ECK120000009	yaaA	b0006	5683	6459	reverse	peroxide stress resistance protein YaaA	[IMP|W|Inferred from mutant phenotype]	21378183,24952731,	Weak
 ECK120001508	yaaJ	b0007	6529	7959	reverse	putative transporter YaaJ	[AIFS|W|Automated inference of function from sequence]	16397293,	Weak
 ECK120001509	talB	b0008	8238	9191	forward	transaldolase B		21290439,
-ECK120001467	mog	b0009	9306	9893	forward	molybdopterin adenylyltransferase
+ECK120001467	mog	    b0009	9306	9893	forward	molybdopterin adenylyltransferase
 ECK120001468	satP	b0010	9928	10494	reverse	acetate/succinate:H symporter
 ECK120002702	yaaW	b0011	10643	11356	reverse	putative enzyme-specific chaperone YaaW		17636861,
 ECK120001465	mbiA	b0012	10830	11315	forward	uncharacterized protein MbiA
@@ -77,7 +77,7 @@ ECK120002708	caiF	b0034	34300	34695	forward	DNA-binding transcriptional activato
 ECK120002330	caiE	b0035	34781	35371	reverse	putative transferase CaiE
 ECK120001510	caiD	b0036	35377	36162	reverse	crotonobetainyl-CoA hydratase
 ECK120001511	caiC	b0037	36271	37824	reverse	carnitine-CoA ligase
-ECK120001512	caiB	b0038	37898	39115	reverse	&gamma;-butyrobetainyl-CoA:carnitine CoA transferase
+ECK120001512	caiB	b0038	37898	39115	reverse	&gamma;-butyrobetainyl-CoA:carnitine CoA thrLtransferase
 ECK120001513	caiA	b0039	39244	40386	reverse	crotonobetainyl-CoA reductase		11551212,23718679,
 ECK120001514	caiT	b0040	40417	41931	reverse	L-carnitine:&gamma;-butyrobetaine antiporter
 ECK120001515	fixA	b0041	42403	43173	forward	putative electron transfer flavoprotein FixA	[IMP|W|Inferred from mutant phenotype],[HIFS|W|Human inference of function from sequence]	12081978,7473063,7815937,	Weak
@@ -4732,5 +4732,5 @@ ECK120000057	arcA	b4401	4639590	4640306	reverse	DNA-binding transcriptional dual
 ECK120004447	yjjY	b4402	4640402	4640542	forward	protein YjjY
 ECK120002186	yjtD	b4403	4640942	4641628	forward	putative rRNA methyltransferase
 ECK120002672	ackB
-ECK120002630	alaB					glutamate&mdash;pyruvate aminotransferase AlaB		396446,4146872,
+ECK120002630	alaB				glutamate&mdash;pyruvate aminotransferase AlaB		396446,4146872,
 ECK120002677	dgd					D-galactose 1-dehydrogenase		181526,
