@@ -368,12 +368,45 @@ def main(graph):
   # Part 4
   gInteract = graph.getSubGraph("Genes interactions")
   n = 1
+  clusters = []
   for subg in gInteract.getSubGraphs():
     print("----------------------------------------")
     print("Cluster n ", n)
     print("----------------------------------------")
+    cluster = []
+    if subg.getSubGraph("unnamed")!=None:
+      m=1
+      subcluster = []
+      cluster.append(subcluster)
+      print("----------------------")
+      print("SubCluster m ", m)
+      print("---------------------")
+      for subsub in subg.getSubGraphs():
+        for node in subg.getNodes():
+          dictNode={}
+          dictNode['ID RegulonDB']=Locus[node]
+          if Positive[node]==True and Negative[node]==False:
+            dictNode['Regulation']= "+"
+          if Positive[node]==False and Negative[node]==True:
+            dictNode['Regulation']= "-"
+          else:
+            dictNode['Regulation']= ""
+          subcluster.append(dictNode)
+#          print(Locus[node])
+      m+=1
     for node in subg.getNodes():
-      print(Locus[node])
+#      print(Locus[node])
+      dictNode={}
+      dictNode['ID RegulonDB']=Locus[node]
+      if Positive[node]==True and Negative[node]==False:
+        dictNode['Regulation']= "Positive"
+      if Positive[node]==False and Negative[node]==True:
+        dictNode['Regulation']= "Negative"
+      else:
+        dictNode['Regulation']= ""
+      cluster.append(dictNode)
+    clusters.append(cluster) 
     print("")
     n+=1
+  print(clusters)
     
