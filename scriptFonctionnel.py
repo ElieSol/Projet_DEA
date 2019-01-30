@@ -126,11 +126,12 @@ def getRadialTreeVersion(tree):
 # Return: None
 #
 def colorNodes(g, property, color):
-  params = tlp.getDefaultPluginParameters('Alpha Mapping', g)
+  heatMap = tlp.ColorScale([tlp.Color.Red, tlp.Color.Black, tlp.Color.Green])
+  params = tlp.getDefaultPluginParameters('Color Mapping', g)
   params['input property']=property
   params['target']='nodes'
-  params['color scale']='BiologicalHeatMap.png'
-  g.applyColorAlgorithm('Alpha Mapping', params)
+  params['color scale']= heatMap
+  g.applyColorAlgorithm('Color Mapping', params)
 
 
 # Function to create, display a radial hierarchical tree (if an other hierarchical tree exists, it will be deleted and replace by a new one)
@@ -252,7 +253,7 @@ def createSmallMultiples(g, timelapse):
     name = "tp "+str(i)
     tp = smallMultiples.addSubGraph(name)
     tlp.copyToGraph(tp,gInteract)
-    metricTP = tp.getLocalDoubleProperty("viewMetric")
+    metricTP = tp.getDoubleProperty("viewMetric")
     for node in tp.getNodes():
       metricTP[node]= lapse[node]
     i+=1
@@ -264,10 +265,14 @@ def createSmallMultiples(g, timelapse):
 # Return: None
 # 
 def colorSmallMultiples(g,color):
+  colorG = g.getColorProperty("viewColor")
+  metric = g.getDoubleProperty("viewMetric")
+  colorNodes(g, metric, colorG)
   for smaliImg in g.getSubGraphs():
     localproperty = smaliImg.getLocalDoubleProperty("viewMetric")
     color = smaliImg.getLocalColorProperty("viewColor")
     colorNodes(smaliImg, localproperty, color)
+  
 
 
 # Function to place each subgraphs of the small multiples graph in a grid according to a number of columns
@@ -276,7 +281,7 @@ def colorSmallMultiples(g,color):
 # Return: None
 # 
 def positionSmallMultiples(g, smallG, columnNumber):
-  layout = g.getLocalLayoutProperty("viewLayout")
+  layout = g.getLayoutProperty("viewLayout")
   graphBoundingBox = tlp.computeBoundingBox(g)
   gHeight = graphBoundingBox.height()
   gWidth = graphBoundingBox.width()
@@ -286,9 +291,9 @@ def positionSmallMultiples(g, smallG, columnNumber):
   for smallImg in smallG.getSubGraphs():
     if n==columnNumber+1:
       line+=1
-      y=-gHeight*line*2
+      y=-gHeight*line*1.5
       n = 1
-    x = gWidth*n*2
+    x = gWidth*n*1.5
     newCenter = tlp.Vec3f(x,y,0)
     layout.center(newCenter, smallImg)
     n+=1
@@ -355,6 +360,7 @@ def main(graph):
   
   tp = [tp1_s,tp2_s,tp3_s,tp4_s,tp5_s,tp6_s,tp7_s,tp8_s,tp9_s,tp10_s,tp11_s,tp12_s,tp13_s,tp14_s ,tp15_s ,tp16_s ,tp17_s]
 
+  # Note: It is recommended to execute each function one by one to have good results (by putting # before each function call that are not used)
   # Part 1
 #  setGraphLayout(graph, viewLabel, Locus, viewSize, viewColor, Positive, Negative, viewLayout)
   
@@ -366,49 +372,50 @@ def main(graph):
 #  displaySmallImages(graph, tp, viewColor, 5)
 
   # Part 4
-  gInteract = graph.getSubGraph("Genes interactions")
-  n = 1
-  clusters = []
-  for subg in gInteract.getSubGraphs():
-    print("----------------------------------------")
-    print("Cluster n ", n)
-    print("----------------------------------------")
-    cluster = []
-    if subg.getSubGraph("unnamed")!=None:
-      m=1
-      subcluster = []
-      cluster.append(subcluster)
-      print("----------------------")
-      print("SubCluster m ", m)
-      print("---------------------")
-      for subsub in subg.getSubGraphs():
-        for node in subg.getNodes():
-          dictNode={}
-          dictNode['ID RegulonDB']=Locus[node]
-          if Positive[node]==True and Negative[node]==False:
-            dictNode['Regulation']= "+"
-          if Positive[node]==False and Negative[node]==True:
-            dictNode['Regulation']= "-"
-          else:
-            dictNode['Regulation']= ""
-          subcluster.append(dictNode)
+
+#  gInteract = graph.getSubGraph("Genes interactions")
+#  n = 1
+#  clusters = []
+#  for subg in gInteract.getSubGraphs():
+#    print("----------------------------------------")
+#    print("Cluster n ", n)
+#    print("----------------------------------------")
+#    cluster = []
+#    if subg.getSubGraph("unnamed")!=None:
+#      m=1
+#      subcluster = []
+#      cluster.append(subcluster)
+#      print("----------------------")
+#      print("SubCluster m ", m)
+#      print("---------------------")
+#      for subsub in subg.getSubGraphs():
+#        for node in subg.getNodes():
+#          dictNode={}
+#          dictNode['ID RegulonDB']=Locus[node]
+#          if Positive[node]==True and Negative[node]==False:
+#            dictNode['Regulation']= "+"
+#          if Positive[node]==False and Negative[node]==True:
+#            dictNode['Regulation']= "-"
+#          else:
+#            dictNode['Regulation']= ""
+#          subcluster.append(dictNode)
 #          print(Locus[node])
-      m+=1
-    for node in subg.getNodes():
+#      m+=1
+#    for node in subg.getNodes():
 #      print(Locus[node])
-      dictNode={}
-      dictNode['ID RegulonDB']=Locus[node]
-      if Positive[node]==True and Negative[node]==False:
-        dictNode['Regulation']= "Positive"
-      if Positive[node]==False and Negative[node]==True:
-        dictNode['Regulation']= "Negative"
-      else:
-        dictNode['Regulation']= ""
-      cluster.append(dictNode)
-    clusters.append(cluster) 
-    print("")
-    n+=1
-  print(clusters)
+#      dictNode={}
+#      dictNode['ID RegulonDB']=Locus[node]
+#      if Positive[node]==True and Negative[node]==False:
+#        dictNode['Regulation']= "Positive"
+#      if Positive[node]==False and Negative[node]==True:
+#        dictNode['Regulation']= "Negative"
+#      else:
+#        dictNode['Regulation']= ""
+#      cluster.append(dictNode)
+#    clusters.append(cluster) 
+#    print("")
+#    n+=1
+#  print(clusters)
   
   
     
