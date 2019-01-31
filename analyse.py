@@ -2,6 +2,13 @@
 
 import sys
 import re
+import os
+import csv
+
+
+#
+# Part where the RegulonDB files are parsed to extract the Gene ID and the corresponding locus
+#
 
 file_GeneProduct = open("File_Regulon_DB/GeneProductSet.txt","r")
 file_Condition = open("File_Regulon_DB/GCSet.txt","r")
@@ -25,12 +32,30 @@ for line in file_GeneProduct:
         dict["GeneID"]=geneID
         list_locus.append(dict)
         cpt+=1
-
-
-
 print cpt
 
 for el in list_locus:
-    print el
+    print el["GeneID"]
 
+#
+# Part to save the list of dictionary in a csv file
+#
+
+csv_columns = ['Locus', 'GeneID']
+csv_file = "liste_locus.csv"
+
+try:
+    with open(csv_file, 'w') as csvfile:
+        writer = csv.DictWriter(csvfile, fieldnames=csv_columns)
+        writer.writeheader()
+        for data in list_locus:
+            writer.writerow(data)
+except IOError:
+    print("I/O error") 
+
+# 
+# Part to execute the R script which contain the annotation service (RDavidWebService)
+#
+
+# os.system("RScript annotation.R")
 
