@@ -78,8 +78,8 @@ def setNodesPosition(g, layout):
 # Function to modify the general layout of the graph  
 # It allows the display of labels, the modification of the edges color, the modification of the nodes size and their position. 
 #
-# Parameters:
-# Return: 
+# Parameters: graph, label (viewLabel), size (viewSize), color (viewColor), positive, negative, layout
+# Return: None
 #
 def setGraphLayout(graph, label, locus, size, color, positive, negative, layout):
   displayLabels(graph,label,locus)
@@ -155,7 +155,7 @@ def displayHierarchicalTree(graph, metric, color):
 
 # Function to find the shortest path between two nodes in a graph
 #
-# Parameters: graph, start (node1), end (node2), path (list of node in the path, empty when the function is called)
+# Parameters: graph, n (node), path (list of node in the path, empty when the function is called)
 # Return: List of node in the shortest path
 #
 def findPath(graph, n, root, path=[]):
@@ -231,6 +231,70 @@ def createBundles(g, gLayout, gShape):
   gShape.setAllEdgeValue(16)
 
 
+# -----------------------------------------------------------------
+#
+# The following lines were intended to be used, but unfortunately we couldn't make it work
+#
+# -----------------------------------------------------------------
+# Function to find the shortest path between two nodes in a graph
+#
+# Parameters: graph, start (node1), end (node2), path (list of node in the path, empty when the function is called)
+# Return: path (list of node in the shortest path)
+# --------------------------------------------------------
+#def findParent(graph,u,v,viewLevel):
+#	uPath=[]
+#	vPath=[]
+#	uAncestor=u
+#	vAncestor=v
+#	while uAncestor!=vAncestor:
+#		if viewLevel[uAncestor]>viewLevel[vAncestor]:
+#			for uAnc in graph.getInNodes(uAncestor):
+#				uPath.append(uAnc)
+#				uAncestor=uAnc			
+#		elif viewLevel[vAncestor]>viewLevel[vAncestor]:
+#			for vAnc in graph.getInNodes(vAncestor):
+#				vPath.append(vAnc)
+#				vAncestor=vAnc
+#		elif viewLevel[uAncestor]==viewLevel[vAncestor]:
+#			for uAnc in graph.getInNodes(uAncestor):
+#				uPath.append(uAnc)
+#				uAncestor=uAnc
+#			for vAnc in graph.getInNodes(vAncestor):
+#				vPath.append(vAncestor)
+#				vAncestor=vAnc			
+#		else:
+#			print("Almost done")
+#			path=[]
+#			for node in uPath:
+#				if node!=uAncestor:
+#					path.append(node)
+#			path.append(uAncestor)
+#			vPath.reverse()
+#			for node in vPath:
+#				if node!=uAncestor:
+#					path.append(node)
+#			return path
+#
+# ----------------------------------------------------------------
+# Function to create the gene interactions graph with curved edge
+#
+# Parameters: tree, graph, viewLevel, gLayout (viewLayout), gShape (viewShape)
+# Return: None
+# --------------------------------------------------------
+#		
+#def createBundles(tree, graph, viewLevel,gLayout,gShape):
+#	for edge in graph.getEdges():
+#		u = graph.source(edge)
+#		v = graph.target(edge)
+#		path=findParent(tree,u,v,viewLevel)
+#		nodePath=[]
+#		if path!= None:
+#			for node in path:
+#				nodePath.append(gLayout[node])
+#			gLayout.setEdgeValue(edge,nodePath)
+#	gShape.setAllEdgeValue(16)		
+#
+# -----------------------------------------------------------------
 
 ##########
 # Part 3 #
@@ -371,6 +435,8 @@ def main(graph):
   # Part 3
 #  displaySmallImages(graph, tp, viewColor, 5)
 
+  
+#--------------------------------------------------------  
   # Part 4
 
 #  gInteract = graph.getSubGraph("Genes interactions")
