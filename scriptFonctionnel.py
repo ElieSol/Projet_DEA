@@ -375,6 +375,55 @@ def displaySmallImages(graph, timelapse, color, numberOfColumn):
   positionSmallMultiples(graph, smallMult, numberOfColumn)
 
 
+
+##########
+# Part 4 #
+##########
+
+#
+# Function to save each cluster and their locus in a list
+# 
+# Parameters: g (root graph)
+# Return: List of cluster
+#
+def getClusters(g):
+  gInteract = graph.getSubGraph("Genes interactions")
+  n = 1 # Number of clusters
+  clusters = []
+  for subg in gInteract.getSubGraphs():
+    cluster = []
+    if subg.getSubGraph("unnamed")!=None:
+      m = 1 # Number of sub-clusters
+      subcluster = []
+      cluster.append(subcluster)
+      for subsub in subg.getSubGraphs():
+        for node in subg.getNodes():
+          dictNode={}
+          dictNode['Locus']=Locus[node]
+          if Positive[node]==True and Negative[node]==False:
+            dictNode['Regulation']= "+"
+          if Positive[node]==False and Negative[node]==True:
+            dictNode['Regulation']= "-"
+          else:
+            dictNode['Regulation']= ""
+          subcluster.append(dictNode)
+      m+=1
+    for node in subg.getNodes():
+      dictNode={}
+      dictNode['Locus']=Locus[node]
+      if Positive[node]==True and Negative[node]==False:
+        dictNode['Regulation']= "Positive"
+      if Positive[node]==False and Negative[node]==True:
+        dictNode['Regulation']= "Negative"
+      else:
+        dictNode['Regulation']= ""
+      cluster.append(dictNode)
+    clusters.append(cluster) 
+    n+=1
+  print(clusters)
+  return clusters
+
+
 # MAIN #
 def main(graph): 
   Locus = graph.getStringProperty("Locus")
@@ -438,50 +487,9 @@ def main(graph):
   
 #--------------------------------------------------------  
   # Part 4
+#  getClusters(graph)
 
-#  gInteract = graph.getSubGraph("Genes interactions")
-#  n = 1
-#  clusters = []
-#  for subg in gInteract.getSubGraphs():
-#    print("----------------------------------------")
-#    print("Cluster n ", n)
-#    print("----------------------------------------")
-#    cluster = []
-#    if subg.getSubGraph("unnamed")!=None:
-#      m=1
-#      subcluster = []
-#      cluster.append(subcluster)
-#      print("----------------------")
-#      print("SubCluster m ", m)
-#      print("---------------------")
-#      for subsub in subg.getSubGraphs():
-#        for node in subg.getNodes():
-#          dictNode={}
-#          dictNode['ID RegulonDB']=Locus[node]
-#          if Positive[node]==True and Negative[node]==False:
-#            dictNode['Regulation']= "+"
-#          if Positive[node]==False and Negative[node]==True:
-#            dictNode['Regulation']= "-"
-#          else:
-#            dictNode['Regulation']= ""
-#          subcluster.append(dictNode)
-#          print(Locus[node])
-#      m+=1
-#    for node in subg.getNodes():
-#      print(Locus[node])
-#      dictNode={}
-#      dictNode['ID RegulonDB']=Locus[node]
-#      if Positive[node]==True and Negative[node]==False:
-#        dictNode['Regulation']= "Positive"
-#      if Positive[node]==False and Negative[node]==True:
-#        dictNode['Regulation']= "Negative"
-#      else:
-#        dictNode['Regulation']= ""
-#      cluster.append(dictNode)
-#    clusters.append(cluster) 
-#    print("")
-#    n+=1
-#  print(clusters)
+
   
   
     
