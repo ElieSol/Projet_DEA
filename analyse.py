@@ -12,7 +12,7 @@ import csv
 
 file_GeneProduct = open("File_Regulon_DB/GeneProductSet.txt","r")
 file_Condition = open("File_Regulon_DB/GCSet.txt","r")
-file_Cluster = open("ClustersList.txt","r")
+file_Cluster = open("list_locus.txt","r")
 
 products = file_GeneProduct.readline()
 condition = file_Condition.readline()
@@ -26,7 +26,7 @@ for line in file_Cluster:
     nb_l+=1
 
 print("Nombre de locus in cluster = ", nb_l)
-print list_locus_cluster
+print(list_locus_cluster)
 
 dict = {}
 list_locus = []
@@ -45,7 +45,7 @@ for line in file_GeneProduct:
             dict["GeneID"]=geneID
             list_locus.append(dict)
             cpt+=1
-print cpt
+print(cpt)
 
 #for el in list_locus:
  #   print el["Locus"]

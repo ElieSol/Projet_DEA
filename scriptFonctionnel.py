@@ -423,6 +423,22 @@ def getClusters(g):
   print(clusters)
   return clusters
 
+#
+# Function to get all locus of the Genes interaction graph and save them in a txt file
+#
+# Parameters : g (root graph), Locus (Locus attribute of the root graph)
+# Return : None
+#
+def getAllLocus(g, Locus):
+  list_locus = []
+  for n in g.getSubGraph("Genes interactions").getNodes():
+    list_locus.append(Locus[n])
+  print(list_locus)
+  with open('list_locus.txt','w') as f:
+    for item in list_locus:
+      f.write("%s\n" % item)
+
+
 
 # MAIN #
 def main(graph): 
@@ -488,8 +504,6 @@ def main(graph):
 #--------------------------------------------------------  
   # Part 4
 #  getClusters(graph)
-
-
-  
+#  getAllLocus(graph, Locus)
   
     
