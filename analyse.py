@@ -9,6 +9,9 @@ import csv
 #
 # Part where the RegulonDB files are parsed to extract the Gene ID, Gene Product and the corresponding locus
 #
+# It uses the list_locus.txt generated in the tulip script i.e. the file scriptFonctionnel.py
+#
+
 
 file_GeneProduct = open("File_Regulon_DB/GeneProductSet.txt","r")
 file_Cluster = open("list_locus.txt","r")
