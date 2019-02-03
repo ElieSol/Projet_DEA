@@ -479,6 +479,10 @@ def main(graph):
   geneID = graph.getStringProperty("geneID")
   geneProduct = graph.getStringProperty("geneProduct")
 #  getAllLocus(graph, Locus)
+
+  # NOTE: Before executing the next method please execute an other file named "analyse.py" located in the same folder
+  # In order to generate the file "liste_locus.csv" needed in this next method
+
 #  setNewProperties(graph, geneID, geneProduct, Locus)
   
     
