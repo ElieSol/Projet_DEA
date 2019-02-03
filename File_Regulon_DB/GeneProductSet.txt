@@ -2684,7 +2684,7 @@ ECK120000782	purC	b2476	2596905	2597618	reverse	phosphoribosylaminoimidazole-suc
 ECK120000651	bamC	b2477	2597831	2598865	reverse	outer membrane protein assembly factor BamC	[IPI|W|Inferred from physical interaction],[APPH|S|Assay of protein purified  to homogeneity],[APPHINH|S|Assay of protein purified to homogeneity from its native host]	15851030,20378773,26900875,	Strong
 ECK120000199	dapA	b2478	2598882	2599760	reverse	4-hydroxy-tetrahydrodipicolinate synthase		4967862,
 ECK120001132	gcvR	b2479	2599906	2600478	forward	putative transcriptional regulator GcvR		9537378,
-ECK120000104	bcp	b2480	2600478	2600948	forward	thiol peroxidase
+ECK120000104	bcp	    b2480	2600478	2600948	forward	thiol peroxidase
 ECK120001133	hyfA	b2481	2601201	2601818	forward	hydrogenase 4 component A		9387241,
 ECK120001255	hyfB	b2482	2601818	2603836	forward	hydrogenase 4 component B		9387241,
 ECK120003872	hyfC	b2483	2603847	2604794	forward	hydrogenase 4 component C		9387241,
@@ -2700,13 +2700,13 @@ ECK120003881	focB	b2492	2613934	2614782	forward	putative formate transporter	[HI
 ECK120003882	yfgO	b2493	2614820	2615881	reverse	putative transporter YfgO
 ECK120003883	bepA	b2494	2616094	2617557	forward	&beta;-barrel assembly-enhancing protease	[IFC|S|Inferred by functional complementation],[APPHINH|S|Assay of protein purified to homogeneity from its native host]	20487295,24003122,24391520,27732863,	Strong
 ECK120003884	yfgD	b2495	2617578	2617937	forward	putative oxidoreductase YfgD
-ECK120003885	hda	b2496	2618075	2618776	reverse	inibitor of reinitiation of DNA replication	[IDA|S|Inferred from direct assay]	11483528,15189445,16855240,19432804,	Strong
+ECK120003885	hda	    b2496	2618075	2618776	reverse	inibitor of reinitiation of DNA replication	[IDA|S|Inferred from direct assay]	11483528,15189445,16855240,19432804,	Strong
 ECK120002031	uraA	b2497	2618871	2620160	reverse
-ECK120001303	upp	b2498	2620246	2620872	reverse	uracil phosphoribosyltransferase		11114920,1371255,18535147,
+ECK120001303	upp	    b2498	2620246	2620872	reverse	uracil phosphoribosyltransferase		11114920,1371255,18535147,
 ECK120000789	purM	b2499	2621197	2622234	forward	phosphoribosylformylglycinamide cyclo-ligase		3015935,
 ECK120000790	purN	b2500	2622234	2622872	forward	phosphoribosylglycinamide formyltransferase 1		11604543,1371255,2644189,3301838,
-ECK120001466	ppk	b2501	2623044	2625110	forward	polyphosphate kinase
-ECK120001369	ppx	b2502	2625115	2626656	forward	exopolyphosphatase		10099396,10441348,16204477,24645672,25192989,8212131,9472324,
+ECK120001466	ppk	    b2501	2623044	2625110	forward	polyphosphate kinase
+ECK120001369	ppx	    b2502	2625115	2626656	forward	exopolyphosphatase		10099396,10441348,16204477,24645672,25192989,8212131,9472324,
 ECK120003886	pdeF	b2503	2626695	2628938	reverse	cyclic di-GMP phosphodiesterase PdeF
 ECK120003887	yfgG	b2504	2629290	2629481	forward	protein YfgG
 ECK120003888	yfgH	b2505	2629792	2630310	forward	lipoprotein YfgH
@@ -2715,26 +2715,26 @@ ECK120000413	guaA	b2507	2630958	2632535	reverse	GMP synthetase
 ECK120000414	guaB	b2508	2632604	2634070	reverse	IMP dehydrogenase		27718375,
 ECK120001061	xseA	b2509	2634232	2635602	forward	exodeoxyribonuclease VII subunit XseA
 ECK120003890	yfgJ	b2510	2635599	2635814	reverse	zinc ribbon domain-containing protein YfgJ
-ECK120003891	der	b2511	2635884	2637356	reverse	50S ribosomal subunit stability factor	[IGI|W|Inferred from genetic interaction],[IMP|W|Inferred from mutant phenotype]	11387344,11976298,16930151,20026263,22750478,25879934,	Weak
+ECK120003891	der	    b2511	2635884	2637356	reverse	50S ribosomal subunit stability factor	[IGI|W|Inferred from genetic interaction],[IMP|W|Inferred from mutant phenotype]	11387344,11976298,16930151,20026263,22750478,25879934,	Weak
 ECK120003892	bamB	b2512	2637474	2638652	reverse	outer membrane protein assembly factor BamB	[IMP|W|Inferred from mutant phenotype],[APPH|S|Assay of protein purified  to homogeneity],[APPHINH|S|Assay of protein purified to homogeneity from its native host]	15851030,20378773,26900875,	Strong
 ECK120003893	yfgM	b2513	2638663	2639283	reverse	ancillary SecYEG translocon subunit	[IGI|W|Inferred from genetic interaction],[APPHINH|S|Assay of protein purified to homogeneity from its native host]	21210718,24855643,25403562,	Strong
 ECK120000446	hisS	b2514	2639301	2640575	reverse	histidine&mdash;tRNA ligase		28288813,
-ECK120002645	sroE		2640595	2640686	reverse	SroE	[IDA|S|Inferred from direct assay]	14602901,	Strong
+ECK120002645	sroE		    2640595	2640686	reverse	SroE	[IDA|S|Inferred from direct assay]	14602901,	Strong
 ECK120000363	ispG	b2515	2640686	2641804	reverse	1-hydroxy-2-methyl-2-()-butenyl 4-diphosphate synthase		11717301,12076162,19919056,22586085,23133596,
 ECK120000013	rodZ	b2516	2641831	2642844	reverse	transmembrane component of cytoskeleton	[IDA|S|Inferred from direct assay],[IMP|W|Inferred from mutant phenotype]	17014715,19008860,19078962,19164570,20528937,27477251,	Strong
 ECK120002263	rlmN	b2517	2643129	2644283	reverse	23S rRNA mA37 methyltransferase		23034227,23752511,26253978,
-ECK120000643	ndk	b2518	2644433	2644864	reverse	nucleoside diphosphate kinase
+ECK120000643	ndk	    b2518	2644433	2644864	reverse	nucleoside diphosphate kinase
 ECK120003894	pbpC	b2519	2645013	2647325	reverse	peptidoglycan glycosyltransferase PbpC		10383966,15757509,15761956,18165305,9449253,
 ECK120003895	yfhM	b2520	2647326	2652287	reverse	&alpha;-macroglobulin	[IMP|W|Inferred from mutant phenotype],[HIFS|W|Human inference of function from sequence],[APPHINH|S|Assay of protein purified to homogeneity from its native host]	15186489,18697741,26100869,	Strong
-ECK125121983	IS129		2651686	2652078	reverse	IS129	[IDA|S|Inferred from direct assay]	12069726,	Strong
+ECK125121983	IS129		    2651686	2652078	reverse	IS129	[IDA|S|Inferred from direct assay]	12069726,	Strong
 ECK120001548	mstA	b2521	2652494	2653339	forward	3-mercaptopyruvate sulfurtransferase		20406421,
-ECK120002618	C0614		2653452	2653538	reverse
-ECK120002619	IS128		2653515	2653723	forward
+ECK120002618	C0614		    2653452	2653538	reverse
+ECK120002619	IS128		    2653515	2653723	forward
 ECK120002590	ryfA	b4440	2653855	2654158	forward	RyfA	[IDA|S|Inferred from direct assay],[IMP|W|Inferred from mutant phenotype]	10673004,11553332,26469694,	Strong
 ECK120001549	sseB	b2522	2654157	2654933	reverse	protein SseB	[IMP|W|Inferred from mutant phenotype]	7982894,	Weak
 ECK120002187	pepB	b2523	2655075	2656358	reverse	aminopeptidase B
 ECK120002188	iscX	b2524	2656536	2656736	reverse	accessory iron-sulfur cluster assembly protein IscX	[IDA|S|Inferred from direct assay]	10393315,20404999,24810328,26560204,	Strong
-ECK120001299	fdx	b2525	2656748	2657083	reverse	reduced ferredoxin	[IE|W|Inferred from experiment]	10393315,11983079,1512212,15496591,23682711,25688831,26560204,4927832,	Weak
+ECK120001299	fdx	    b2525	2656748	2657083	reverse	reduced ferredoxin	[IE|W|Inferred from experiment]	10393315,11983079,1512212,15496591,23682711,25688831,26560204,4927832,	Weak
 ECK120002032	hscA	b2526	2657085	2658935	reverse	iron-sulfur cluster biosynthesis chaperone HscA	[IMP|W|Inferred from mutant phenotype]	10544286,16511138,25682519,26246371,26560204,	Weak
 ECK120002033	hscB	b2527	2658952	2659467	reverse	co-chaperone for [Fe-S] cluster biosynthesis	[IDA|S|Inferred from direct assay],[IMP|W|Inferred from mutant phenotype]	10544286,10869428,11432781,11994302,12871959,15496591,18702525,25307727,	Strong
 ECK120002034	iscA	b2528	2659563	2659886	reverse	iron-sulfur cluster insertion protein IscA		10544286,
@@ -2762,7 +2762,7 @@ ECK120003912	yphF	b2548	2678384	2679367	reverse	putative ABC transporter peripla
 ECK120003913	yphG	b2549	2679464	2682745	reverse	DUF5107 domain-containing protein YphG
 ECK120003914	yphH	b2550	2682863	2684056	forward	putative DNA-binding transcriptional regulator, NAGC-like
 ECK120000401	glyA	b2551	2684254	2685507	reverse	serine hydroxymethyltransferase		23128557,23192292,23824318,24516157,
-ECK120000449	hmp	b2552	2685835	2687025	forward	nitric oxide dioxygenase		11690654,1325799,23208089,23824318,25193663,26389555,27166377,27767067,7821669,7875569,8226691,
+ECK120000449	hmp	    b2552	2685835	2687025	forward	nitric oxide dioxygenase		11690654,1325799,23208089,23824318,25193663,26389555,27166377,27767067,7821669,7875569,8226691,
 ECK120000377	glnB	b2553	2687070	2687408	reverse	nitrogen regulatory protein PII-1
 ECK120001258	glrR	b2554	2687469	2688803	reverse	DNA-binding transcriptional activator GlrR	[IMP|W|Inferred from mutant phenotype],[APPH|S|Assay of protein purified  to homogeneity],[HIFS|W|Human inference of function from sequence]	10734204,15522865,15556475,19843219,	Strong
 ECK120002040	qseG	b2555	2688793	2689506	reverse	putative lipoprotein QseG		27629414,
@@ -2780,8 +2780,8 @@ ECK120030082	ohsC	b4608	2700520	2700596	forward	OhsC	[IDA|S|Inferred from direct
 ECK120000241	acpS	b2563	2700618	2700998	reverse	holo-[acyl-carrier-protein] synthase
 ECK120000685	pdxJ	b2564	2700998	2701729	reverse	pyridoxine 5'-phosphate synthase		15094056,15242009,8636054,8971718,
 ECK120000823	recO	b2565	2701741	2702469	reverse	DNA repair protein RecO
-ECK120000264	era	b2566	2702481	2703386	reverse	30S ribosomal subunit maturation GTPase Era	[IDA|S|Inferred from direct assay],[IMP|W|Inferred from mutant phenotype]	10937433,11917006,12125819,12753192,1526446,16825789,17272300,17651431,1823587,1925028,20188109,2029511,22246579,22750478,23650596,7721709,7729673,7876255,8057845,8282709,8807801,9093842,	Strong
-ECK120000848	rnc	b2567	2703383	2704063	reverse	RNase III		2983317,
+ECK120000264	era	    b2566	2702481	2703386	reverse	30S ribosomal subunit maturation GTPase Era	[IDA|S|Inferred from direct assay],[IMP|W|Inferred from mutant phenotype]	10937433,11917006,12125819,12753192,1526446,16825789,17272300,17651431,1823587,1925028,20188109,2029511,22246579,22750478,23650596,7721709,7729673,7876255,8057845,8282709,8807801,9093842,	Strong
+ECK120000848	rnc	    b2567	2703383	2704063	reverse	RNase III		2983317,
 ECK120000523	lepB	b2568	2704335	2705309	reverse	signal peptidase I		10692453,10891078,10982814,14705954,15195997,15598653,16126156,18032415,18177734,18315846,22031009,2243078,2406254,2644209,28038943,3036831,6395892,8262975,
 ECK120000522	lepA	b2569	2705325	2707124	reverse	elongation factor 4	[IDA|S|Inferred from direct assay],[IMP|W|Inferred from mutant phenotype]	17110332,20045415,21300907,21930951,22411911,22965132,23431150,23951009,	Strong
 ECK120003917	rseC	b2570	2707322	2707801	reverse	protein RseC	[IMP|W|Inferred from mutant phenotype]	12773378,	Weak
@@ -2795,7 +2795,7 @@ ECK120000964	srmB	b2576	2712896	2714230	forward	SrmB, DEAD-box RNA helicase	[IDA
 ECK120001719	yfiE	b2577	2714439	2715320	reverse	putative LysR-type DNA-binding transcriptional regulator YfiE	[HIFS|W|Human inference of function from sequence]	10734204,15556475,	Weak
 ECK120002298	eamB	b2578	2715423	2716010	forward	cysteine/-acetylserine exporter EamB		12562784,
 ECK120001718	grcA	b2579	2716066	2716449	reverse	stress-induced alternate pyruvate formate-lyase subunit	[IE|W|Inferred from experiment],[IMP|W|Inferred from mutant phenotype]	11444864,19282968,21944167,	Weak
-ECK120001047	ung	b2580	2716754	2717443	forward	uracil-DNA glycosylase
+ECK120001047	ung	    b2580	2716754	2717443	forward	uracil-DNA glycosylase
 ECK120001720	yfiF	b2581	2717491	2718528	reverse	putative methyltransferase
 ECK120001817	trxC	b2582	2718735	2719154	forward	reduced thioredoxin 2	[IE|W|Inferred from experiment]	9388228,	Weak
 ECK120003919	yfiP	b2583	2719223	2719921	forward	conserved protein YfiP		25566315,
@@ -2823,11 +2823,11 @@ ECK120003923	yfiR	b2603	2741875	2742393	forward	DUF4154 domain-containing protei
 ECK120002419	dgcN	b2604	2742383	2743609	forward	diguanylate cyclase DgcN	[IGI|W|Inferred from genetic interaction]	20303158,23202856,	Weak
 ECK120001135	yfiB	b2605	2743625	2744107	forward	lipoprotein YfiB
 ECK120000871	rplS	b2606	2744183	2744530	reverse	50S ribosomal subunit protein L19		339951,340794,368561,368562,378264,387084,3905404,4595567,4614072,6345195,6357787,6359156,6361486,6381990,6450872,68433,7024914,799248,
-ECK125121987	rpsP5'		2744205	2744454	reverse	RpsP5'	[IDA|S|Inferred from direct assay]	15718303,	Strong
+ECK125121987	rpsP5'		    2744205	2744454	reverse	RpsP5'	[IDA|S|Inferred from direct assay]	15718303,	Strong
 ECK120001012	trmD	b2607	2744572	2745339	reverse	tRNA mG37 methyltransferase		15165845,
 ECK120001136	rimM	b2608	2745370	2745918	reverse	ribosome maturation factor RimM	[IE|W|Inferred from experiment]	17616598,9422595,	Weak
 ECK120000906	rpsP	b2609	2745937	2746185	reverse	30S ribosomal subunit protein S16		23972210,
-ECK120000294	ffh	b2610	2746434	2747795	reverse	signal recognition particle protein component	[IMP|W|Inferred from mutant phenotype],[APPHINH|S|Assay of protein purified to homogeneity from its native host]	11976293,12423355,20923772,7612669,8706678,9305630,	Strong
+ECK120000294	ffh	    b2610	2746434	2747795	reverse	signal recognition particle protein component	[IMP|W|Inferred from mutant phenotype],[APPHINH|S|Assay of protein purified to homogeneity from its native host]	11976293,12423355,20923772,7612669,8706678,9305630,	Strong
 ECK120003924	ypjD	b2611	2747962	2748753	forward	cytochrome  assembly family protein
 ECK120002295	yfjD	b4461	2748774	2750060	forward	putative inner membrane protein
 ECK120000409	grpE	b2614	2750115	2750708	reverse	nucleotide exchange factor GrpE
@@ -2880,7 +2880,7 @@ ECK120001300	gabD	b2661	2791273	2792721	forward	NADP-dependent succinate-semiald
 ECK120000354	gabT	b2662	2792735	2794015	forward	4-aminobutyrate aminotransferase GabT		20729367,22636776,
 ECK120001301	gabP	b2663	2794253	2795653	forward	4-aminobutyrate:H symporter
 ECK120002251	csiR	b2664	2795674	2796336	forward	DNA-binding transcriptional repressor CsiR	[IMP|W|Inferred from mutant phenotype]	12446648,14731280,	Weak
-ECK120003962	kbp	b2665	2796337	2796786	reverse	K binding protein	[IDA|S|Inferred from direct assay]	27112601,	Strong
+ECK120003962	kbp	    b2665	2796337	2796786	reverse	K binding protein	[IDA|S|Inferred from direct assay]	27112601,	Strong
 ECK120003963	yqaE	b2666	2796870	2797028	reverse	Pmp3 family protein		25246476,
 ECK120003964	ygaV	b2667	2797211	2797510	forward	putative DNA-binding transcriptional regulator YgaV	[IMP|W|Inferred from mutant phenotype],[AIFS|W|Automated inference of function from sequence]	15556475,18245262,	Weak
 ECK120003965	ygaP	b2668	2797520	2798044	forward	thiosulfate sulfurtransferase YgaP
@@ -2928,7 +2928,7 @@ ECK120000962	gutQ	b2708	2829813	2830778	forward	D-arabinose 5-phosphate isomeras
 ECK120002013	norR	b2709	2830775	2832289	reverse	DNA-binding transcriptional dual regulator NorR	[IDA|S|Inferred from direct assay],[IMP|W|Inferred from mutant phenotype],[APPH|S|Assay of protein purified  to homogeneity],[IEP|W|Inferred from expression pattern]	11751865,12142437,12529359,14718666,15375149,16193057,	Strong
 ECK120003978	norV	b2710	2832476	2833915	forward	anaerobic nitric oxide reductase flavorubredoxin
 ECK120002302	norW	b2711	2833912	2835045	forward	NADH:flavorubredoxin reductase		12586421,18021800,21265775,22563051,
-ECK120002621	C0664		2835055	2835167	forward
+ECK120002621	C0664		    2835055	2835167	forward
 ECK120001504	hypF	b2712	2835173	2837425	reverse	hydrogenase maturation protein, carbamoyltransferase	[IDA|S|Inferred from direct assay],[IMP|W|Inferred from mutant phenotype]	1107810,12586941,22153500,23271421,25184670,26049001,26186649,3884594,3884595,8661925,8756471,	Strong
 ECK120001505	hydN	b2713	2837578	2838105	reverse	putative electron transport protein HydN	[IMP|W|Inferred from mutant phenotype]	8661925,	Weak
 ECK120000083	ascG	b2714	2838254	2839264	reverse	DNA-binding transcriptional repressor AscG	[GEA|W|Gene expression analysis],[HIFS|W|Human inference of function from sequence],[APPHINH|S|Assay of protein purified to homogeneity from its native host]	1630307,19633077,	Strong
@@ -2960,7 +2960,7 @@ ECK120003985	ygbM	b2739	2864236	2865012	forward	putative 2-oxo-tetronate isomera
 ECK120003986	ygbN	b2740	2865101	2866465	forward	putative transporter YgbN
 ECK120000503	rpoS	b2741	2866559	2867551	reverse	RNA polymerase, sigma S (sigma 38) factor	[IE|W|Inferred from experiment]		Weak
 ECK120002015	nlpD	b2742	2867614	2868753	reverse	murein hydrolase activator NlpD		22715947,
-ECK120000682	pcm	b2743	2868893	2869519	reverse	L-isoaspartate protein carboxylmethyltransferase type II
+ECK120000682	pcm	    b2743	2868893	2869519	reverse	L-isoaspartate protein carboxylmethyltransferase type II
 ECK120001750	umpG	b2744	2869513	2870274	reverse	broad specificity 5'(3')-nucleotidase and polyphosphatase
 ECK120003987	truD	b2745	2870255	2871304	reverse	tRNA pseudouridine synthase
 ECK120001749	ispF	b2746	2871301	2871780	reverse	2--methyl-D-erythritol 2,4-cyclodiphosphate synthase
@@ -2970,7 +2970,7 @@ ECK120002365	ygbE	b2749	2873014	2873337	reverse	conserved inner membrane protein
 ECK120000180	cysC	b2750	2873387	2873992	reverse	adenylyl-sulfate kinase
 ECK120000189	cysN	b2751	2873992	2875419	reverse	sulfate adenylyltransferase subunit 1
 ECK120000181	cysD	b2752	2875421	2876329	reverse	sulfate adenylyltransferase subunit 2
-ECK120000481	iap	b2753	2876581	2877618	forward	alkaline phosphatase isozyme conversion protein		6295883,7002151,
+ECK120000481	iap	    b2753	2876581	2877618	forward	alkaline phosphatase isozyme conversion protein		6295883,7002151,
 ECK120002398	cas2	b2754	2878569	2878853	reverse	CRISPR-associated endoribonuclease Cas2
 ECK120003990	cas1	b2755	2878855	2879772	reverse	multifunctional nuclease Cas1
 ECK120003991	casE	b2756	2879788	2880387	reverse	pre-CRISPR RNA endonuclease		22781758,22918228,26013814,
@@ -2997,7 +2997,7 @@ ECK120004005	ygcE	b2776	2901896	2903374	forward	putative sugar kinase YgcE
 ECK120004006	queE	b2777	2904747	2905418	reverse	putative 7-carboxy-7-deazaguanine synthase QueE
 ECK120048867	yqcG	b4682	2905557	2905697	forward	cell envelope stress response protein YqcG	[IMP|W|Inferred from mutant phenotype]	19734312,	Weak
 ECK120004007	ygcG	b2778	2905711	2906583	forward	protein YgcG
-ECK120000252	eno	b2779	2906643	2907941	reverse	enolase
+ECK120000252	eno	    b2779	2906643	2907941	reverse	enolase
 ECK120000801	pyrG	b2780	2908029	2909666	reverse	CTP synthase
 ECK120000565	mazG	b2781	2909894	2910685	reverse	nucleoside triphosphate pyrophosphohydrolase
 ECK120001224	mazF	b2782	2910756	2911091	reverse	endoribonuclease toxin MazF
@@ -3012,7 +3012,7 @@ ECK120004011	yqcA	b2790	2922535	2922984	reverse	putative flavodoxin YqcA
 ECK120004012	truC	b2791	2923002	2923784	reverse	tRNA pseudouridine synthase
 ECK120004013	yqcC	b2792	2923784	2924113	reverse	DUF446 domain-containing protein YqcC		24391520,
 ECK120002573	csrB	b4408	2924156	2924524	reverse	CsrB	[IDA|S|Inferred from direct assay]	11310739,11535784,11741870,16822857,17026754,17064377,18080813,20118252,24512078,24708042,9211896,	Strong
-ECK120004014	syd	b2793	2924735	2925280	reverse	SecY-interacting protein	[APPH|S|Assay of protein purified  to homogeneity]	19139097,	Strong
+ECK120004014	syd	    b2793	2924735	2925280	reverse	SecY-interacting protein	[APPH|S|Assay of protein purified  to homogeneity]	19139097,	Strong
 ECK120004015	queF	b2794	2925348	2926196	forward	7-cyano-7-deazaguanine reductase
 ECK120002241	ppnN	b2795	2926308	2927672	forward	nucleotide 5'-monophosphate nucleosidase
 ECK120002043	sdaC	b2796	2928229	2929518	forward	serine:H symporter SdaC		12558182,8752353,
@@ -3048,16 +3048,16 @@ ECK120001138	ygdB	b2824	2962749	2963156	reverse	DUF2509 domain-containing protei
 ECK120001139	ppdB	b2825	2963153	2963716	reverse	conserved protein PpdB
 ECK120001987	ppdA	b2826	2963707	2964177	reverse	conserved protein PpdA
 ECK120000991	thyA	b2827	2964361	2965155	reverse	thymidylate synthase
-ECK120002030	lgt	b2828	2965162	2966037	reverse	phosphatidylglycerol&mdash;prolipoprotein diacylglyceryl transferase		26335199,341153,7048314,7592473,8051048,
+ECK120002030	lgt	    b2828	2965162	2966037	reverse	phosphatidylglycerol&mdash;prolipoprotein diacylglyceryl transferase		26335199,341153,7048314,7592473,8051048,
 ECK120002077	ptsP	b2829	2966188	2968434	reverse	phosphoenolpyruvate-protein phosphotransferase PtsP
 ECK120004022	rppH	b2830	2968447	2968977	reverse	RNA pyrophosphohydrolase		19636968,26323881,26627477,28808133,
 ECK120030084	ygdT	b4610	2969330	2969476	reverse	hypothetical protein
 ECK120000617	mutH	b2831	2969662	2970351	forward	DNA mismatch repair protein MutH
 ECK120004023	ygdQ	b2832	2970420	2971133	forward	UPF0053 inner membrane protein YgdQ
 ECK120004024	ygdR	b2833	2971271	2971489	forward	DUF903 domain-containing lipoprotein YgdR
-ECK120004025	tas	b2834	2971597	2972637	forward	putative NADP(H)-dependent aldo-keto reductase Tas	[HIFS|W|Human inference of function from sequence]	11470487,24516157,9560382,	Weak
+ECK120004025	tas	    b2834	2971597	2972637	forward	putative NADP(H)-dependent aldo-keto reductase Tas	[HIFS|W|Human inference of function from sequence]	11470487,24516157,9560382,	Weak
 ECK120002304	lplT	b2835	2972669	2973862	reverse	lysophospholipid transporter
-ECK120001622	aas	b2836	2973855	2976014	reverse	acyltransferase
+ECK120001622	aas	    b2836	2973855	2976014	reverse	acyltransferase
 ECK120002580	omrA	b4444	2976102	2976189	reverse	OmrA	[IDA|S|Inferred from direct assay],[IMP|W|Inferred from mutant phenotype]	11445539,11448770,11553332,16359331,18953042,20407422,22040174,	Strong
 ECK120002593	omrB	b4445	2976304	2976385	reverse	OmrB	[IDA|S|Inferred from direct assay],[IMP|W|Inferred from mutant phenotype]	14602901,16359331,18953042,	Strong
 ECK120000357	galR	b2837	2976599	2977630	forward	DNA-binding transcriptional dual regulator GalR	[IPI|W|Inferred from physical interaction],[IMP|W|Inferred from mutant phenotype],[APPH|S|Assay of protein purified  to homogeneity],[IEP|W|Inferred from expression pattern]	12169637,15533432,15807530,17630975,6283521,6350601,7934815,8188660,9218807,9325090,	Strong
@@ -3078,14 +3078,14 @@ ECK120004033	ygeF	b2850	2990554	2991000	forward	protein YgeF
 ECK120004034	ygeG	b2851	2991268	2991759	forward	TPR repeat-containing putative chaperone YgeG
 ECK120004035	ygeH	b2852	2992094	2993470	forward	putative transcriptional regulator YgeH	[AIFS|W|Automated inference of function from sequence]	15556475,25343852,	Weak
 ECK120004036	ygeI	b2853	2993638	2993856	forward	protein YgeI
-ECK120004037	pbl	b2854	2994041	2994415	forward	putative peptidoglycan-binding enzyme
+ECK120004037	pbl	    b2854	2994041	2994415	forward	putative peptidoglycan-binding enzyme
 ECK120004038	ygeK	b2855	2994460	2994903	reverse	putative DNA-binding transcriptional regulator YgeK	[HIFS|W|Human inference of function from sequence]	10734204,15556475,	Weak
 ECK120004039	ygeL	b2856	2994937	2995092	reverse	protein YgeL
 ECK120004040	ygeM	b2857	2995314	2995745	reverse	protein YgeM
 ECK120004041	ygeN	b2858	2995748	2996020	reverse	protein YgeN
 ECK120004042	ygeO	b2859	2995962	2996387	reverse	protein YgeO
 ECK120004043	insD-4	b2860	2996372	2997277	reverse
-ECK120023920	insCD-4		2996372	2997600	reverse	IS2 element transposase InsAB'
+ECK120023920	insCD-4		    2996372	2997600	reverse	IS2 element transposase InsAB'
 ECK120004044	insC-4	b2861	2997235	2997600	reverse	IS2 insertion element repressor InsA
 ECK120004045	ygeP	b2862	2997689	2997988	reverse	protein YgeP
 ECK120004046	ygeQ	b2863	2998034	2998828	reverse	protein YgeQ
@@ -3114,7 +3114,7 @@ ECK120004067	ygfS	b2886	3028524	3029012	reverse	putative oxidoreductase,  4Fe-4S
 ECK120004068	ygfT	b2887	3029012	3030931	reverse	fused putative oxidoreductase, Fe-S subunit and nucleotide-binding subunit
 ECK120004069	uacT	b2888	3031367	3032815	forward	urate:H symporter		10986234,
 ECK120048868	yqfG	b4684	3032817	3032942	forward	uncharacterized protein YqfG
-ECK120004070	idi	b2889	3033065	3033613	forward	isopentenyl-diphosphate &Delta;-isomerase		9603997,
+ECK120004070	idi	    b2889	3033065	3033613	forward	isopentenyl-diphosphate &Delta;-isomerase		9603997,
 ECK120000545	lysS	b2890	3033657	3035174	reverse	lysine&mdash;tRNA ligase, constitutive		16672269,16855227,1709878,17384228,17889423,2001999,2188953,2554306,2560134,2668951,318645,328487,3312173,345082,3881393,4552089,4552090,6373723,779846,779847,786844,7896714,805427,807389,8152,8166708,
 ECK120000753	prfB	b2891	3035184	3036282	reverse	peptide chain release factor RF2	[APPH|S|Assay of protein purified  to homogeneity]	19092806,	Strong
 ECK120000821	recJ	b2892	3036373	3038106	reverse	ssDNA-specific exonuclease RecJ		10224241,10368783,10420269,12718760,12840109,15687199,16135232,16452142,16702415,16816175,16904387,17526695,17932052,17965170,1832022,18407965,18445487,1911953,1917853,19451222,1987126,20304994,2086342,21938951,22496668,22957093,2536671,2556327,2656639,2664459,2670665,26967458,2823066,2841294,2841571,2842223,2848620,2984175,2993230,3065139,3298213,3329215,3526390,4587405,7517004,7961480,8132450,8344265,8407784,9618512,9791113,9862197,
@@ -3137,7 +3137,7 @@ ECK120000689	pepP	b2908	3053515	3054840	reverse	proline aminopeptidase P II
 ECK120001294	ygfB	b2909	3054866	3055444	reverse	UPF0149 family protein YgfB
 ECK120002417	zapA	b2910	3055612	3055941	forward	cell division protein ZapA		23708427,
 ECK120002541	ssrS	b2911	3055983	3056165	forward	6S RNA	[IDA|S|Inferred from direct assay]	10892648,1098044,4570237,4929322,6231216,	Strong
-ECK120001141	fau	b2912	3056241	3056789	forward	putative 5-formyltetrahydrofolate cyclo-ligase		21036909,21538139,
+ECK120001141	fau	    b2912	3056241	3056789	forward	putative 5-formyltetrahydrofolate cyclo-ligase		21036909,21538139,
 ECK120002597	sibC	b4446	3056851	3056991	forward	SibC	[IDA|S|Inferred from direct assay],[IMP|W|Inferred from mutant phenotype]	11445539,18710431,	Strong
 ECK120035073	ibsC	b4665	3056890	3056949	reverse	toxic peptide IbsC	[IMP|W|Inferred from mutant phenotype]	18710431,19090519,	Weak
 ECK120000933	serA	b2913	3057178	3058410	reverse	phosphoglycerate dehydrogenase		19924905,23563322,3017965,
@@ -3148,15 +3148,15 @@ ECK120001408	scpA	b2917	3060850	3062994	forward	methylmalonyl-CoA mutase
 ECK120001409	argK	b2918	3062987	3063982	forward	methylmalonyl-CoA mutase-interacting GTPase YgfD
 ECK120004078	scpB	b2919	3063993	3064778	forward	methylmalonyl-CoA decarboxylase
 ECK120004079	scpC	b2920	3064802	3066280	forward	propionyl-CoA:succinate CoA transferase
-ECK125272704	ygfI5'		3065209	3065366	forward	YgfI5'
+ECK125272704	ygfI5'		    3065209	3065366	forward	YgfI5'
 ECK120004080	ygfI	b2921	3066277	3067173	reverse	putative LysR-type DNA-binding transcriptional regulator YgfI	[HIFS|W|Human inference of function from sequence]	10734204,15556475,	Weak
-ECK125135301	och5		3067187	3067344	forward	small regulatory RNA Och5	[IMP|W|Inferred from mutant phenotype]	26469694,	Weak
+ECK125135301	och5		    3067187	3067344	forward	small regulatory RNA Och5	[IMP|W|Inferred from mutant phenotype]	26469694,	Weak
 ECK120001220	yggE	b2922	3067340	3068080	reverse	uncharacterized protein YggE		22210207,23097194,
 ECK120001142	argO	b2923	3068173	3068808	reverse	L-arginine exporter		22904281,
 ECK120001143	mscS	b2924	3068947	3069807	reverse	small conductance mechanosensitive channel MscS		11960017,12015316,12046893,12374733,12446894,12505982,12561825,12620208,15111402,15277576,15339798,15665126,15665866,15702067,15834558,16861270,17277184,
 ECK120000276	fbaA	b2925	3070165	3071244	reverse	fructose-bisphosphate aldolase class II		2546007,
-ECK120000695	pgk	b2926	3071459	3072622	reverse	phosphoglycerate kinase		2546007,
-ECK120000361	epd	b2927	3072672	3073691	reverse	D-erythrose-4-phosphate dehydrogenase		2546007,7751290,
+ECK120000695	pgk	    b2926	3071459	3072622	reverse	phosphoglycerate kinase		2546007,
+ECK120000361	epd	    b2927	3072672	3073691	reverse	D-erythrose-4-phosphate dehydrogenase		2546007,7751290,
 ECK120001144	yggC	b2928	3073976	3074689	reverse	P-loop NTPase domain-containing protein YggC
 ECK120001145	fumE	b2929	3074686	3075195	reverse	fumarase E	[AIFS|W|Automated inference of function from sequence]	15556475,	Weak
 ECK120001221	yggF	b2930	3075217	3076182	reverse	fructose 1,6-bisphosphatase YggF
@@ -3203,7 +3203,7 @@ ECK120004099	yghG	b2971	3113067	3113477	reverse	lipoprotein YghG
 ECK120004100	pppA	b2972	3113543	3114352	reverse	prepilin peptidase	[IMP|W|Inferred from mutant phenotype]	9515702,	Weak
 ECK120004101	yghJ	b4466	3114550	3119112	reverse	putative lipoprotein YghJ
 ECK120004102	glcA	b2975	3119597	3121279	reverse	glycolate/lactate:H symporter
-ECK120002622	C0719		3121358	3121579	forward
+ECK120002622	C0719		    3121358	3121579	forward
 ECK120002441	glcB	b2976	3121634	3123805	reverse	malate synthase G
 ECK120004103	glcG	b2977	3123827	3124231	reverse	putative heme-binding protein GlcG		26950748,
 ECK120002572	glcF	b4467	3124236	3125459	reverse	glycolate dehydrogenase, putative iron-sulfur subunit		8606183,
@@ -3217,7 +3217,7 @@ ECK120004110	yghR	b2984	3132454	3133212	reverse	putative ATP-binding protein Ygh
 ECK120004111	yghS	b2985	3133244	3133957	reverse	putative ATP-binding protein YghS
 ECK120004112	yghT	b2986	3134131	3134823	forward	putative ATP-binding protein YghT
 ECK120002422	pitB	b2987	3134872	3136371	reverse	metal phosphate:H symporter PitB
-ECK120002421	gss	b2988	3136663	3138522	reverse	fused glutathionylspermidine amidase / glutathionylspermidine synthetase
+ECK120002421	gss	    b2988	3136663	3138522	reverse	fused glutathionylspermidine amidase / glutathionylspermidine synthetase
 ECK120004113	yghU	b2989	3138727	3139593	forward	disulfide reductase / organic hydroperoxide reductase
 ECK120001739	hybG	b2990	3139716	3139964	reverse	hydrogenase 2 accessory protein	[IMP|W|Inferred from mutant phenotype]	11292801,26170410,26364315,	Weak
 ECK120001738	hybF	b2991	3139977	3140318	reverse	hydrogenase maturation protein HybF	[IMP|W|Inferred from mutant phenotype]	12081959,	Weak
@@ -3230,7 +3230,7 @@ ECK120004114	hybO	b2997	3145143	3146261	reverse	hydrogenase 2 small subunit
 ECK120004115	yghW	b2998	3146450	3146737	reverse	DUF2623 domain-containing protein YghW		23913318,
 ECK120004116	yghX_1	b4658	3146856	3147266	reverse
 ECK120004117	yghX_2	b4658	3147266	3147619	reverse	putative hydrolase fragment
-ECK120004118	gpr	b3001	3147897	3148937	forward	L-glyceraldehyde 3-phosphate reductase
+ECK120004118	gpr	    b3001	3147897	3148937	forward	L-glyceraldehyde 3-phosphate reductase
 ECK120004119	yqhA	b3002	3148977	3149471	reverse	uncharacterized protein YqhA	[IHBCE|W|Inferred by a human based on computational evidence]	9244264,	Weak
 ECK120001265	yghA	b3003	3149662	3150546	forward	NADP-dependent aldehyde reductase
 ECK120004120	Phantom Gene	b3004	3150722	3150967	forward
@@ -3270,10 +3270,10 @@ ECK120001148	ygiC	b3038	3180421	3181581	forward	putative enzyme with ATPase acti
 ECK120001149	ygiD	b3039	3181619	3182434	reverse	4,5-DOPA dioxygenase extradiol
 ECK120001150	zupT	b3040	3182550	3183323	forward	heavy metal divalent cation transporter ZupT		11574054,11790762,28621879,
 ECK120000458	ribB	b3041	3183813	3184466	reverse	3,4-dihydroxy-2-butanone-4-phosphate synthase		20400551,6315532,
-ECK120002646	sroG		3184570	3184718	reverse
+ECK120002646	sroG		    3184570	3184718	reverse
 ECK120004138	ubiK	b3042	3184840	3185130	forward	ubiquinone biosynthesis accessory factor UbiK		28559279,
 ECK120002231	ygiL	b3043	3185414	3185965	forward	putative fimbrial protein YgiL		20345943,21344461,23382825,
-ECK120023921	insCD-5		3186187	3187415	forward	IS2 element transposase InsAB'
+ECK120023921	insCD-5		    3186187	3187415	forward	IS2 element transposase InsAB'
 ECK120004139	insC-5	b3044	3186187	3186552	forward	IS2 insertion element repressor InsA
 ECK120004140	insD-5	b3045	3186510	3187415	forward
 ECK120004141	yqiG	b3046	3187400	3189865	forward	putative fimbrial usher protein YqiG	[HIFS|W|Human inference of function from sequence]	12192075,20345943,21344461,23382825,	Weak
@@ -3290,7 +3290,7 @@ ECK120004146	rfaE	b3052	3195320	3196753	reverse	fused heptose 7-phosphate kinase
 ECK120001550	glnE	b3053	3196801	3199641	reverse	fused glutamine synthetase deadenylase/glutamine synthetase adenylyltransferase
 ECK120001551	ygiF	b3054	3199664	3200965	reverse	inorganic triphosphatase
 ECK120002289	ygiM	b3055	3201207	3201827	forward	putative signal transduction protein (SH3 domain)
-ECK120000132	cca	b3056	3201891	3203129	forward	fused tRNA nucleotidyltransferase / 2',3'-cyclic phosphodiesterase / 2' nucleotidase and phosphatase		1700367,3009457,342707,4597452,4597453,4597454,7685099,
+ECK120000132	cca	    b3056	3201891	3203129	forward	fused tRNA nucleotidyltransferase / 2',3'-cyclic phosphodiesterase / 2' nucleotidase and phosphatase		1700367,3009457,342707,4597452,4597453,4597454,7685099,
 ECK120001608	bacA	b3057	3203310	3204131	reverse	undecaprenyl pyrophosphate phosphatase		24068241,26335199,
 ECK120001616	folB	b3058	3204221	3204589	reverse	dihydroneopterin aldolase
 ECK120001617	plsY	b3059	3204694	3205311	forward	putative glycerol-3-phosphate acyltransferase		16949372,
@@ -3302,11 +3302,11 @@ ECK120001153	tsaD	b3064	3209530	3210543	reverse	N-L-threonylcarbamoyladenine syn
 ECK120000911	rpsU	b3065	3210781	3210996	forward	30S ribosomal subunit protein S21
 ECK120000233	dnaG	b3066	3211107	3212852	forward	DNA primase
 ECK120000887	rpoD	b3067	3213047	3214888	forward	RNA polymerase, sigma 70 (sigma D) factor		14712643,4343249,
-ECK120002372	mug	b3068	3214967	3215473	reverse	stationary phase mismatch/uracil DNA glycosylase		26774489,
+ECK120002372	mug	    b3068	3214967	3215473	reverse	stationary phase mismatch/uracil DNA glycosylase		26774489,
 ECK120002488	ileX	b3069	3215598	3215673	forward	tRNA-Ile(CAU)	[TAS|W|Traceable author statement]	7033244,	Weak
 ECK120004147	yqjH	b3070	3215727	3216491	reverse	NADPH-dependent ferric chelate reductase
 ECK120004148	yqjI	b3071	3216779	3217402	forward	DNA-binding transcriptional repressor YqjI
-ECK120004149	aer	b3072	3217556	3219076	reverse	aerotaxis sensor receptor, flavoprotein	[IMP|W|Inferred from mutant phenotype]	10547687,10811894,15175278,9380664,9643537,	Weak
+ECK120004149	aer	    b3072	3217556	3219076	reverse	aerotaxis sensor receptor, flavoprotein	[IMP|W|Inferred from mutant phenotype]	10547687,10811894,15175278,9380664,9643537,	Weak
 ECK120004150	patA	b3073	3219494	3220873	forward	putrescine aminotransferase
 ECK120004151	ygjH	b3074	3220915	3221247	reverse	putative tRNA synthetase
 ECK120000248	ebgR	b3075	3221466	3222449	forward	DNA-binding transcriptional repressor EbgR	[IE|W|Inferred from experiment]		Weak
@@ -3323,7 +3323,7 @@ ECK120004157	ygjP	b3085	3235960	3236463	forward	putative metal-dependent hydrola
 ECK120004158	ygjQ	b3086	3236540	3237232	forward	DUF218 domain-containing protein YgjQ
 ECK120004159	ygjR	b3087	3237311	3238297	forward	putative oxidoreductase YgjR
 ECK120002581	sraF	b4448	3238374	3238561	forward
-ECK120004160	alx	b3088	3238580	3239545	forward	putative membrane-bound redox modulator Alx
+ECK120004160	alx	    b3088	3238580	3239545	forward	putative membrane-bound redox modulator Alx
 ECK120002374	sstT	b3089	3239944	3241188	forward	serine/threonine:Na symporter
 ECK120004161	ygjV	b3090	3241193	3241744	reverse	inner membrane protein	[IE|W|Inferred from experiment]	11574054,11867724,	Weak
 ECK120002375	uxaA	b3091	3241827	3243314	reverse	D-altronate dehydratase
@@ -3393,11 +3393,11 @@ ECK120004201	yhbT	b3157	3300752	3301276	reverse	SCP2 domain-containing protein Y
 ECK120004202	yhbU	b3158	3301485	3302480	forward	putative peptidase YhbU
 ECK120004203	yhbV	b3159	3302489	3303367	forward	putative peptidase YhbV
 ECK120004204	yhbW	b3160	3303448	3304455	forward	putative luciferase-like monooxygenase
-ECK120000610	mtr	b3161	3304573	3305817	reverse	tryptohan:H symporter Mtr
+ECK120000610	mtr	    b3161	3304573	3305817	reverse	tryptohan:H symporter Mtr
 ECK120000209	deaD	b3162	3305971	3307860	reverse	DeaD, DEAD-box RNA helicase	[IDA|S|Inferred from direct assay]	15196029,21359956,21437710,23228329,27718375,	Strong
 ECK120048863	yrbN	b4685	3307853	3307933	reverse	uncharacterized protein YrbN
 ECK120002239	nlpI	b3163	3308040	3308924	reverse	lipoprotein NlpI
-ECK120000734	pnp	b3164	3309033	3311168	reverse	polynucleotide phosphorylase		16855227,
+ECK120000734	pnp	    b3164	3309033	3311168	reverse	polynucleotide phosphorylase		16855227,
 ECK120002582	sraG	b4449	3311183	3311398	forward	PsrO	[IDA|S|Inferred from direct assay],[IMP|W|Inferred from mutant phenotype]	11448770,27495318,	Strong
 ECK120000905	rpsO	b3165	3311415	3311684	reverse	30S ribosomal subunit protein S15
 ECK120001159	truB	b3166	3311833	3312777	reverse	tRNA pseudouridine synthase		15469254,21142053,21953190,6805514,8710514,8871555,
@@ -3437,30 +3437,30 @@ ECK120004212	lptC	b3199	3342836	3343411	forward	lipopolysaccharide transport sys
 ECK120004213	lptA	b3200	3343380	3343937	forward	lipopolysaccharide transport system protein LptA		22109962,23897621,24123237,
 ECK120001623	lptB	b3201	3343944	3344669	forward	lipopolysaccharide transport system ATP binding protein		27246575,
 ECK120000889	rpoN	b3202	3344717	3346150	forward	RNA polymerase, sigma 54 (sigma N) factor		26425847,
-ECK120001624	hpf	b3203	3346173	3346460	forward	ribosome hibernation-promoting factor	[APPH|S|Assay of protein purified  to homogeneity]	17277072,18174192,19170772,	Strong
+ECK120001624	hpf	    b3203	3346173	3346460	forward	ribosome hibernation-promoting factor	[APPH|S|Assay of protein purified  to homogeneity]	17277072,18174192,19170772,	Strong
 ECK120001625	ptsN	b3204	3346578	3347069	forward	phosphotransferase system enzyme IIA(Ntr)	[IDA|S|Inferred from direct assay],[IMP|W|Inferred from mutant phenotype]	17289841,19400808,22812494,26159077,	Strong
 ECK120002046	rapZ	b3205	3347115	3347969	forward	RNase adaptor protein
-ECK125122006	yrbL3'		3347168	3347207	forward	YrbL3'	[IDA|S|Inferred from direct assay]	15718303,	Strong
-ECK120002047	npr	b3206	3347966	3348238	forward	phosphorelay protein Npr	[IMP|W|Inferred from mutant phenotype],[APPH|S|Assay of protein purified  to homogeneity],[APPHINH|S|Assay of protein purified to homogeneity from its native host]	10473571,16164569,7876255,	Strong
+ECK125122006	yrbL3'		    3347168	3347207	forward	YrbL3'	[IDA|S|Inferred from direct assay]	15718303,	Strong
+ECK120002047	npr	    b3206	3347966	3348238	forward	phosphorelay protein Npr	[IMP|W|Inferred from mutant phenotype],[APPH|S|Assay of protein purified  to homogeneity],[APPHINH|S|Assay of protein purified to homogeneity from its native host]	10473571,16164569,7876255,	Strong
 ECK120004214	yrbL	b3207	3348452	3349084	forward	protein kinase-like domain-containing protein YrbL		27252779,
 ECK120004215	mtgA	b3208	3349081	3349809	reverse	peptidoglycan glycosyltransferase MtgA		15375124,8830253,
 ECK120001350	elbB	b3209	3349806	3350459	reverse	low activity glyoxalase ElbB
 ECK120002583	arcZ	b4450	3350577	3350697	forward	ArcZ	[IDA|S|Inferred from direct assay],[IMP|W|Inferred from mutant phenotype]	11445539,11448770,20457943,23659637,26469694,	Strong
 ECK120000058	arcB	b3210	3350689	3353025	reverse	sensory histidine kinase ArcB		20709841,21252224,26828204,28553265,
-ECK125272706	yhcC5'		3352086	3352191	forward	YhcC5'
+ECK125272706	yhcC5'		    3352086	3352191	forward	YhcC5'
 ECK120004216	yhcC	b3211	3353121	3354050	reverse	radical SAM family oxidoreductase
-ECK125135303			3354064	3354169	forward	small RNA
+ECK125135303			        3354064	3354169	forward	small RNA
 ECK120000396	gltB	b3212	3354725	3359185	forward	glutamate synthase subunit GltB
 ECK120000397	gltD	b3213	3359198	3360616	forward	glutamate synthase subunit GltD
 ECK120001469	gltF	b3214	3361176	3361940	forward	periplasmic protein GltF
 ECK120001470	yhcA	b3215	3362112	3362786	forward	putative fimbrial chaperone YhcA		20345943,21344461,23382825,
 ECK120004217	yhcD	b3216	3362807	3365188	forward	putative fimbrial usher protein YhcD		20345943,21344461,23382825,
 ECK120004218	yhcE_1	b3217	3365185	3365664	forward	putative uncharacterized protein YhcE, N-terminal fragment		21344461,23382825,
-ECK125272708	yhcF3'		3365635	3365792	reverse	YhcF3'
+ECK125272708	yhcF3'		    3365635	3365792	reverse	YhcF3'
 ECK120004219	insH-10	b3218	3365702	3366718	reverse	IS5 transposase and trans-activator
 ECK120026453	yhcE_2	b4549	3366681	3366929	forward
 ECK120004220	yhcF	b3219	3366926	3367642	forward	DUF1120 domain-containing protein YhcF
-ECK125135305			3367613	3367770	reverse	small RNA
+ECK125135305			        3367613	3367770	reverse	small RNA
 ECK120004221	yhcG	b3220	3367827	3368954	forward	DUF1016 domain-containing protein YhcG	[ICA|W|Inferred by computational analysis]	16011798,	Weak
 ECK120004222	yhcH	b3221	3369014	3369478	reverse	DUF386 domain-containing protein YhcH
 ECK120004223	nanK	b3222	3369475	3370350	reverse	-acetylmannosamine kinase
@@ -3469,7 +3469,7 @@ ECK120002695	nanT	b3224	3371084	3372574	reverse	N-acetylneuraminate:H symporter	
 ECK120000630	nanA	b3225	3372683	3373576	reverse	-acetylneuraminate lyase		19586552,22525748,
 ECK120004225	nanR	b3226	3373698	3374489	reverse	DNA-binding transcriptional dual regulator NanR	[IFC|S|Inferred by functional complementation],[APPH|S|Assay of protein purified  to homogeneity]	12897000,	Strong
 ECK120004226	dcuD	b3227	3374869	3376236	forward	putative transporter DcuD	[AIFS|W|Automated inference of function from sequence]	16397293,	Weak
-ECK125122001	rpsI3'		3375389	3375473	reverse	RpsI3'	[IDA|S|Inferred from direct assay]	15718303,	Strong
+ECK125122001	rpsI3'		    3375389	3375473	reverse	RpsI3'	[IDA|S|Inferred from direct assay]	15718303,	Strong
 ECK120000967	sspB	b3228	3376279	3376776	reverse	ClpXP protease specificity-enhancing factor
 ECK120000966	sspA	b3229	3376782	3377420	reverse	stringent starvation protein A	[APPHINH|S|Assay of protein purified to homogeneity from its native host]	12791143,2835636,3003520,3029697,	Strong
 ECK120000899	rpsI	b3230	3377815	3378207	reverse	30S ribosomal subunit protein S9
@@ -3478,7 +3478,7 @@ ECK120004227	zapE	b3232	3378870	3379997	reverse	cell division factor ZapE with A
 ECK120004228	yhcB	b3233	3380191	3380589	forward	conserved protein YhcB		24391520,
 ECK120004229	degQ	b3234	3380743	3382110	forward	periplasmic serine endoprotease
 ECK120001596	degS	b3235	3382200	3383267	forward	serine endoprotease
-ECK120000569	mdh	b3236	3383330	3384268	reverse	malate dehydrogenase
+ECK120000569	mdh	    b3236	3383330	3384268	reverse	malate dehydrogenase
 ECK120000066	argR	b3237	3384703	3385173	forward	DNA-binding transcriptional dual regulator ArgR		3116542,3149585,4555419,7997172,
 ECK120004230	yhcN	b3238	3385538	3385801	forward	DUF1471 domain-containing stress-induced protein YhcN	[IMP|W|Inferred from mutant phenotype]	19919618,27252779,	Weak
 ECK120004231	yhcO	b3239	3385857	3386129	reverse	putative barnase inhibitor
@@ -3488,7 +3488,7 @@ ECK120004234	aaeX	b3242	3389134	3389337	reverse	DUF1656 domain-containing protei
 ECK120004235	aaeR	b3243	3389520	3390449	forward	LysR-type transcriptional regulator AaeR	[IHBCE|W|Inferred by a human based on computational evidence],[IMP|W|Inferred from mutant phenotype],[HIFS|W|Human inference of function from sequence]	10734204,12011002,15489430,15556475,	Weak
 ECK120004236	tldD	b3244	3390583	3392028	reverse	metalloprotease TldD	[IE|W|Inferred from experiment]		Weak
 ECK120004237	yhdP	b4472	3392458	3396258	reverse	AsmA2 domain-containing protein		12234664,
-ECK120001272	rng	b3247	3396326	3397795	reverse	RNase G
+ECK120001272	rng	    b3247	3396326	3397795	reverse	RNase G
 ECK120001271	yhdE	b3248	3397785	3398378	reverse	nucleoside triphosphate pyrophosphatase YhdE
 ECK120000603	mreD	b3249	3398387	3398875	reverse	cell shape determining protein MreD	[IGI|W|Inferred from genetic interaction],[IMP|W|Inferred from mutant phenotype]	15612918,17993535,2687239,	Weak
 ECK120000602	mreC	b3250	3398875	3399978	reverse	cell shape determining protein MreC	[IGI|W|Inferred from genetic interaction],[IMP|W|Inferred from mutant phenotype]	15612918,17993535,2687239,	Weak
@@ -3504,7 +3504,7 @@ ECK120004239	yhdT	b3257	3407375	3407617	forward	DUF997 domain-containing protein
 ECK120000678	panF	b3258	3407607	3409058	forward	pantothenate:Na symporter
 ECK120001453	prmA	b3259	3409070	3409951	forward	methyltransferase for 50S ribosomal subunit protein L11
 ECK120001282	dusB	b3260	3410280	3411245	forward	tRNA-dihydrouridine synthase B		27718375,
-ECK120000311	fis	b3261	3411271	3411567	forward	DNA-binding transcriptional dual regulator Fis		1547773,27718375,7545153,
+ECK120000311	fis	    b3261	3411271	3411567	forward	DNA-binding transcriptional dual regulator Fis		1547773,27718375,7545153,
 ECK120001454	yhdJ	b3262	3411653	3412537	forward	DNA adenine methyltransferase
 ECK120004240	yhdU	b3263	3412621	3412800	forward	DUF2556 domain-containing protein YhdU
 ECK120001680	envR	b3264	3412803	3413465	reverse	DNA-binding transcriptional repressor EnvR	[APPH|S|Assay of protein purified  to homogeneity],[HIFS|W|Human inference of function from sequence]	18567659,7592375,8196548,	Strong
@@ -3527,10 +3527,10 @@ ECK120004243	yrdB	b3280	3429766	3430023	reverse	conserved protein YrdB
 ECK120000073	aroE	b3281	3430020	3430838	reverse	shikimate dehydrogenase		12637497,3277621,3883995,
 ECK120004244	tsaC	b3282	3430843	3431415	reverse	threonylcarbamoyl-AMP synthase		21810204,23258706,
 ECK120004245	yrdD	b3283	3431420	3431962	reverse	putative DNA topoisomerase		26774489,
-ECK120001553	smg	b3284	3431991	3432464	reverse	DUF494 domain-containing protein Smg
-ECK120001552	smf	b4473	3432436	3433560	reverse	protein Smf
-ECK120001404	def	b3287	3433690	3434199	forward	peptide deformylase		19191548,19922819,21603885,24939037,
-ECK120001242	fmt	b3288	3434214	3435161	forward	10-formyltetrahydrofolate:L-methionyl-tRNA-formyltransferase		4920879,
+ECK120001553	smg	    b3284	3431991	3432464	reverse	DUF494 domain-containing protein Smg
+ECK120001552	smf	    b4473	3432436	3433560	reverse	protein Smf
+ECK120001404	def	    b3287	3433690	3434199	forward	peptide deformylase		19191548,19922819,21603885,24939037,
+ECK120001242	fmt	    b3288	3434214	3435161	forward	10-formyltetrahydrofolate:L-methionyl-tRNA-formyltransferase		4920879,
 ECK120002059	rsmB	b3289	3435207	3436496	forward	16S rRNA mC967 methyltransferase		23530111,
 ECK120001008	trkA	b3290	3436518	3437894	forward	NAD-binding component of TrK potassium transporter	[IGI|W|Inferred from genetic interaction]	1987159,2674131,4942756,	Weak
 ECK120001162	mscL	b3291	3438024	3438434	forward	large conductance mechanosensitive channel		10050752,10637638,10801868,11224560,11479346,11557017,12015316,12046893,12198480,12446894,14640699,15041653,15041744,15205426,15228529,15301476,15542561,15812636,15812637,15959773,16288836,16751236,17307828,17480116,18341289,18950196,19261722,24958207,25223610,26143502,27708587,7543101,8890153,9126353,9336188,9405414,9528681,9614061,9632260,
@@ -3579,8 +3579,8 @@ ECK120004255	gspK	b3332	3462924	3463907	forward	Type II secretion system protein
 ECK120004256	gspL	b3333	3463922	3465085	forward	Type II secretion system protein GspL
 ECK120002068	gspM	b3334	3465082	3465543	forward	Type II secretion system protein GspM
 ECK120001328	gspO	b3335	3465543	3466220	forward	Type II secretion system prepilin peptidase
-ECK120000109	bfr	b3336	3466249	3466725	reverse	bacterioferritin		10506413,11330712,11878806,1549605,17400245,19705876,2083739,21215826,25107631,3060115,3904732,6994819,8944892,8955338,
-ECK120001163	bfd	b3337	3466797	3466991	reverse	bacterioferritin-associated ferredoxin		2661540,
+ECK120000109	bfr	    b3336	3466249	3466725	reverse	bacterioferritin		10506413,11330712,11878806,1549605,17400245,19705876,2083739,21215826,25107631,3060115,3904732,6994819,8944892,8955338,
+ECK120001163	bfd	    b3337	3466797	3466991	reverse	bacterioferritin-associated ferredoxin		2661540,
 ECK120001215	chiA	b3338	3467160	3469853	reverse	endochitinase	[IE|W|Inferred from experiment]	10760150,	Weak
 ECK120001025	tufA	b3339	3470145	3471329	reverse	translation elongation factor Tu 1		1573997,9868784,
 ECK120000353	fusA	b3340	3471400	3473514	reverse	elongation factor G		4551984,4881331,5542892,
@@ -3598,15 +3598,15 @@ ECK120002444	kefB	b3350	3478802	3480607	reverse	K antiporter KefB
 ECK120004262	kefG	b3351	3480607	3481161	reverse	protein required for KefB activity
 ECK120002423	yheS	b3352	3481289	3483202	forward	ABC transporter ATP-binding protein YheS	[IHBCE|W|Inferred by a human based on computational evidence]	28911185,9593292,	Weak
 ECK120004263	yheT	b3353	3483202	3484224	forward	putative hydrolase YheT	[IHBCE|W|Inferred by a human based on computational evidence]	9889164,	Weak
-ECK125122004	crpT		3483673	3483973	reverse	CrpT	[IE|W|Inferred from experiment]	12202758,1715982,2425359,	Weak
+ECK125122004	crpT		    3483673	3483973	reverse	CrpT	[IE|W|Inferred from experiment]	12202758,1715982,2425359,	Weak
 ECK120004264	yheU	b3354	3484218	3484436	forward	UPF0270 family protein YheU
 ECK120002233	prkB	b3355	3484490	3485359	forward	putative phosphoribulokinase
 ECK120001164	yhfA	b3356	3485414	3485818	reverse	OsmC family protein
-ECK120000160	crp	b3357	3486120	3486752	forward	DNA-binding transcriptional dual regulator CRP	[GEA|W|Gene expression analysis],[IMP|W|Inferred from mutant phenotype],[APPH|S|Assay of protein purified  to homogeneity],[AIFS|W|Automated inference of function from sequence]	10760178,11742992,12923087,1328816,14638413,15520470,16166533,7551052,8604346,	Strong
+ECK120000160	crp	    b3357	3486120	3486752	forward	DNA-binding transcriptional dual regulator CRP	[GEA|W|Gene expression analysis],[IMP|W|Inferred from mutant phenotype],[APPH|S|Assay of protein purified  to homogeneity],[AIFS|W|Automated inference of function from sequence]	10760178,11742992,12923087,1328816,14638413,15520470,16166533,7551052,8604346,	Strong
 ECK120004265	yhfK	b3358	3486791	3488893	forward	putative transporter YhfK		24391520,
 ECK120000062	argD	b3359	3488960	3490180	reverse	-succinyldiaminopimelate aminotransferase		10074354,2199330,326254,4598010,
 ECK120000675	pabA	b3360	3490266	3490829	reverse	aminodeoxychorismate synthase subunit 2
-ECK120000301	fic	b3361	3490861	3491463	reverse	putative adenosine monophosphate&mdash;protein transferase Fic	[IMP|W|Inferred from mutant phenotype]	14704342,1656497,2050628,2403545,	Weak
+ECK120000301	fic	    b3361	3490861	3491463	reverse	putative adenosine monophosphate&mdash;protein transferase Fic	[IMP|W|Inferred from mutant phenotype]	14704342,1656497,2050628,2403545,	Weak
 ECK120002242	yhfG	b3362	3491453	3491620	reverse	DUF2559 domain-containing protein YhfG
 ECK120000748	ppiA	b3363	3491725	3492297	reverse	peptidyl-prolyl  isomerase A
 ECK120001237	tsgA	b3364	3492568	3493749	forward	putative transporter TsgA	[HIFS|W|Human inference of function from sequence]	9529885,	Weak
@@ -3623,15 +3623,15 @@ ECK120004270	frlR	b3375	3504052	3504783	forward	putative DNA-binding transcripti
 ECK120004271	yhfS	b3376	3504935	3506020	reverse	putative aminotransferase YhfS
 ECK120004272	yhfT	b3377	3506032	3507336	reverse	uncharacterized protein YhfT
 ECK120004273	yhfU	b3378	3507348	3507701	reverse	DUF2620 domain-containing protein YhfU
-ECK120004274	php	b3379	3507712	3508590	reverse	putative hydrolase
+ECK120004274	php	    b3379	3507712	3508590	reverse	putative hydrolase
 ECK120004275	yhfW	b3380	3508587	3509813	reverse	putative mutase YhfW
 ECK120004276	yhfX	b3381	3509813	3510976	reverse	putative PLP-binding protein YhfX
 ECK120004277	yhfY	b3382	3511060	3511422	reverse	conserved protein YhfY
 ECK120004278	yhfZ	b3383	3511439	3512344	reverse	putative DNA-binding transcriptional regulator YhfZ
 ECK120001019	trpS	b3384	3512634	3513638	reverse	tryptophan&mdash;tRNA ligase		1508173,18713004,3078873,3078874,334569,353515,379831,3886424,4555910,4582891,4895848,4914847,6337120,6389500,7042706,776964,781267,
-ECK120001802	gph	b3385	3513631	3514389	reverse	phosphoglycolate phosphatase		12469338,16760308,
-ECK120004466	rpe	b3386	3514382	3515059	reverse	ribulose-phosphate 3-epimerase
-ECK120000198	dam	b3387	3515077	3515913	reverse	DNA adenine methyltransferase		11004192,11072067,11111047,11371527,11439190,12067334,12897023,12944412,1420312,14643657,15009887,15225322,15387814,15489426,1551854,15534208,1581360,15925551,159363,1630320,16352851,16556234,16644499,16677308,167279,16787973,17114935,17727900,17827074,18282299,1870978,18824089,19079575,19236706,2013413,2155405,2190555,2204708,22373925,2257623,2546039,25475788,2549371,25785689,2642600,2659431,2661181,2671654,2693949,27718375,2828936,2829967,2972909,2976881,3054812,3074005,3074007,3074008,3074010,3301526,330882,3313278,3314290,350859,3512517,3512529,3531809,3536887,3549359,355857,361700,364302,370402,375073,378259,384219,3880739,3932821,3937030,4956424,6094478,6218410,6229339,6233141,6254852,6287993,6296768,6300769,6316110,6336742,6353164,6368265,6376282,6377015,6395666,6443311,6444406,6750321,6752951,6987663,6993844,7028433,7038402,7603433,7607492,7748925,7891562,7928948,7934887,799245,8011018,8168484,8195106,8320213,8589248,8647421,8692955,8813050,8824767,8845361,8918477,8981994,9426127,9580708,9624689,9811649,
+ECK120001802	gph	    b3385	3513631	3514389	reverse	phosphoglycolate phosphatase		12469338,16760308,
+ECK120004466	rpe	    b3386	3514382	3515059	reverse	ribulose-phosphate 3-epimerase
+ECK120000198	dam	    b3387	3515077	3515913	reverse	DNA adenine methyltransferase		11004192,11072067,11111047,11371527,11439190,12067334,12897023,12944412,1420312,14643657,15009887,15225322,15387814,15489426,1551854,15534208,1581360,15925551,159363,1630320,16352851,16556234,16644499,16677308,167279,16787973,17114935,17727900,17827074,18282299,1870978,18824089,19079575,19236706,2013413,2155405,2190555,2204708,22373925,2257623,2546039,25475788,2549371,25785689,2642600,2659431,2661181,2671654,2693949,27718375,2828936,2829967,2972909,2976881,3054812,3074005,3074007,3074008,3074010,3301526,330882,3313278,3314290,350859,3512517,3512529,3531809,3536887,3549359,355857,361700,364302,370402,375073,378259,384219,3880739,3932821,3937030,4956424,6094478,6218410,6229339,6233141,6254852,6287993,6296768,6300769,6316110,6336742,6353164,6368265,6376282,6377015,6395666,6443311,6444406,6750321,6752951,6987663,6993844,7028433,7038402,7603433,7607492,7748925,7891562,7928948,7934887,799245,8011018,8168484,8195106,8320213,8589248,8647421,8692955,8813050,8824767,8845361,8918477,8981994,9426127,9580708,9624689,9811649,
 ECK120001165	damX	b3388	3516020	3517306	reverse	cell division protein DamX	[IGI|W|Inferred from genetic interaction]	19684127,	Weak
 ECK120000070	aroB	b3389	3517398	3518486	reverse	3-dehydroquinate synthase		3009224,
 ECK120000077	aroK	b3390	3518543	3519064	reverse	shikimate kinase 1		1309529,1630320,
@@ -3647,7 +3647,7 @@ ECK120004285	yrfG	b3399	3528669	3529337	forward	purine nucleotidase
 ECK120004286	hslR	b3400	3529348	3529749	forward	heat shock protein Hsp15	[IDA|S|Inferred from direct assay],[IPI|W|Inferred from physical interaction]	10675343,19013177,	Strong
 ECK120004287	hslO	b3401	3529774	3530652	forward	molecular chaperone Hsp33	[APPH|S|Assay of protein purified  to homogeneity]	10025400,11323724,14685279,18287020,22385960,23148222,	Strong
 ECK120004288	yhgE	b3402	3530715	3532439	reverse	putative transport protein YhgE
-ECK120000681	pck	b3403	3532818	3534440	forward	phosphopyruvate carboxykinase (ATP)		12383254,1701430,7028726,7548162,7875332,7883719,8141999,8895092,9048893,9406547,9716386,9951527,
+ECK120000681	pck	    b3403	3532818	3534440	forward	phosphopyruvate carboxykinase (ATP)		12383254,1701430,7028726,7548162,7875332,7883719,8141999,8895092,9048893,9406547,9716386,9951527,
 ECK120000263	envZ	b3404	3534516	3535868	reverse	sensory histidine kinase EnvZ
 ECK120000665	ompR	b3405	3535865	3536584	reverse	DNA-binding transcriptional dual regulator OmpR		1482126,16855227,2157156,26209678,2997120,3010044,6292199,7699720,8098993,
 ECK120001530	greB	b3406	3536812	3537288	forward	transcription elongation factor GreB	[IE|W|Inferred from experiment]	12486015,7513426,7538676,8902815,9038220,9334329,9512710,9733798,	Weak
@@ -3676,7 +3676,7 @@ ECK120000370	glgA	b3429	3566600	3568033	reverse	glycogen synthase
 ECK120000372	glgC	b3430	3568033	3569328	reverse	glucose-1-phosphate adenylyltransferase		23648478,23878244,25607991,
 ECK120000374	glgX	b3431	3569346	3571319	reverse	limit dextrin &alpha;-1,6-glucohydrolase
 ECK120000371	glgB	b3432	3571316	3573502	reverse	1,4-&alpha;-glucan branching enzyme		11807277,21421758,
-ECK120000084	asd	b3433	3573775	3574878	reverse	aspartate-semialdehyde dehydrogenase
+ECK120000084	asd	    b3433	3573775	3574878	reverse	aspartate-semialdehyde dehydrogenase
 ECK120004295	yhgN	b3434	3575071	3575664	forward	putative inner membrane protein
 ECK120002343	gntU	b4476	3575721	3577061	reverse	low-affinity gluconate transporter
 ECK120002341	gntK	b3437	3577065	3577592	reverse	D-gluconate kinase, thermostable		8655507,
@@ -3687,12 +3687,12 @@ ECK120002584	ryhB	b4451	3580927	3581016	reverse	RyhB	[IDA|S|Inferred from direct
 ECK120004298	yhhY	b3441	3581138	3581626	forward	-acetyltransferase YhhY	[IDA|S|Inferred from direct assay]	25002546,	Strong
 ECK120004299	yhhZ	b3442	3581863	3583041	forward	putative endonuclease YhhZ
 ECK120004300	yrhA	b3443	3583041	3583454	forward	conserved protein YrhA
-ECK120023916	insAB-6		3583483	3584180	forward	InsAB' transposase
+ECK120023916	insAB-6		    3583483	3584180	forward	InsAB' transposase
 ECK120004301	insA-6	b3444	3583483	3583758	forward	IS1 protein InsA
 ECK120004302	insB-6	b3445	3583677	3584180	forward
 ECK120030086	yrhD	b4612	3584404	3584559	forward	uncharacterized protein YrhD
 ECK120004303	yrhB	b3446	3584759	3585043	forward	putative heat shock chaperone	[IC|W|Inferred by curator]		Weak
-ECK120000367	ggt	b3447	3585081	3586823	reverse	glutathione hydrolase proenzyme		11552267,12418234,15466585,17260973,17970276,18036555,18555071,18720502,19788059,1981661,23391932,2571648,26370226,2892489,7903400,8864839,
+ECK120000367	ggt	    b3447	3585081	3586823	reverse	glutathione hydrolase proenzyme		11552267,12418234,15466585,17260973,17970276,18036555,18555071,18720502,19788059,1981661,23391932,2571648,26370226,2892489,7903400,8864839,
 ECK120001166	yhhA	b3448	3586943	3587383	forward	DUF2756 domain-containing protein YhhA		20001701,
 ECK120001039	ugpQ	b3449	3587370	3588113	reverse	glycerophosphodiester phosphodiesterase		1851953,
 ECK120001037	ugpC	b3450	3588110	3589180	reverse	-glycerol 3-phosphate ABC transporter ATP binding subunit
@@ -3746,7 +3746,7 @@ ECK120002116	dtpB	b3496	3640862	3642331	forward	dipeptide/tripeptide:H symporter
 ECK120002117	rsmJ	b3497	3642380	3643132	reverse	16S rRNA mG1516 methyltransferase
 ECK120001405	prlC	b3498	3643140	3645182	reverse	oligopeptidase A	[IE|W|Inferred from experiment]	1325967,7691339,	Weak
 ECK120002118	rlmJ	b3499	3645385	3646227	forward	23S rRNA mA2030 methyltransferase		20719918,
-ECK120000405	gor	b3500	3646299	3647651	forward	glutathione reductase (NADPH)
+ECK120000405	gor	    b3500	3646299	3647651	forward	glutathione reductase (NADPH)
 ECK120002670	dinQ	b4613	3647705	3647788	reverse	UV inducible membrane toxin DinQ	[IGI|W|Inferred from genetic interaction]	23408903,	Weak
 ECK125158033	agrA	b4712	3648063	3648146	forward	AgrA	[IDA|S|Inferred from direct assay]	23408903,	Strong
 ECK125158035	agrB	b4713	3648294	3648377	forward	AgrB	[IDA|S|Inferred from direct assay],[IMP|W|Inferred from mutant phenotype]	23408903,	Strong
@@ -3756,7 +3756,7 @@ ECK120002121	arsC	b3503	3650237	3650662	forward	arsenate reductase		19484295,244
 ECK120002122	yhiS_1	b3504	3651291	3652073	forward	putative uncharacterized protein YhiS
 ECK120004305	insH-11	b3505	3652182	3653198	reverse	IS5 transposase and trans-activator
 ECK125095417	yhiS_2	b3504	3653216	3653713	forward
-ECK120001820	slp	b3506	3653961	3654527	forward	starvation lipoprotein		8022277,
+ECK120001820	slp	    b3506	3653961	3654527	forward	starvation lipoprotein		8022277,
 ECK120001819	dctR	b3507	3654683	3655213	forward	putative DNA-binding transcriptional regulator DctR	[IGI|W|Inferred from genetic interaction],[IMP|W|Inferred from mutant phenotype],[HIFS|W|Human inference of function from sequence],[AIFS|W|Automated inference of function from sequence]	15556475,17259322,9811641,	Weak
 ECK120001366	yhiD	b3508	3655255	3655902	reverse	inner membrane protein YhiD
 ECK120001365	hdeB	b3509	3655966	3656292	reverse	periplasmic acid stress chaperone
@@ -3771,7 +3771,7 @@ ECK120002125	gadW	b3515	3663890	3664618	reverse	DNA-binding transcriptional dual
 ECK120002624	gadY	b4452	3664864	3664968	forward	GadY	[IDA|S|Inferred from direct assay],[IEP|W|Inferred from expression pattern]	12069726,15466020,21147125,21314918,	Strong
 ECK120002126	gadX	b3516	3664986	3665810	reverse	DNA-binding transcriptional dual regulator GadX	[GEA|W|Gene expression analysis],[APPH|S|Assay of protein purified  to homogeneity]	11976288,12446650,	Strong
 ECK120002568	gadA	b3517	3666180	3667580	reverse	glutamate decarboxylase A		10383761,1522060,7608084,
-ECK120002127	ccp	b3518	3667791	3669188	reverse	cytochrome  peroxidase		16377617,
+ECK120002127	ccp	    b3518	3667791	3669188	reverse	cytochrome  peroxidase		16377617,
 ECK120002128	treF	b3519	3669592	3671241	forward	cytoplasmic trehalase		10816581,
 ECK120002129	yhjB	b3520	3671292	3671894	reverse	putative DNA-binding transcriptional regulator YhjB	[HIFS|W|Human inference of function from sequence]	10734204,15556475,	Weak
 ECK120002130	yhjC	b3521	3672414	3673313	forward	putative DNA-binding transcriptional regulator YhjC	[HIFS|W|Human inference of function from sequence]	10734204,15556475,	Weak
@@ -3804,7 +3804,7 @@ ECK120002508	proK	b3545	3708616	3708692	reverse	tRNA-Pro(CGG)	[TAS|W|Traceable a
 ECK120002148	eptB	b3546	3708784	3710475	reverse	Kdo2-lipid A phosphoethanolamine 7''-transferase
 ECK120002149	yhjX	b3547	3710799	3712007	reverse	putative pyruvate transporter	[HIFS|W|Human inference of function from sequence],[IEP|W|Inferred from expression pattern]	23222720,24659770,9529885,	Weak
 ECK120002150	yhjY	b3548	3712236	3712934	reverse	conserved protein YhjY		16522795,
-ECK120000975	tag	b3549	3713092	3713655	forward	3-methyl-adenine DNA glycosylase I, constitutive
+ECK120000975	tag	    b3549	3713092	3713655	forward	3-methyl-adenine DNA glycosylase I, constitutive
 ECK120002151	yiaC	b3550	3713652	3714092	forward	putative acyltransferase with acyl-CoA N-acyltransferase domain
 ECK120000120	bisC	b3551	3714061	3716394	reverse	biotin sulfoxide reductase
 ECK120002152	yiaD	b3552	3716547	3717206	forward	PF13488 family lipoprotein YiaD
@@ -3814,7 +3814,7 @@ ECK120002336	yiaG	b3555	3719478	3719768	forward	putative DNA-binding transcripti
 ECK120000162	cspA	b3556	3720049	3720261	forward	DNA-binding transcriptional activator CspA	[TASES|W|Traceable author statement to experimental support],[APPH|S|Assay of protein purified  to homogeneity],[IEP|W|Inferred from expression pattern]	1961761,28334975,3553157,7748932,8995247,	Strong
 ECK120002664	hokA	b4455	3720448	3720600	reverse	small toxic polypeptide	[HIFS|W|Human inference of function from sequence],[IEP|W|Inferred from expression pattern]	10361310,	Weak
 ECK125240976	mokA	b4647	3720448	3720632	reverse
-ECK120034531	insJK		3720680	3722049	forward	IS150 protein InsAB	[IMP|W|Inferred from mutant phenotype]	12374815,	Weak
+ECK120034531	insJK		    3720680	3722049	forward	IS150 protein InsAB	[IMP|W|Inferred from mutant phenotype]	12374815,	Weak
 ECK120004306	insJ	b3557	3720680	3721201	forward	insertion element IS150 protein InsA	[IMP|W|Inferred from mutant phenotype]	12374815,	Weak
 ECK120004307	insK	b3558	3721198	3722049	forward	IS150 conserved protein InsB
 ECK120030087	sokA	b4614	3722076	3722105	forward
@@ -3830,7 +3830,7 @@ ECK120002448	xylF	b3566	3731131	3732123	forward	xylose ABC transporter periplasm
 ECK120002156	xylG	b3567	3732201	3733742	forward	xylose ABC transporter ATP binding subunit
 ECK120002157	xylH	b3568	3733720	3734901	forward	xylose ABC transporter membrane subunit
 ECK120002449	xylR	b3569	3734979	3736157	forward	DNA-binding transcriptional dual regulator XylR
-ECK120001329	bax	b3570	3736353	3737177	reverse	putative glycoside hydrolase Bax
+ECK120001329	bax	    b3570	3736353	3737177	reverse	putative glycoside hydrolase Bax
 ECK120001287	malS	b3571	3737497	3739527	forward	&alpha;-amylase
 ECK120000103	avtA	b3572	3739705	3740958	forward	valine&mdash;pyruvate aminotransferase		12557311,1646790,23831557,2825136,2890623,3044925,411384,
 ECK120002158	ysaA	b3573	3741109	3741582	reverse	putative hydrogenase, 4Fe-4S ferredoxin-type component
@@ -3883,8 +3883,8 @@ ECK120002177	gpmM	b3612	3785260	3786804	forward	2,3-bisphosphoglycerate-independ
 ECK120002178	envC	b3613	3786838	3788097	forward	murein hydrolase activator EnvC	[IE|W|Inferred from experiment]	15165230,27718375,318637,352222,378695,3890689,4218460,4574921,6120994,6384425,	Weak
 ECK120002179	yibQ	b3614	3788101	3789060	forward	divergent polysaccharide deacetylase domain-containing protein YibQ	[HIFS|W|Human inference of function from sequence]	12952533,	Weak
 ECK120001240	waaH	b3615	3789047	3790081	reverse	UDP-glucuronate:LPS(HepIII) glycosyltransferase		15659689,
-ECK120000982	tdh	b3616	3790320	3791345	reverse	threonine dehydrogenase		3531182,7748928,
-ECK120000505	kbl	b3617	3791355	3792551	reverse	2-amino-3-ketobutyrate CoA ligase		1917830,3287333,
+ECK120000982	tdh	    b3616	3790320	3791345	reverse	threonine dehydrogenase		3531182,7748928,
+ECK120000505	kbl	    b3617	3791355	3792551	reverse	2-amino-3-ketobutyrate CoA ligase		1917830,3287333,
 ECK120001169	htrL	b3618	3792826	3793683	reverse	protein HtrL
 ECK120000829	rfaD	b3619	3793987	3794919	forward	ADP-L-glycero-D-mannoheptose 6-epimerase
 ECK120002097	waaF	b3620	3794929	3795975	forward	ADP-heptose&mdash;LPS heptosyltransferase 2		1577693,1938935,3882666,7854127,9266718,
@@ -3900,23 +3900,23 @@ ECK120001319	waaS	b3629	3804181	3805116	reverse	lipopolysaccharide core biosynth
 ECK120001311	waaP	b3630	3805153	3805950	reverse	lipopolysaccharide core heptose (I) kinase		28553265,
 ECK120001310	waaG	b3631	3805943	3807067	reverse	lipopolysaccharide glucosyltransferase I
 ECK120001312	waaQ	b3632	3807064	3808098	reverse	lipopolysaccharide core heptosyltransferase III		1348243,1385388,1577693,16209909,1655711,19364804,1938935,23985204,25631507,7988890,
-ECK125240975	rirA		3808166	3808238	reverse	RirA	[IMP|W|Inferred from mutant phenotype],[IPI|W|Inferred from physical interaction]	27629414,	Weak
+ECK125240975	rirA		    3808166	3808238	reverse	RirA	[IMP|W|Inferred from mutant phenotype],[IPI|W|Inferred from physical interaction]	27629414,	Weak
 ECK120000513	waaA	b3633	3808540	3809817	forward	KDO transferase
 ECK120001171	coaD	b3634	3809825	3810304	forward	pantetheine-phosphate adenylyltransferase		20486930,23550886,29243909,
 ECK120000323	mutM	b3635	3810343	3811152	reverse	DNA-formamidopyrimidine glycosylase		1378443,
 ECK120000882	rpmG	b3636	3811250	3811417	reverse	50S ribosomal subunit protein L33		10445875,1089427,1092342,2211695,22821559,327280,3289545,3298242,3315664,340794,3886833,4616944,6209544,6349991,6361486,6386476,6450866,6450872,7035835,7047160,765132,791272,793594,8031879,
 ECK120000877	rpmB	b3637	3811438	3811674	reverse	50S ribosomal subunit protein L28		1092342,109811,1100375,2211695,3298242,332524,340794,387748,3886833,6338479,6361486,6386476,6450866,6450872,68433,7035835,7685806,781624,791272,
 ECK120001283	yicR	b3638	3811891	3812559	reverse	RadC-like JAB domain-containing protein YicR		10224240,11489855,16710451,17068078,1741263,3331954,3517933,6374741,
-ECK120000004	dfp	b3639	3812731	3813951	forward	fused 4'-phosphopantothenoylcysteine decarboxylase and phosphopantothenoylcysteine synthetase
-ECK120000245	dut	b3640	3813932	3814387	forward	deoxyuridine triphosphatase
+ECK120000004	dfp	    b3639	3812731	3813951	forward	fused 4'-phosphopantothenoylcysteine decarboxylase and phosphopantothenoylcysteine synthetase
+ECK120000245	dut	    b3640	3813932	3814387	forward	deoxyuridine triphosphatase
 ECK120001172	slmA	b3641	3814494	3815090	forward	nucleoid occlusion factor SlmA
 ECK120000799	pyrE	b3642	3815127	3815768	reverse	orotate phosphoribosyltransferase
-ECK120000854	rph	b3643	3815863	3816549	reverse	truncated RNase PH		28808133,
+ECK120000854	rph	    b3643	3815863	3816549	reverse	truncated RNase PH		28808133,
 ECK120001173	yicC	b3644	3816676	3817539	forward	UPF0701 family protein YicC
 ECK120001174	dinD	b3645	3817760	3818584	forward	DNA damage-inducible protein D	[IGI|W|Inferred from genetic interaction],[IMP|W|Inferred from mutant phenotype],[IEP|W|Inferred from expression pattern]	10398829,11443091,6771759,6818350,7029544,8002613,8682790,	Weak
 ECK120001626	yicG	b3646	3818874	3819491	forward	conserved inner membrane protein YicG
 ECK120001305	ligB	b3647	3819488	3821170	reverse	DNA ligase B		11812821,
-ECK120000954	gmk	b3648	3821428	3822051	forward	guanylate kinase
+ECK120000954	gmk	    b3648	3821428	3822051	forward	guanylate kinase
 ECK120000890	rpoZ	b3649	3822106	3822381	forward	RNA polymerase subunit &omega;	[IE|W|Inferred from experiment]	2646273,3549461,	Weak
 ECK120000955	spoT	b3650	3822400	3824508	forward	bifunctional (p)ppGpp synthase/hydrolase SpoT		374338,
 ECK120000956	trmH	b3651	3824515	3825204	forward	tRNA (Gm18) 2'--methyltransferase		12427942,8871555,
@@ -3944,7 +3944,7 @@ ECK120000495	ilvN	b3670	3850802	3851092	reverse	acetohydroxy acid synthase I sub
 ECK120000487	ilvB	b3671	3851096	3852784	reverse	acetohydroxy acid synthase I subunit IlvB
 ECK120001249	ivbL	b3672	3852890	3852988	reverse	 operon leader peptide	[IDA|S|Inferred from direct assay]	6292893,	Strong
 ECK120015142	istR	b4616	3853118	3853257	reverse	small regulatory RNA IstR-1	[IDA|S|Inferred from direct assay],[IE|W|Inferred from experiment],[IMP|W|Inferred from mutant phenotype]	11448770,15620655,17499044,	Strong
-ECK120015143	istR-1		3853118	3853192	reverse
+ECK120015143	istR-1		    3853118	3853192	reverse
 ECK120015142	istR	b4616	3853118	3853257	reverse	small RNA IstR-2	[IDA|S|Inferred from direct assay],[IE|W|Inferred from experiment],[IMP|W|Inferred from mutant phenotype]	11448770,15620655,17499044,	Weak
 ECK120002668	tisA	b4617	3853443	3853556	forward
 ECK120002669	tisB	b4618	3853553	3853642	forward	membrane-depolarizing toxin TisB	[IMP|W|Inferred from mutant phenotype]	15620655,20186264,27997707,	Weak
@@ -4024,7 +4024,7 @@ ECK120000089	asnC	b3743	3926545	3927003	reverse	DNA-binding transcriptional dual
 ECK120000087	asnA	b3744	3927155	3928147	forward	asparagine synthetase A		6117826,
 ECK120001669	viaA	b3745	3928152	3929603	reverse	protein ViaA	[APPH|S|Assay of protein purified  to homogeneity]	16301313,16855227,	Strong
 ECK120001670	ravA	b3746	3929597	3931093	reverse	regulatory ATPase RavA
-ECK120001495	kup	b3747	3931316	3933184	forward	K transporter Kup
+ECK120001495	kup	    b3747	3931316	3933184	forward	K transporter Kup
 ECK120000808	rbsD	b3748	3933351	3933770	forward	D-ribose pyranase		3011793,9770507,
 ECK120000805	rbsA	b3749	3933778	3935283	forward	ribose ABC transporter ATP binding subunit
 ECK120000807	rbsC	b3750	3935288	3936253	forward	ribose ABC transporter membrane subunit		9922273,
@@ -4055,13 +4055,13 @@ ECK120000488	ilvC	b3774	3957970	3959445	forward	ketol-acid reductoisomerase (NAD
 ECK120002222	ppiC	b3775	3959532	3959813	reverse	peptidyl-prolyl  isomerase C
 ECK120004309	yifO	b3776	3960012	3960287	reverse	conserved protein YifO
 ECK120004310	yifN	b3777	3960242	3960460	reverse	conserved protein YifN
-ECK120000828	rep	b3778	3960677	3962698	forward	ATP-dependent DNA helicase Rep
-ECK120000406	gpp	b3779	3962745	3964229	reverse	guanosine-5'-triphosphate,3'-diphosphate phosphatase		372753,
+ECK120000828	rep	    b3778	3960677	3962698	forward	ATP-dependent DNA helicase Rep
+ECK120000406	gpp	    b3779	3962745	3964229	reverse	guanosine-5'-triphosphate,3'-diphosphate phosphatase		372753,
 ECK120000835	rhlB	b3780	3964365	3965630	reverse	RhlB, ATP-dependent RNA helicase of the RNA degradosome
 ECK120001020	trxA	b3781	3965761	3966090	forward	thioredoxin 1	[APPHINH|S|Assay of protein purified to homogeneity from its native host]	2187529,3891733,	Strong
 ECK120002284	rhoL	b3782	3966231	3966332	forward	 operon leader peptide	[IMP|W|Inferred from mutant phenotype]	2423505,	Weak
-ECK120000836	rho	b3783	3966417	3967676	forward	transcription termination factor Rho
-ECK120000831	rfe	b3784	3967916	3969019	forward	UDP--acetylglucosaminephosphotransferase
+ECK120000836	rho	    b3783	3966417	3967676	forward	transcription termination factor Rho
+ECK120000831	rfe	    b3784	3967916	3969019	forward	UDP--acetylglucosaminephosphotransferase
 ECK120001268	wzzE	b3785	3969031	3970077	forward	enterobacterial common antigen polysaccharide co-polymerase	[IMP|W|Inferred from mutant phenotype]	10515954,	Weak
 ECK120001414	wecB	b3786	3970133	3971263	forward	UDP--acetylglucosamine 2-epimerase
 ECK120001415	wecC	b3787	3971260	3972522	forward	UDP--acetyl-D-mannosamine dehydrogenase
@@ -4094,7 +4094,7 @@ ECK120001181	yigA	b3810	3995583	3996290	forward	conserved protein YigA
 ECK120001058	xerC	b3811	3996287	3997183	forward	site-specific tyrosine recombinase	[IMP|W|Inferred from mutant phenotype]	1931824,	Weak
 ECK120001182	yigB	b3812	3997183	3997899	forward	5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase
 ECK120001053	uvrD	b3813	3997983	4000145	forward	ssDNA translocase and dsDNA helicase - DNA helicase II
-ECK125272710	yigE5'		3999214	3999357	forward	YigE5'
+ECK125272710	yigE5'	    	3999214	3999357	forward	YigE5'
 ECK120001424	yigE	b4482	4000292	4001056	reverse	DUF2233 domain-containing protein YigE
 ECK125135307			4001191	4001334	forward	small RNA
 ECK120001425	corA	b3816	4001426	4002376	forward	Ni transporter
@@ -4112,7 +4112,7 @@ ECK120001433	bioP	b3827	4011076	4011975	forward	biotin transporter		1091631,1730
 ECK120000584	metR	b3828	4011863	4012816	reverse	DNA-binding transcriptional dual regulator MetR		1379743,2205852,2643109,
 ECK120000577	metE	b3829	4013053	4015314	forward	cobalamin-independent homocysteine transmethylase
 ECK120004313	ysgA	b3830	4015354	4016169	reverse	putative dienelactone hydrolase
-ECK120001034	udp	b3831	4016431	4017192	forward	uridine phosphorylase		10424909,11443940,11812223,12997187,14499937,15027196,171553,1747419,18482579,186698,2172808,2205199,2411635,2449419,2515986,2668121,2674901,2954322,2985468,3100391,3122186,3128435,3294419,3318842,3535805,370101,3894163,3907995,4930081,6352408,6356978,6360949,6805517,7002724,7030867,7049834,7049835,7512551,769833,776741,7888995,7920254,8142484,8555362,8626289,8647421,8648611,8670308,8714134,9090462,9113736,9161714,9225258,9541810,9546202,9661793,
+ECK120001034	udp	    b3831	4016431	4017192	forward	uridine phosphorylase		10424909,11443940,11812223,12997187,14499937,15027196,171553,1747419,18482579,186698,2172808,2205199,2411635,2449419,2515986,2668121,2674901,2954322,2985468,3100391,3122186,3128435,3294419,3318842,3535805,370101,3894163,3907995,4930081,6352408,6356978,6360949,6805517,7002724,7030867,7049834,7049835,7512551,769833,776741,7888995,7920254,8142484,8555362,8626289,8647421,8648611,8670308,8714134,9090462,9113736,9161714,9225258,9541810,9546202,9661793,
 ECK120001434	rmuC	b3832	4017333	4018760	forward	putative recombination limiting protein RmuC	[IGI|W|Inferred from genetic interaction]	10886369,	Weak
 ECK120001435	ubiE	b3833	4018855	4019610	forward	bifunctional 2-octaprenyl-6-methoxy-1,4-benzoquinone methylase and S-adenosylmethionine:2-DMK methyltransferase
 ECK120001436	ubiJ	b3834	4019624	4020229	forward	ubiquinone biosynthesis accessory factor UbiJ	[IMP|W|Inferred from mutant phenotype]	22803341,24142253,	Weak
@@ -4124,7 +4124,7 @@ ECK120001438	tatC	b3839	4022736	4023512	forward	twin arginine protein translocat
 ECK120001439	tatD	b4483	4023554	4024336	forward	3' &rarr; 5' ssDNA/RNA  exonuclease TatD
 ECK120000830	rfaH	b3842	4024333	4024821	reverse	transcription antiterminator RfaH	[IDA|S|Inferred from direct assay]	12007406,21777806,2437101,6192244,8001774,8820641,	Strong
 ECK120001363	ubiD	b3843	4024988	4026481	forward	3-octaprenyl-4-hydroxybenzoate decarboxylase
-ECK120000328	fre	b3844	4026527	4027228	forward	flavin reductase		10742223,1601132,19139094,4154078,7042345,8132544,
+ECK120000328	fre	    b3844	4026527	4027228	forward	flavin reductase		10742223,1601132,19139094,4154078,7042345,8132544,
 ECK120000272	fadA	b3845	4027609	4028772	reverse	3-ketoacyl-CoA thiolase		236278,
 ECK120000273	fadB	b3846	4028782	4030971	reverse	dodecenoyl-CoA &delta;-isomerase, enoyl-CoA hydratase, 3-hydroxybutyryl-CoA epimerase, 3-hydroxyacyl-CoA dehydrogenase
 ECK120000690	pepQ	b3847	4031161	4032492	forward	Xaa-Pro dipeptidase
@@ -4144,18 +4144,18 @@ ECK120001270	dsbA	b3860	4043418	4044044	forward	protein disulfide oxidoreductase
 ECK120001764	yihF	b3861	4044199	4045629	forward	uncharacterized protein YihF
 ECK120001765	yihG	b3862	4045670	4046602	reverse	putative acyltransferase YihG
 ECK120000737	polA	b3863	4046966	4049752	forward	DNA polymerase I		15095980,
-ECK120002540	spf	b3864	4049899	4050007	forward	Spot42	[IMP|W|Inferred from mutant phenotype],[IPI|W|Inferred from physical interaction]	12069726,12101127,1715853,18388495,23980183,26045496,6183253,	Weak
+ECK120002540	spf	    b3864	4049899	4050007	forward	Spot42	[IMP|W|Inferred from mutant phenotype],[IPI|W|Inferred from physical interaction]	12069726,12101127,1715853,18388495,23980183,26045496,6183253,	Weak
 ECK120001183	yihA	b3865	4050133	4050765	reverse	GTP-binding protein YihA	[IMP|W|Inferred from mutant phenotype],[HIFS|W|Human inference of function from sequence]	10572302,12670677,	Weak
 ECK120002586	csrC	b4457	4051036	4051280	forward	CsrC	[IDA|S|Inferred from direct assay],[IMP|W|Inferred from mutant phenotype]	11448770,12694612,15916613,17064377,19619561,24708042,28732463,	Strong
 ECK120001766	yihI	b3866	4051347	4051856	forward	Der GTPase-activating protein YihI
 ECK120001767	hemN	b3867	4052045	4053418	forward	coproporphyrinogen III dehydrogenase
 ECK120048869	yshB	b4686	4053647	4053757	reverse	uncharacterized protein YshB
 ECK120000378	glnG	b3868	4053869	4055278	reverse	DNA-binding transcriptional dual regulator NtrC		10960104,41243,
-ECK125122003	glnA3'		4054007	4054201	reverse	GlnA3'	[IDA|S|Inferred from direct assay]	15718303,	Strong
+ECK125122003	glnA3'	    	4054007	4054201	reverse	GlnA3'	[IDA|S|Inferred from direct assay]	15718303,	Strong
 ECK120000380	glnL	b3869	4055290	4056339	reverse	sensory histidine kinase NtrB		10074086,9892680,
-ECK125272714	typA5'		4056194	4056265	forward	TypA5'
+ECK125272714	typA5'	    	4056194	4056265	forward	TypA5'
 ECK120000376	glnA	b3870	4056625	4058034	reverse	glutamine synthetase
-ECK125135309			4058171	4058242	forward	small RNA
+ECK125135309			        4058171	4058242	forward	small RNA
 ECK120001768	bipA	b3871	4058407	4060230	forward	ribosome-dependent GTPase, ribosome assembly factor	[IGI|W|Inferred from genetic interaction],[IMP|W|Inferred from mutant phenotype]	12654836,18820021,20477873,25777676,	Weak
 ECK120001769	yihL	b3872	4060447	4061157	forward	putative transcriptional regulator YihL	[HIFS|W|Human inference of function from sequence]	10734204,12582243,15556475,	Weak
 ECK120001770	yihM	b3873	4061165	4062145	forward	putative TIM barrel domain-containing protein YihM
@@ -4172,7 +4172,7 @@ ECK120001779	yihV	b3883	4073739	4074635	forward	6-deoxy-6-sulfofructose kinase
 ECK120001780	yihW	b3884	4074669	4075454	forward	putative DNA-binding transcriptional regulator YihW	[HIFS|W|Human inference of function from sequence]	10734204,15556475,	Weak
 ECK120001781	yihX	b3885	4075553	4076152	forward	&alpha;-D-glucose-1-phosphate phosphatase
 ECK120001782	yihY	b3886	4076146	4077018	forward	putative inner membrane protein
-ECK120001783	dtd	b3887	4077015	4077452	forward	D-aminoacyl-tRNA deacylase		15292242,4292198,
+ECK120001783	dtd	    b3887	4077015	4077452	forward	D-aminoacyl-tRNA deacylase		15292242,4292198,
 ECK120001784	yiiD	b3888	4077449	4078438	forward	putative acetyltransferase YiiD
 ECK120001785	yiiE	b3889	4079291	4079509	forward	putative DNA-binding transcriptional regulator YiiE
 ECK120001786	yiiF	b3890	4079751	4079969	forward	protein YiiF
@@ -4202,14 +4202,14 @@ ECK120004317	cpxP	b4484	4105820	4106320	forward	periplasmic protein CpxP		947303
 ECK125230238	cpxQ	b4716	4106330	4106387	forward	CpxQ	[IDA|S|Inferred from direct assay],[IGI|W|Inferred from genetic interaction],[IMP|W|Inferred from mutant phenotype]	27048800,	Strong
 ECK120001803	fieF	b3915	4106469	4107371	forward	Zn exporter		17885121,
 ECK120000691	pfkA	b3916	4107552	4108514	forward	6-phosphofructokinase I
-ECK120000918	sbp	b3917	4108834	4109823	forward	sulfate/thiosulfate ABC transporter periplasmic binding protein Sbp
-ECK120000134	cdh	b3918	4109930	4110685	forward	CDP-diacylglycerol diphosphatase
+ECK120000918	sbp	    b3917	4108834	4109823	forward	sulfate/thiosulfate ABC transporter periplasmic binding protein Sbp
+ECK120000134	cdh	    b3918	4109930	4110685	forward	CDP-diacylglycerol diphosphatase
 ECK120001004	tpiA	b3919	4110740	4111507	reverse	triose-phosphate isomerase
 ECK120001804	yiiQ	b3920	4111615	4112214	reverse	DUF1454 domain-containing protein YiiQ
 ECK120001805	yiiR	b3921	4112315	4112755	forward	DUF805 domain-containing protein YiiR
 ECK120001806	yiiS	b3922	4112967	4113266	forward	DUF406 domain-containing protein YiiS	[IHBCE|W|Inferred by a human based on computational evidence]	11574054,24391520,	Weak
 ECK120001807	uspD	b3923	4113293	4113721	forward	universal stress protein D	[IMP|W|Inferred from mutant phenotype]	11849540,16159758,	Weak
-ECK120000621	fpr	b3924	4113726	4114472	reverse	flavodoxin/ferredoxin-NADP reductase		11401718,11493691,11724537,15308657,16549675,17157494,17216460,24016774,24025246,26177696,7872787,7961651,8626315,9370367,9558349,9782486,
+ECK120000621	fpr	    b3924	4113726	4114472	reverse	flavodoxin/ferredoxin-NADP reductase		11401718,11493691,11724537,15308657,16549675,17157494,17216460,24016774,24025246,26177696,7872787,7961651,8626315,9370367,9558349,9782486,
 ECK120001472	glpX	b3925	4114569	4115579	reverse	fructose-1,6-bisphosphatase 2
 ECK120000391	glpK	b3926	4115714	4117222	reverse	glycerol kinase		11013401,11443083,11544231,11811537,12829458,1368620,14067091,14314355,15593263,16263707,16562137,19189409,19819219,19893610,2012608,2170343,226119,237175,2544860,26691989,2838275,2851011,325162,4563976,4934061,4941552,4945198,5321485,5327904,6243477,6319974,6368745,8170944,
 ECK120000389	glpF	b3927	4117245	4118090	reverse	glycerol facilitator		11015209,11320116,11445582,11743188,11927589,11997475,12080108,12206912,12824546,12829458,12829462,1400248,15048815,15451676,15601207,15850456,15859950,15951380,16084383,16399837,16581540,16851049,17056733,17713961,17828601,17921212,2170343,347028,3520231,4934061,7493926,8310182,
@@ -4240,7 +4240,7 @@ ECK120001839	pflC	b3952	4146258	4147136	forward	putative pyruvate formate lyase 
 ECK120001840	frwD	b3953	4147138	4147479	forward	putative PTS enzyme IIB component FrwD		18680461,27215198,
 ECK120001841	yijO	b3954	4147466	4148317	reverse	putative DNA-binding transcriptional regulator YijO	[HIFS|W|Human inference of function from sequence]	10734204,15556475,	Weak
 ECK120001842	eptC	b3955	4148532	4150265	reverse	phosphoethanolamine transferase EptC
-ECK120000747	ppc	b3956	4150447	4153098	reverse	phosphoenolpyruvate carboxylase		14285262,15954317,18391462,2016273,23747698,2677392,3519602,3902793,6373747,6396163,
+ECK120000747	ppc	    b3956	4150447	4153098	reverse	phosphoenolpyruvate carboxylase		14285262,15954317,18391462,2016273,23747698,2677392,3519602,3902793,6373747,6396163,
 ECK120001259	argE	b3957	4153696	4154847	reverse	acetylornithine deacetylase
 ECK120000061	argC	b3958	4155001	4156005	forward	N-acetylglutamylphosphate reductase
 ECK120000060	argB	b3959	4156013	4156789	forward	acetylglutamate kinase
@@ -4282,10 +4282,10 @@ ECK120002671	thiS	b4407	4192637	4192837	reverse	sulfur carrier protein ThiS
 ECK120001537	thiF	b3992	4192821	4193576	reverse	ThiS adenylyltransferase
 ECK120001536	thiE	b3993	4193569	4194204	reverse	thiamine phosphate synthase		20406421,
 ECK120001535	thiC	b3994	4194204	4196099	reverse	HMP-P synthase
-ECK120001677	rsd	b3995	4196332	4196808	reverse	regulator of sigma D	[APPH|S|Assay of protein purified  to homogeneity]	9560209,	Strong
+ECK120001677	rsd	    b3995	4196332	4196808	reverse	regulator of sigma D	[APPH|S|Assay of protein purified  to homogeneity]	9560209,	Strong
 ECK120001645	nudC	b3996	4196903	4197676	forward	NADH pyrophosphatase
 ECK120001497	hemE	b3997	4197716	4198780	forward	uroporphyrinogen decarboxylase
-ECK120001843	nfi	b3998	4198790	4199461	forward	endonuclease V	[IGI|W|Inferred from genetic interaction],[IMP|W|Inferred from mutant phenotype],[APPH|S|Assay of protein purified  to homogeneity],[APPP|W|Assay of partially-purified protein]	10606815,10793655,11104906,12791149,14159,6277916,7989304,8206931,8940043,9388217,9422591,	Strong
+ECK120001843	nfi	    b3998	4198790	4199461	forward	endonuclease V	[IGI|W|Inferred from genetic interaction],[IMP|W|Inferred from mutant phenotype],[APPH|S|Assay of protein purified  to homogeneity],[APPP|W|Assay of partially-purified protein]	10606815,10793655,11104906,12791149,14159,6277916,7989304,8206931,8940043,9388217,9422591,	Strong
 ECK120001844	yjaG	b3999	4199504	4200094	forward	conserved protein YjaG
 ECK120000459	hupA	b4000	4200281	4200553	forward	DNA-binding protein HU-&alpha;
 ECK120001845	yjaH	b4001	4200566	4201261	forward	DUF1481 domain-containing protein YjaH
@@ -4310,10 +4310,10 @@ ECK120000580	metH	b4019	4223828	4227511	forward	cobalamin-dependent methionine s
 ECK120001847	yjbB	b4020	4227731	4229362	forward	putative inorganic phosphate export protein
 ECK120001848	pepE	b4021	4229453	4230142	reverse	peptidase E
 ECK120001849	rluF	b4022	4230354	4231226	forward	23S rRNA pseudouridine synthase		27551044,8871555,
-ECK125121993	lysC5'		4230812	4231337	reverse	LysC5'	[IDA|S|Inferred from direct assay]	15718303,	Strong
+ECK125121993	lysC5'	    	4230812	4231337	reverse	LysC5'	[IDA|S|Inferred from direct assay]	15718303,	Strong
 ECK120001850	yjbD	b4023	4231359	4231631	reverse	conserved protein YjbD
 ECK120000543	lysC	b4024	4231884	4233233	reverse	aspartate kinase III
-ECK120000694	pgi	b4025	4233758	4235407	forward	glucose-6-phosphate isomerase
+ECK120000694	pgi	    b4025	4233758	4235407	forward	glucose-6-phosphate isomerase
 ECK120001851	yjbE	b4026	4235906	4236148	forward	uncharacterized protein YjbE	[IMP|W|Inferred from mutant phenotype],[IEP|W|Inferred from expression pattern]	16385049,17379715,24391520,	Weak
 ECK120001852	yjbF	b4027	4236262	4236900	forward	lipoprotein YjbF	[IMP|W|Inferred from mutant phenotype]	17379715,	Weak
 ECK120001853	yjbG	b4028	4236897	4237634	forward	capsule biosynthesis GfcC family protein YjbG	[IMP|W|Inferred from mutant phenotype]	17379715,	Weak
@@ -4335,22 +4335,22 @@ ECK120000218	dgkA	b4042	4256637	4257005	forward	diacylglycerol kinase
 ECK120000526	lexA	b4043	4257115	4257723	forward	DNA-binding transcriptional repressor LexA		2780544,6261224,6272195,7013987,7027255,7027256,8076591,8265357,
 ECK120001447	dinF	b4044	4257742	4259121	forward	DNA damage-inducible protein F
 ECK120001856	yjbJ	b4045	4259237	4259446	forward	putative stress response protein
-ECK120001857	zur	b4046	4259488	4260003	reverse	DNA-binding transcriptional repressor Zur		11523983,11831459,11931550,12904577,
+ECK120001857	zur	    b4046	4259488	4260003	reverse	DNA-binding transcriptional repressor Zur		11523983,11831459,11931550,12904577,
 ECK120001858	yjbL	b4047	4260321	4260575	forward	uncharacterized protein YjbL
 ECK120001859	yjbM	b4048	4260599	4261306	forward	uncharacterized protein YjbM
 ECK120001860	dusA	b4049	4261669	4262706	forward	tRNA-dihydrouridine synthase A
 ECK120001861	pspG	b4050	4262840	4263082	forward	phage shock protein G
-ECK125256957	pspH		4263139	4263250	forward	PspH	[IDA|S|Inferred from direct assay],[IMP|W|Inferred from mutant phenotype]	25266388,27588604,	Strong
+ECK125256957	pspH	    	4263139	4263250	forward	PspH	[IDA|S|Inferred from direct assay],[IMP|W|Inferred from mutant phenotype]	25266388,27588604,	Strong
 ECK120001448	qorA	b4051	4263248	4264231	reverse	putative quinone oxidoreductase 1		24482123,
 ECK120000230	dnaB	b4052	4264314	4265729	forward	replicative DNA helicase
-ECK120000001	alr	b4053	4265782	4266861	forward	alanine racemase 1
+ECK120000001	alr	    b4053	4265782	4266861	forward	alanine racemase 1
 ECK120001029	tyrB	b4054	4267114	4268307	forward	tyrosine aminotransferase		323238,3521591,3907634,
 ECK120030090	yjbS	b4621	4268809	4269012	reverse	uncharacterized protein YjbS
 ECK120001862	aphA	b4055	4269414	4270127	forward	acid phosphatase / phosphotransferase
 ECK120001863	yjbQ	b4056	4270238	4270654	forward	UPF0047 protein YjbQ
 ECK120001864	yjbR	b4057	4270658	4271014	forward	conserved protein YjbR
 ECK120001050	uvrA	b4058	4271049	4273871	reverse	excision nuclease subunit A
-ECK120000965	ssb	b4059	4274125	4274661	forward	ssDNA-binding protein
+ECK120000965	ssb	    b4059	4274125	4274661	forward	ssDNA-binding protein
 ECK120001865	yjcB	b4060	4274760	4275041	reverse	uncharacterized protein YjcB
 ECK120001866	pdeC	b4061	4275471	4277057	forward	putative c-di-GMP phosphodiesterase PdeC
 ECK120000947	soxS	b4062	4277060	4277383	reverse	DNA-binding transcriptional dual regulator SoxS	[IE|W|Inferred from experiment]	1653416,1708380,7891555,7896696,8034583,8226698,8265357,	Weak
@@ -4361,7 +4361,7 @@ ECK120001868	yjcE	b4065	4279980	4281629	forward	putative transporter YjcE
 ECK120001869	yjcF	b4066	4281783	4283075	reverse	pentapeptide repeat-containing protein YjcF
 ECK120001870	actP	b4067	4283253	4284902	reverse	acetate/glycolate:cation symporter		14563880,
 ECK120001871	yjcH	b4068	4284899	4285213	reverse	conserved inner membrane protein YjcH
-ECK120001411	acs	b4069	4285413	4287371	reverse	acetyl-CoA synthetase (AMP-forming)		14595781,16496143,17273855,18175070,19852855,19861135,19884769,20707605,20707865,22059728,22513097,24238347,24633370,24917678,25518064,25524697,27804304,
+ECK120001411	acs	    b4069	4285413	4287371	reverse	acetyl-CoA synthetase (AMP-forming)		14595781,16496143,17273855,18175070,19852855,19861135,19884769,20707605,20707865,22059728,22513097,24238347,24633370,24917678,25518064,25524697,27804304,
 ECK120001715	nrfA	b4070	4287764	4289200	forward	cytochrome  nitrite reductase		11004182,18245085,18311941,18433623,22092912,334173,378660,8057835,9325429,
 ECK120001872	nrfB	b4071	4289245	4289811	forward	periplasmic nitrite reductase penta-heme -type cytochrome
 ECK120001873	nrfC	b4072	4289808	4290479	forward	putative menaquinol-cytochrome  reductase 4Fe-4S subunit
@@ -4401,12 +4401,12 @@ ECK120001256	phnE_1	b4104	4322661	4323281	reverse	cryptic phosphonate ABC transp
 ECK120000706	phnD	b4105	4323336	4324352	reverse	cryptic phosphonate ABC transporter periplasmic binding protein		22019591,
 ECK120000705	phnC	b4106	4324377	4325165	reverse	cryptic phosphonate ABC transporter ATP binding subunit
 ECK120000704	yjdN	b4107	4325298	4325741	reverse	conserved protein YjdN
-ECK125256963	naRNA6		4325805	4325881	reverse	naRNA6		26307168,
-ECK125256972	naRNA5		4325905	4325981	reverse	naRNA5		26307168,
-ECK125256968	naRNA4		4326005	4326081	reverse	naRNA4	[IMP|W|Inferred from mutant phenotype]	26307168,	Weak
-ECK125256964	naRNA3		4326105	4326181	reverse	naRNA3		26307168,
-ECK125256959	naRNA2		4326205	4326281	reverse	naRNA2		26307168,
-ECK125256969	naRNA1		4326305	4326381	reverse	naRNA1		26307168,
+ECK125256963	naRNA6	    	4325805	4325881	reverse	naRNA6		26307168,
+ECK125256972	naRNA5	    	4325905	4325981	reverse	naRNA5		26307168,
+ECK125256968	naRNA4	    	4326005	4326081	reverse	naRNA4	[IMP|W|Inferred from mutant phenotype]	26307168,	Weak
+ECK125256964	naRNA3	    	4326105	4326181	reverse	naRNA3		26307168,
+ECK125256959	naRNA2	    	4326205	4326281	reverse	naRNA2		26307168,
+ECK125256969	naRNA1	    	4326305	4326381	reverse	naRNA1		26307168,
 ECK120000703	yjdM	b4108	4326399	4326734	reverse	conserved protein YjdM
 ECK120001190	crfC	b4109	4327135	4329363	forward	clamp-binding sister replication fork colocalization protein	[IMP|W|Inferred from mutant phenotype]	23994470,26895825,	Weak
 ECK120004321	yjcZ	b4110	4329360	4330238	forward	uncharacterized protein YjcZ
@@ -4449,11 +4449,11 @@ ECK120000592	groL	b4143	4371025	4372671	forward	GroEL chaperonin		10752609,15299
 ECK120004330	yjeI	b4144	4372809	4373162	forward	DUF4156 domain-containing lipoprotein YjeI
 ECK120004331	yjeJ	b4145	4373365	4374234	reverse	protein YjeJ
 ECK120004332	epmB	b4146	4374629	4375657	reverse	lysine 2,3-aminomutase
-ECK120002004	efp	b4147	4375699	4376265	forward	protein chain elongation factor EF-P	[APPH|S|Assay of protein purified  to homogeneity]	1956781,20823541,25364902,795670,	Strong
+ECK120002004	efp	    b4147	4375699	4376265	forward	protein chain elongation factor EF-P	[APPH|S|Assay of protein purified  to homogeneity]	1956781,20823541,25364902,795670,	Strong
 ECK120002571	ecnA	b4410	4376317	4376442	forward	entericidin A lipoprotein, antidote to entericidin B	[AUPEINH|W|Assay of unpurified protein expressed in its native host]	15174130,19210615,9677290,	Weak
 ECK120002651	ecnB	b4411	4376553	4376699	forward	bacteriolytic entericidin B lipoprotein	[AUPEINH|W|Assay of unpurified protein expressed in its native host]	15174130,19210615,9677290,9829938,	Weak
 ECK120001564	sugE	b4148	4376875	4377192	forward	quaternary ammonium compound efflux pump	[IMP|W|Inferred from mutant phenotype]	11948170,16055085,8096175,	Weak
-ECK120004333	blc	b4149	4377189	4377722	reverse	outer membrane lipoprotein Blc		11058749,12876315,15174130,
+ECK120004333	blc	    b4149	4377189	4377722	reverse	outer membrane lipoprotein Blc		11058749,12876315,15174130,
 ECK120000036	ampC	b4150	4377811	4378944	reverse	&beta;-lactamase	[IGI|W|Inferred from genetic interaction],[IMP|W|Inferred from mutant phenotype],[APPH|S|Assay of protein purified  to homogeneity],[IEP|W|Inferred from expression pattern]	12354237,16562043,334718,4983650,6251026,9324260,	Strong
 ECK120000327	frdD	b4151	4379007	4379366	reverse	fumarate reductase membrane protein FrdD		8419359,
 ECK120000326	frdC	b4152	4379377	4379772	reverse	fumarate reductase membrane protein FrdC		28621879,8419359,
@@ -4464,9 +4464,9 @@ ECK120002308	yjeM	b4156	4383839	4385341	forward	putative transporter YjeM
 ECK120004334	yjeN	b4157	4385393	4385707	forward	protein YjeN
 ECK120004335	yjeO	b4158	4385704	4386018	forward	conserved inner membrane protein YjeO
 ECK120004336	mscM	b4159	4386047	4389370	reverse	miniconductance mechanosensitive channel MscM
-ECK120000766	psd	b4160	4389392	4390360	reverse	phosphatidylserine decarboxylase proenzyme	[IE|W|Inferred from experiment]		Weak
+ECK120000766	psd	    b4160	4389392	4390360	reverse	phosphatidylserine decarboxylase proenzyme	[IE|W|Inferred from experiment]		Weak
 ECK120004337	rsgA	b4161	4390457	4391509	reverse	ribosome small subunit-dependent GTPase A		19749383,24671761,
-ECK120004338	orn	b4162	4391604	4392149	forward	oligoribonuclease
+ECK120004338	orn	    b4162	4391604	4392149	forward	oligoribonuclease
 ECK120002480	glyV	b4163	4392360	4392435	forward	tRNA-Gly(GCC)
 ECK120002482	glyX	b4164	4392472	4392547	forward	tRNA-Gly(GCC)
 ECK120002483	glyY	b4165	4392583	4392658	forward	tRNA-Gly(GCC)
@@ -4477,14 +4477,14 @@ ECK120001693	tsaE	b4168	4395585	4396046	forward	N-L-threonylcarbamoyladenine syn
 ECK120001332	amiB	b4169	4396065	4397402	forward	-acetylmuramoyl-L-alanine amidase B		1102308,12399477,6133749,7511774,
 ECK120001254	mutL	b4170	4397412	4399259	forward	DNA mismatch repair protein MutL		25701376,
 ECK120000588	miaA	b4171	4399252	4400202	forward	tRNA dimethylallyltransferase
-ECK120000431	hfq	b4172	4400288	4400596	forward	RNA-binding protein Hfq		14526009,28334975,
+ECK120000431	hfq	    b4172	4400288	4400596	forward	RNA-binding protein Hfq		14526009,28334975,
 ECK120000430	hflX	b4173	4400672	4401952	forward	ribosome rescue factor HflX	[IDA|S|Inferred from direct assay]	22750478,26458047,2824788,7984093,	Strong
 ECK120000429	hflK	b4174	4402038	4403297	forward	regulator of FtsH protease	[IGI|W|Inferred from genetic interaction],[APPHINH|S|Assay of protein purified to homogeneity from its native host]	8947034,9159109,	Strong
 ECK120000428	hflC	b4175	4403300	4404304	forward	regulator of FtsH protease	[IGI|W|Inferred from genetic interaction],[APPHINH|S|Assay of protein purified to homogeneity from its native host]	8947034,9159109,	Strong
 ECK120004340	yjeT	b4176	4404386	4404583	forward	DUF2065 domain-containing protein YjeT
 ECK120000781	purA	b4177	4404687	4405985	forward	adenylosuccinate synthetase
 ECK120001192	nsrR	b4178	4406190	4406615	forward	DNA-binding transcriptional repressor NsrR
-ECK120001234	rnr	b4179	4406654	4409095	forward	RNase R		11248028,14527658,18337246,19161851,21445001,22328678,22609921,22957931,779788,
+ECK120001234	rnr	    b4179	4406654	4409095	forward	RNase R		11248028,14527658,18337246,19161851,21445001,22328678,22609921,22957931,779788,
 ECK120004341	rlmB	b4180	4409275	4410006	forward	23S rRNA 2'--ribose G2251 methyltransferase
 ECK120004342	yjfI	b4181	4410133	4410534	forward	conserved protein YjfI
 ECK120004343	yjfJ	b4182	4410553	4411251	forward	putative transcriptional regulator effector protein
@@ -4522,10 +4522,10 @@ ECK120000156	cpdB	b4213	4434622	4436565	reverse	2'3' cyclic nucleotide phosphodi
 ECK120000039	cysQ	b4214	4436755	4437495	forward	3'(2'),5'-bisphosphate nucleotidase
 ECK120004365	ytfI	b4215	4437707	4438645	forward	protein YtfI
 ECK120004366	ytfJ	b4216	4438708	4439262	reverse	protein YtfJ		24891291,
-ECK125272712	ytfL5'		4439248	4439353	reverse	YtfL5'
+ECK125272712	ytfL5'	    	4439248	4439353	reverse	YtfL5'
 ECK120004367	ytfK	b4217	4439587	4439793	forward	DUF1107 domain-containing protein YtfK
 ECK120004368	ytfL	b4218	4439872	4441215	reverse	putative inner membrane protein
-ECK125135311			4441225	4441330	reverse	small RNA
+ECK125135311		        	4441225	4441330	reverse	small RNA
 ECK120001397	msrA	b4219	4441538	4442176	reverse	methionine sulfoxide reductase A		10360685,10569933,11116194,11860363,1468111,15756465,16505957,7017726,
 ECK120004369	tamA	b4220	4442382	4444115	forward	translocation and assembly module subunit TamA	[IMP|W|Inferred from mutant phenotype],[IFC|S|Inferred by functional complementation]	22466966,26427691,	Strong
 ECK120004370	tamB	b4221	4444112	4447891	forward	translocation and assembly module subunit TamB	[IMP|W|Inferred from mutant phenotype],[IFC|S|Inferred by functional complementation]	22125496,22466966,25195908,	Strong
@@ -4533,13 +4533,13 @@ ECK120004371	ytfP	b4222	4447894	4448235	forward	&gamma;-glutamylamine cyclotrans
 ECK120001193	yzfA	b4223	4447976	4448245	reverse	putative YjfA
 ECK120001225	chpS	b4224	4448447	4448698	forward	ChpS antitoxin of the ChpB-ChpS toxin-antitoxin system
 ECK120002001	chpB	b4225	4448692	4449042	forward	endoribonuclease toxin ChpB
-ECK120000746	ppa	b4226	4449122	4449652	reverse	inorganic pyrophosphatase		2160278,2848015,
+ECK120000746	ppa	    b4226	4449122	4449652	reverse	inorganic pyrophosphatase		2160278,2848015,
 ECK120002312	ytfQ	b4227	4449962	4450918	forward	galactofuranose ABC transporter periplasmic binding protein
 ECK120002313	ytfR	b4485	4451058	4452560	forward	galactofuranose ABC transporter putative ATP binding subunit
 ECK120002314	ytfT	b4230	4452571	4453596	forward	galactofuranose ABC transporter putative membrane subunit YtfT
 ECK120002293	yjfF	b4231	4453583	4454578	forward	galactofuranose ABC transporter putative membrane subunit YjtF
-ECK120000277	fbp	b4232	4454611	4455609	reverse	fructose-1,6-bisphosphatase 1
-ECK120002294	mpl	b4233	4455785	4457158	forward	UDP--2,6-diaminoheptanedioate ligase
+ECK120000277	fbp	    b4232	4454611	4455609	reverse	fructose-1,6-bisphosphatase 1
+ECK120002294	mpl	    b4233	4455785	4457158	forward	UDP--2,6-diaminoheptanedioate ligase
 ECK120001376	yjgA	b4234	4457314	4457865	reverse	DUF615 domain-containing protein YjgA
 ECK120000732	pmbA	b4235	4457959	4459311	forward	metalloprotease PmbA	[IE|W|Inferred from experiment]		Weak
 ECK120002567	cybC	b4236	4459553	4459855	forward
@@ -4547,7 +4547,7 @@ ECK120004452	nrdG	b4237	4459900	4460364	reverse	anaerobic ribonucleoside-triphos
 ECK120001382	nrdD	b4238	4460522	4462660	reverse	anaerobic ribonucleoside-triphosphate reductase		10531327,1460049,1460050,1953774,24827372,8621608,9305874,
 ECK120001368	treC	b4239	4463054	4464709	reverse	trehalose-6-phosphate hydrolase
 ECK120002029	treB	b4240	4464759	4466180	reverse	trehalose-specific PTS enzyme IIBC component
-ECK125121995	mgtA5'		4464820	4465199	forward	MgtA5'	[IDA|S|Inferred from direct assay]	15718303,	Strong
+ECK125121995	mgtA5'	    	4464820	4465199	forward	MgtA5'	[IDA|S|Inferred from direct assay]	15718303,	Strong
 ECK120002090	treR	b4241	4466299	4467246	reverse	DNA-binding transcriptional repressor TreR
 ECK125122027	mgtL	b4702	4467431	4467484	forward	leader peptide MgtL	[IDA|S|Inferred from direct assay]	29100053,	Strong
 ECK120002316	mgtA	b4242	4467625	4470321	forward	Mg importing P-type ATPase
@@ -4577,11 +4577,11 @@ ECK120002317	idnT	b4265	4491206	4492525	reverse	L-idonate/5-ketogluconate/glucon
 ECK120004387	idnO	b4266	4492587	4493351	reverse	5-keto-D-gluconate 5-reductase
 ECK120004388	idnD	b4267	4493375	4494406	reverse	L-idonate 5-dehydrogenase
 ECK120002051	idnK	b4268	4494623	4495186	forward	D-gluconate kinase, thermosensitive		11430650,22688914,9151423,
-ECK120001400	ahr	b4269	4495190	4496209	reverse	aldehyde reductase, NADPH-dependent
+ECK120001400	ahr	    b4269	4495190	4496209	reverse	aldehyde reductase, NADPH-dependent
 ECK120002495	leuX	b4270	4496405	4496489	forward	tRNA-Leu(CAA)	[TAS|W|Traceable author statement]	7033244,	Weak
 ECK120002232	intB	b4271	4496750	4497940	forward	KpLE2 phage-like element; putative integrase
 ECK120004389	insC-6	b4272	4498272	4498637	forward	KpLE2 phage-like element; IS2 insertion element repressor InsA
-ECK120023922	insCD-6		4498272	4499500	forward	IS2 element transposase InsAB'		9302014,
+ECK120023922	insCD-6	    	4498272	4499500	forward	IS2 element transposase InsAB'		9302014,
 ECK120004390	insD-6	b4273	4498595	4499500	forward
 ECK120004391	yjgW	b4274	4499599	4499934	forward
 ECK120026456	yjgX_3	b4560	4499677	4499919	reverse
@@ -4633,7 +4633,7 @@ ECK120004414	nanS	b4309	4536614	4537594	reverse	putative 9--acetylneuraminate es
 ECK120004415	nanM	b4310	4537659	4538765	reverse	-acetylneuraminate mutarotase
 ECK120004416	nanC	b4311	4538785	4539501	reverse	-acetylneuraminic acid outer membrane channel		12890032,
 ECK120000303	fimB	b4312	4540957	4541559	forward	regulator for fimA	[AUP|W|Assay of unpurified protein]	10648536,10781567,11881836,16988236,8878036,9108285,	Weak
-ECK125121997	fimA3'		4541230	4541277	forward	FimA3'	[IDA|S|Inferred from direct assay]	15718303,	Strong
+ECK125121997	fimA3'		    4541230	4541277	forward	FimA3'	[IDA|S|Inferred from direct assay]	15718303,	Strong
 ECK120000306	fimE	b4313	4542037	4542633	forward	regulator for fimA	[AUP|W|Assay of unpurified protein]	10648536,11881836,16988236,7814281,8878036,	Weak
 ECK120000302	fimA	b4314	4543115	4543663	forward	type 1 fimbriae major subunit
 ECK120001899	fimI	b4315	4543728	4544267	forward	putative fimbrial protein FimI
@@ -4676,11 +4676,11 @@ ECK120030093	symR	b4625	4579835	4579911	forward	SymR	[IE|W|Inferred from experim
 ECK120000453	hsdS	b4348	4580068	4581462	reverse	type I restriction enzyme EcoKI specificity protein
 ECK120000451	hsdM	b4349	4581459	4583048	reverse	type I restriction enzyme EcoKI methyltransferase component
 ECK120000452	hsdR	b4350	4583249	4586761	reverse	type I restriction enzyme EcoKI endonuclease component
-ECK120000605	mrr	b4351	4586949	4587863	forward	methylated adenine and cytosine restriction protein	[IGI|W|Inferred from genetic interaction],[IMP|W|Inferred from mutant phenotype]	11313145,16313623,1649819,1650347,1830580,1851562,2013582,21504983,24002639,3036779,7607496,7928948,	Weak
+ECK120000605	mrr	    b4351	4586949	4587863	forward	methylated adenine and cytosine restriction protein	[IGI|W|Inferred from genetic interaction],[IMP|W|Inferred from mutant phenotype]	11313145,16313623,1649819,1650347,1830580,1851562,2013582,21504983,24002639,3036779,7607496,7928948,	Weak
 ECK120000018	yjiA	b4352	4587909	4588865	reverse	P-loop guanosine triphosphatase		19822009,
 ECK120004435	yjiX	b4353	4588876	4589079	reverse	conserved protein YjiX
 ECK120004436	btsT	b4354	4589129	4591279	reverse	pyruvate:H symporter		23818977,29358499,3025181,4349657,4864638,
-ECK120001023	tsr	b4355	4591657	4593312	forward	methyl-accepting chemotaxis protein Tsr		6402709,
+ECK120001023	tsr	    b4355	4591657	4593312	forward	methyl-accepting chemotaxis protein Tsr		6402709,
 ECK120002325	lgoT	b4356	4593361	4594722	reverse	galactonate:H+ symporter
 ECK120004437	lgoR	b4357	4594937	4595851	reverse	putative DNA-binding transcriptional regulator LgoR	[IMP|W|Inferred from mutant phenotype],[AIFS|W|Automated inference of function from sequence]	15556475,17088549,	Weak
 ECK120004438	lgoD	b4358	4595990	4597012	forward	L-galactonate oxidoreductase	[IMP|W|Inferred from mutant phenotype],[HIFS|W|Human inference of function from sequence],[IEP|W|Inferred from expression pattern]	17088549,24861318,	Weak
@@ -4719,11 +4719,11 @@ ECK120000934	serB	b4388	4624895	4625863	forward	phosphoserine phosphatase
 ECK120001269	radA	b4389	4625912	4627294	forward	DNA recombination protein	[IGI|W|Inferred from genetic interaction],[IMP|W|Inferred from mutant phenotype],[APPH|S|Assay of protein purified  to homogeneity]	12446634,26845522,28581365,3526390,6754650,9141693,	Strong
 ECK120001306	nadR	b4390	4627315	4628547	forward	DNA-binding transcriptional repressor/NMN adenylyltransferase NadR
 ECK120002218	ettA	b4391	4628855	4630522	reverse	energy-dependent translational throttle protein EttA	[IDA|S|Inferred from direct assay],[IMP|W|Inferred from mutant phenotype]	24389465,24389466,24391520,28911185,9593292,	Strong
-ECK120000939	slt	b4392	4630733	4632670	forward	soluble lytic murein transglycosylase		10572120,11139297,12399477,2695826,3888619,6988211,6998964,7018908,
+ECK120000939	slt	    b4392	4630733	4632670	forward	soluble lytic murein transglycosylase		10572120,11139297,12399477,2695826,3888619,6988211,6998964,7018908,
 ECK120001018	trpR	b4393	4632760	4633086	forward	DNA-binding transcriptional repressor TrpR		1740124,1935980,2182120,2207078,3290685,3600756,7001368,7012834,8176748,
 ECK120002327	yjjX	b4394	4633233	4633745	reverse	ITPase/XTPase
 ECK120002060	ytjC	b4395	4633797	4634444	forward	putative phosphatase		21332126,
-ECK120001334	rob	b4396	4634441	4635310	reverse	DNA-binding transcriptional dual regulator Rob	[IE|W|Inferred from experiment]	7896685,8449900,	Weak
+ECK120001334	rob	    b4396	4634441	4635310	reverse	DNA-binding transcriptional dual regulator Rob	[IE|W|Inferred from experiment]	7896685,8449900,	Weak
 ECK120001196	creA	b4397	4635521	4635994	forward	PF05981 family protein CreA		18375564,
 ECK120001197	creB	b4398	4636007	4636696	forward	DNA-binding transcriptional regulator CreB		1482126,2157156,7699720,7855419,8098993,
 ECK120000721	creC	b4399	4636696	4638120	forward	sensory histidine kinase CreC		3531171,
@@ -4732,5 +4732,5 @@ ECK120000057	arcA	b4401	4639590	4640306	reverse	DNA-binding transcriptional dual
 ECK120004447	yjjY	b4402	4640402	4640542	forward	protein YjjY
 ECK120002186	yjtD	b4403	4640942	4641628	forward	putative rRNA methyltransferase
 ECK120002672	ackB
-ECK120002630	alaB				glutamate&mdash;pyruvate aminotransferase AlaB		396446,4146872,
-ECK120002677	dgd					D-galactose 1-dehydrogenase		181526,
+ECK120002630	alaB				                    glutamate&mdash;pyruvate aminotransferase AlaB		396446,4146872,
+ECK120002677	dgd					                    D-galactose 1-dehydrogenase		181526,

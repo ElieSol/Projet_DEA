@@ -1,0 +1,1677 @@
+Locus,GeneID,Product
+ECK120000131,carB,"carbamoyl phosphate synthetase subunit &beta;
+"
+ECK120002708,caiF,DNA-binding transcriptional activator CaiF
+ECK120002330,caiE,"putative transferase CaiE
+"
+ECK120001510,caiD,"crotonobetainyl-CoA hydratase
+"
+ECK120001511,caiC,"carnitine-CoA ligase
+"
+ECK120001512,caiB,"&gamma;-butyrobetainyl-CoA:carnitine CoA thrLtransferase
+"
+ECK120001513,caiA,crotonobetainyl-CoA reductase
+ECK120001514,caiT,"L-carnitine:&gamma;-butyrobetaine antiporter
+"
+ECK120001515,fixA,putative electron transfer flavoprotein FixA
+ECK120001516,fixB,putative electron transfer flavoprotein FixB
+ECK120001517,fixC,"putative oxidoreductase FixC
+"
+ECK120001518,fixX,"putative ferredoxin FixX
+"
+ECK120000044,apaH,diadenosine tetraphosphatase
+ECK120000043,apaG,"DUF525 domain-containing protein ApaG
+"
+ECK120000516,rsmA,"16S rRNA mA1519 dimethyltransferase
+"
+ECK120000684,pdxA,"4-hydroxythreonine-4-phosphate dehydrogenase
+"
+ECK120000738,polB,DNA polymerase II
+ECK120000051,araD,"L-ribulose-5-phosphate 4-epimerase AraD
+"
+ECK120000048,araA,"L-arabinose isomerase
+"
+ECK120000049,araB,"ribulokinase
+"
+ECK120000050,araC,DNA-binding transcriptional dual regulator AraC
+ECK120001527,leuD,"3-isopropylmalate dehydratase subunit LeuD
+"
+ECK120001528,leuC,3-isopropylmalate dehydratase subunit LeuC
+ECK120001529,leuB,"3-isopropylmalate dehydrogenase
+"
+ECK120001204,leuA,"2-isopropylmalate synthase
+"
+ECK120001253,leuL, operon leader peptide
+ECK120000524,leuO,DNA-binding transcriptional dual regulator LeuO
+ECK120000493,ilvI,"acetolactate synthase / acetohydroxybutanoate synthase, catalytic subunit"
+ECK120000492,ilvH,"acetolactate synthase / acetohydroxybutanoate synthase, regulatory subunit
+"
+ECK120000332,cra,DNA-binding transcriptional dual regulator Cra
+ECK120000336,ftsQ,cell division protein FtsQ
+ECK120000333,ftsA,cell division protein FtsA
+ECK120000341,ftsZ,cell division protein FtsZ
+ECK120000080,aroP,"aromatic amino acid:H symporter AroP
+"
+ECK120001076,pdhR,DNA-binding transcriptional dual regulator PdhR
+ECK120000021,aceE,pyruvate dehydrogenase E1 component
+ECK120000022,aceF,"pyruvate dehydrogenase, E2 subunit"
+ECK120000536,lpd,"lipoamide dehydrogenase
+"
+ECK120002193,acnB,bifunctional aconitate hydratase B and 2-methylisocitrate dehydratase
+ECK120002194,cueO,cuprous oxidase / multicopper oxidase with role in copper homeostasis
+ECK120000362,gcd,quinoprotein glucose dehydrogenase
+ECK120002443,hpt,"hypoxanthine phosphoribosyltransferase
+"
+ECK120001897,htrE,putative fimbrial usher protein HtrE
+ECK120001898,yadV,putative fimbrial chaperone YadV
+ECK120000296,fhuA,ferrichrome outer membrane transporter/phage receptor
+ECK120000298,fhuC,"iron(III) hydroxamate ABC transporter ATP binding subunit
+"
+ECK120000299,fhuD,iron(III) hydroxamate ABC transporter periplasmic binding protein
+ECK120000297,fhuB,iron(III) hydroxamate ABC transporter membrane subunit
+ECK120000425,hemL,"glutamate-1-semialdehyde aminotransferase
+"
+ECK120002207,erpA,"iron-sulfur cluster insertion protein ErpA
+"
+ECK120000456,degP,"periplasmic serine endoprotease DegP
+"
+ECK120002210,cdaR,DNA-binding transcriptional activator CdaR
+ECK120000448,skp,periplasmic chaperone Skp
+ECK120000310,lpxD,"UDP-3--acyltransferase
+"
+ECK120001257,fabZ,"3-hydroxy-acyl-[acyl-carrier-protein] dehydratase
+"
+ECK120000538,lpxA,"UDP-N-acetylglucosamine acyltransferase
+"
+ECK120001460,metQ,L-methionine/D-methionine ABC transporter membrane anchored binding protein
+ECK120001676,metI,L-methionine/D-methionine ABC transporter membrane subunit
+ECK120001569,metN,L-methionine/D-methionine ABC transporter ATP binding subunit
+ECK120000687,pepD,peptidase D
+ECK120000720,phoE,"outer membrane porin PhoE
+"
+ECK120000105,betA,"choline dehydrogenase
+"
+ECK120000106,betB,betaine aldehyde dehydrogenase
+ECK120000107,betI,DNA-binding transcriptional repressor BetI
+ECK120000108,betT,"choline:H symporter
+"
+ECK120002813,prpR,DNA-binding transcriptional dual regulator PrpR
+ECK120002814,prpB,"2-methylisocitrate lyase
+"
+ECK120002815,prpC,"2-methylcitrate synthase
+"
+ECK120002816,prpD,"2-methylcitrate dehydratase
+"
+ECK120002817,prpE,propionyl-CoA synthetase
+ECK120001298,codB,"cytosine transporter
+"
+ECK120001297,codA,cytosine/isoguanine deaminase
+ECK120001385,cynR,DNA-binding transcriptional dual regulator CynR
+ECK120000171,cynT,"carbonic anhydrase 1
+"
+ECK120000170,cynS,"cyanase
+"
+ECK120000172,cynX,cyanate transporter
+ECK120000517,lacA,galactoside -acetyltransferase
+ECK120000519,lacY,lactose permease
+ECK120000520,lacZ,"&beta;-galactosidase
+"
+ECK120000518,lacI,DNA-binding transcriptional repressor LacI
+ECK120002818,mhpR,DNA-binding transcriptional activator MhpR
+ECK120004469,mhpA,"putative 3-(3-hydroxyphenyl)propanoate/3-hydroxycinnamate hydroxylase
+"
+ECK120004470,mhpB,"3-carboxyethylcatechol 2,3-dioxygenase
+"
+ECK120004471,mhpC,"2-hydroxy-6-ketonona-2,4-dienedioate hydrolase
+"
+ECK120004472,mhpD,"2-hydroxypentadienoate hydratase
+"
+ECK120004473,mhpF,acetaldehyde dehydrogenase (acylating)
+ECK120002819,mhpE,"4-hydroxy-2-oxovalerate aldolase
+"
+ECK120002831,tauA,taurine ABC transporter periplasmic binding protein
+ECK120002832,tauB,"taurine ABC transporter ATP binding subunit
+"
+ECK120002833,tauC,"taurine ABC transporter membrane subunit
+"
+ECK120002281,tauD,"taurine dioxygenase
+"
+ECK120000718,phoA,alkaline phosphatase
+ECK120001367,psiF,PsiF family protein
+ECK120001232,dgcC,diguanylate cyclase DgcC
+ECK120000078,aroL,shikimate kinase 2
+ECK120001081,yaiA,"protein YaiA
+"
+ECK120000079,aroM,"protein AroM
+"
+ECK120000056,araJ,"putative major facilitator superfamily transport protein AraJ
+"
+ECK120000719,phoB,DNA-binding transcriptional dual regulator PhoB
+ECK120000724,phoR,"sensory histidine kinase PhoR
+"
+ECK120000558,malZ,"maltodextrin glucosidase
+"
+ECK120000803,queA,"tRNA preQ-adenosylmethionine ribosyltransferase-isomerase
+"
+ECK120001024,tsx,"nucleoside-specific channel-forming protein Tsx
+"
+ECK120000177,cyoE,heme O synthase
+ECK120000176,cyoD,"cytochrome  ubiquinol oxidase subunit 4
+"
+ECK120000175,cyoC,"cytochrome  ubiquinol oxidase subunit 3
+"
+ECK120000174,cyoB,cytochrome  ubiquinol oxidase subunit 1
+ECK120000173,cyoA,cytochrome  ubiquinol oxidase subunit 2
+ECK120000121,bolA,DNA-binding transcriptional dual regulator BolA
+ECK120000535,lon,Lon protease
+ECK120000460,hupB,"DNA-binding protein HU-&beta;
+"
+ECK120002853,ppiD,periplasmic folding chaperone
+ECK120002080,glnK,nitrogen regulator GlnK
+ECK120001753,amtB,ammonia/ammonium transporter
+ECK120001647,acrB,multidrug efflux pump RND permease AcrB
+ECK120001646,acrA,multidrug efflux pump membrane fusion protein AcrA
+ECK120002868,copA,soluble Cu chaperone
+ECK120002868,copA,Cu exporting P-type ATPase
+ECK120002869,glsA,glutaminase 1
+ECK120002870,ybaT,putative transporter YbaT
+ECK120002871,cueR,DNA-binding transcriptional dual regulator CueR
+ECK120002882,allS,"DNA-binding transcriptional activator AllS
+"
+ECK120002883,allA,"ureidoglycolate lyase
+"
+ECK120002884,allR,DNA-binding transcriptional repressor AllR
+ECK120001534,gcl,"glyoxylate carboligase
+"
+ECK120002885,hyi,"hydroxypyruvate isomerase
+"
+ECK120002886,glxR,"tartronate semialdehyde reductase 2
+"
+ECK120002888,ybbW,putative allantoin transporter
+ECK120002889,allB,"allantoinase
+"
+ECK120002890,ybbY,putative purine transporter
+ECK120002891,glxK,"glycerate 2-kinase 2
+"
+ECK120002892,allE,(S)-ureidoglycine aminohydrolase
+ECK120002893,allC,"allantoate amidohydrolase
+"
+ECK120002894,allD,"ureidoglycolate dehydrogenase
+"
+ECK120000787,purK,"5-(carboxyamino)imidazole ribonucleotide synthase
+"
+ECK120000784,purE,"-carboxyaminoimidazole ribonucleotide mutase
+"
+ECK120000652,nmpC,DLP12 prophage; outer membrane porin NmpC (pseudogene)
+ECK120002920,borD,DLP12 prophage; prophage lipoprotein BorD
+ECK120000046,appY,DNA-binding transcriptional activator AppY
+ECK120000262,envY,DNA-binding transcriptional activator EnvY
+ECK120002926,cusS,sensory histidine kinase CusS
+ECK120002927,cusR,DNA-binding transcriptional activator CusR
+ECK120002928,cusC,"copper/silver export system outer membrane channel
+"
+ECK120002929,cusF,copper/silver export system periplasmic binding protein
+ECK120002930,cusB,copper/silver export system membrane fusion protein
+ECK120002235,cusA,copper/silver export system RND permease
+ECK120002564,nfsB,NAD(P)H nitroreductase NfsB
+ECK120002954,dcuC,anaerobic C4-dicarboxylate transporter DcuC
+ECK120002073,pagP,"Lipid IV palmitoyltransferase
+"
+ECK120002351,gltL,"glutamate/aspartate ABC transporter ATP binding subunit
+"
+ECK120002350,gltK,"glutamate/aspartate ABC transporter membrane subunit GltK
+"
+ECK120002349,gltJ,"glutamate/aspartate ABC transporter membrane subunit GltJ
+"
+ECK120002966,gltI,"glutamate/aspartate ABC transporter periplasmic binding protein
+"
+ECK120002501,metU,tRNA-Met(CAU)
+ECK120002472,glnW,tRNA-Gln(UUG)
+ECK120002470,glnU,tRNA-Gln(UUG)
+ECK120000088,asnB,asparagine synthetase B
+ECK120000627,umpH,"UMP phosphatase
+"
+ECK120000629,nagC,DNA-binding transcriptional dual regulator NagC
+ECK120000625,nagA,"-acetylglucosamine-6-phosphate deacetylase
+"
+ECK120000626,nagB,glucosamine-6-phosphate deaminase
+ECK120000628,nagE,"N-acetylglucosamine specific PTS enzyme IIABC component
+"
+ECK120000352,fur,DNA-binding transcriptional dual regulator Fur
+ECK120000312,fldA,flavodoxin 1
+ECK120002086,seqA,"SeqA, negative modulator of initiation of replication"
+ECK120002045,pgm,"phosphoglucomutase
+"
+ECK120000510,kdpE,DNA-binding transcriptional activator KdpE
+ECK120000508,kdpC,K transporting P-type ATPase subunit KdpC
+ECK120000507,kdpB,K transporting P-type ATPase subunit KdpB
+ECK120000506,kdpA,K transporting P-type ATPase subunit KdpA
+ECK120000395,gltA,"citrate synthase
+"
+ECK120000922,sdhC,"succinate:quinone oxidoreductase, membrane protein SdhC
+"
+ECK120000923,sdhD,"succinate:quinone oxidoreductase, membrane protein SdhD
+"
+ECK120000920,sdhA,"succinate:quinone oxidoreductase, FAD binding protein"
+ECK120000921,sdhB,"succinate:quinone oxidoreductase, iron-sulfur cluster binding protein"
+ECK120000968,sucA,"subunit of E1(0) component of 2-oxoglutarate dehydrogenase
+"
+ECK120000969,sucB,dihydrolipoyltranssuccinylase
+ECK120000970,sucC,succinyl-CoA synthetase subunit &beta;
+ECK120000971,sucD,succinyl-CoA synthetase subunit &alpha;
+ECK120001095,mngR,DNA-binding transcriptional repressor MngR
+ECK120002432,mngA,"2--&alpha;-mannosyl-D-glycerate specific PTS enzyme II
+"
+ECK120002433,mngB,"&alpha;-mannosidase
+"
+ECK120000168,cydA,cytochrome -I ubiquinol oxidase subunit I
+ECK120000169,cydB,cytochrome -I ubiquinol oxidase subunit II
+ECK120000075,aroG,"3-deoxy-7-phosphoheptulonate synthase, Phe-sensitive"
+ECK120001642,gpmA,"2,3-bisphosphoglycerate-dependent phosphoglycerate mutase
+"
+ECK120001641,galM,"galactose-1-epimerase
+"
+ECK120000356,galK,galactokinase
+ECK120000359,galT,"galactose-1-phosphate uridylyltransferase
+"
+ECK120000355,galE,UDP-glucose 4-epimerase
+ECK120002995,modE,"DNA-binding transcriptional dual regulator ModE
+"
+ECK120002283,modA,molybdate ABC transporter periplasmic binding protein
+ECK120000002,modB,"molybdate ABC transporter membrane subunit
+"
+ECK120000148,modC,"molybdate ABC transporter ATP binding subunit
+"
+ECK120000113,bioA,"adenosylmethionine-8-amino-7-oxononanoate aminotransferase
+"
+ECK120000114,bioB,"biotin synthase
+"
+ECK120000117,bioF,"8-amino-7-oxononanoate synthase
+"
+ECK120000115,bioC,"malonyl-acyl carrier protein methyltransferase
+"
+ECK120000116,bioD,"dethiobiotin synthetase
+"
+ECK120001051,uvrB,"excision nuclease subunit B
+"
+ECK120001543,moaA,"GTP 3',8'-cyclase"
+ECK120001544,moaB,"MoaB protein
+"
+ECK120001609,moaC,"cyclic pyranopterin monophosphate synthase
+"
+ECK120001545,moaD,molybdopterin synthase sulfur carrier subunit
+ECK120001546,moaE,"molybdopterin synthase catalytic subunit
+"
+ECK120001326,dinG,ATP-dependent helicase
+ECK120003014,fiu,putative iron siderophore outer membrane transporter
+ECK120000382,glnQ,"L-glutamine ABC transporter ATP binding subunit
+"
+ECK120000381,glnP,"L-glutamine ABC transporter membrane subunit
+"
+ECK120000379,glnH,L-glutamine ABC transporter periplasmic binding protein
+ECK120001381,dps,stationary phase nucleoid protein that sequesters iron and protects DNA from damage
+ECK120002021,ompX,"outer membrane protein X
+"
+ECK120003020,mntR,"DNA-binding transcriptional dual regulator MntR
+"
+ECK120003022,ldtB,"L,D-transpeptidase YbiS
+"
+ECK120000150,moeB,"molybdopterin-synthase adenylyltransferase
+"
+ECK120000149,moeA,"molybdopterin molybdotransferase
+"
+ECK120000197,dacC,"D-alanyl-D-alanine carboxypeptidase DacC
+"
+ECK120000217,deoR,DNA-binding transcriptional repressor DeoR
+ECK120003039,ybjG,undecaprenyl pyrophosphate phosphatase
+ECK120000410,grxA,reduced glutaredoxin 1
+ECK120002395,ybjC,"DUF1418 domain-containing protein YbjC
+"
+ECK120001236,nfsA,NADPH-dependent nitroreductase NfsA
+ECK120000843,rimK,"ribosomal protein S6 modification protein
+"
+ECK120003047,ybjN,"protein YbjN
+"
+ECK120001577,potF,"putrescine ABC transporter periplasmic binding protein
+"
+ECK120001578,potG,"putrescine ABC transporter ATP binding subunit
+"
+ECK120001579,potH,"putrescine ABC transporter membrane subunit PotH
+"
+ECK120001580,potI,"putrescine ABC transporter membrane subunit PotI
+"
+ECK120000745,poxB,pyruvate oxidase
+ECK120003056,hcr,"NADH oxidoreductase
+"
+ECK120003057,hcp,protein -nitrosylase
+ECK120001097,cspD,DNA replication inhibitor
+ECK120000010,cydC,glutathione/L-cysteine ABC exporter subunit CydC
+ECK120001371,cydD,"glutathione/L-cysteine ABC exporter subunit CydD
+"
+ECK120000540,lrp,DNA-binding transcriptional dual regulator Lrp
+ECK120003064,ftsK,cell division DNA translocase FtsK
+ECK120000226,dmsA,dimethyl sulfoxide reductase subunit A
+ECK120000227,dmsB,"dimethyl sulfoxide reductase subunit B
+"
+ECK120000228,dmsC,"dimethyl sulfoxide reductase subunit C
+"
+ECK120001218,ycaC,putative hydrolase
+ECK120000693,pflB,pyruvate formate-lyase
+ECK120001233,focA,formate channel FocA
+ECK120000935,serC,phosphoserine/phosphohydroxythreonine aminotransferase
+ECK120000069,aroA,"3-phosphoshikimate 1-carboxyvinyltransferase
+"
+ECK120000434,ihfB,integration host factor subunit &beta;
+ECK120002063,cmoM,"tRNA U34 methyltransferase
+"
+ECK120002061,mukF,"chromosome partitioning protein MukF
+"
+ECK120001227,mukE,chromosome partitioning protein MukE
+ECK120000611,mukB,chromosome partitioning protein MukB
+ECK120000664,ompF,outer membrane porin F
+ECK120000733,pncB,nicotinate phosphoribosyltransferase
+ECK120002226,ssuB,"aliphatic sulfonate ABC transporter ATP binding subunit
+"
+ECK120003076,ssuC,"aliphatic sulfonate ABC transporter membrane subunit
+"
+ECK120003077,ssuD,"FMNH-dependent alkanesulfonate monooxygenase
+"
+ECK120003078,ssuA,"aliphatic sulfonate ABC transporter periplasmic binding protein
+"
+ECK120003079,ssuE,"NADPH-dependent FMN reductase
+"
+ECK120000798,pyrD,"dihydroorotate dehydrogenase, type 2"
+ECK120003090,pqiA,intermembrane transport protein PqiA
+ECK120003091,pqiB,"intermembrane transport protein PqiB
+"
+ECK120000267,fabA,&beta;-hydroxyacyl-acyl carrier protein dehydratase/isomerase
+ECK120000662,ompA,outer membrane porin A
+ECK120000973,sulA,cell division inhibitor SulA
+ECK120000461,hyaA,"hydrogenase 1 small subunit
+"
+ECK120000462,hyaB,hydrogenase 1 large subunit
+ECK120000463,hyaC,"hydrogenase 1 cytochrome  subunit
+"
+ECK120000464,hyaD,putative hydrogenase 1 maturation protease HyaD
+ECK120000465,hyaE,putative HyaA chaperone
+ECK120000466,hyaF,"protein HyaF
+"
+ECK120001348,appC,"cytochrome -II ubiquinol oxidase subunit I
+"
+ECK120001347,appB,cytochrome -II ubiquinol oxidase subunit II
+ECK120000045,appA,periplasmic phosphoanhydride phosphatase/multiple inositol-polyphosphate phosphatase
+ECK120002334,torR,"DNA-binding transcriptional dual regulator TorR
+"
+ECK120001748,torC,"cytochrome  menaquinol dehydrogenase TorC
+"
+ECK120001747,torA,trimethylamine -oxide reductase 1
+ECK120002084,torD,trimethylamine-N-oxide reductase-specific chaperone
+ECK120000030,agp,glucose-1-phosphatase
+ECK120003117,rutG,"putative pyrimidine:cation symporter
+"
+ECK120003118,rutF,flavin reductase
+ECK120003119,rutE,putative malonic semialdehyde reductase
+ECK120003120,rutD,putative aminoacrylate hydrolase
+ECK120003121,rutC,putative aminoacrylate peracid reductase
+ECK120003122,rutB,"peroxyureidoacrylate/ureidoacrylate amidohydrolase
+"
+ECK120003123,rutA,"pyrimidine oxygenase
+"
+ECK120000792,putA,fused DNA-binding transcriptional repressor / proline dehydrogenase / 1-pyrroline-5-carboxylate dehydrogenase PutA
+ECK120000793,putP,proline:Na symporter
+ECK120001673,phoH,"ATP-binding protein PhoH
+"
+ECK120003139,csgG,curli secretion channel
+ECK120003140,csgF,"curli assembly component
+"
+ECK120003141,csgE,curli transport specificity factor
+ECK120003142,csgD,DNA-binding transcriptional dual regulator CsgD
+ECK120003143,csgB,"curlin, minor subunit"
+ECK120001445,csgA,"curlin, major subunit"
+ECK120003144,csgC,inhibitor of CsgA amyloid formation
+ECK120000797,pyrC,"dihydroorotase
+"
+ECK120003158,flgN,"flagellar biosynthesis protein FlgN
+"
+ECK120002689,flgM,anti-sigma factor for FliA (&sigma;)
+ECK120002678,flgA,flagellar basal body P-ring formation protein FlgA
+ECK120002679,flgB,"flagellar basal-body rod protein FlgB
+"
+ECK120002680,flgC,"flagellar basal-body rod protein FlgC
+"
+ECK120002682,flgD,"flagellar biosynthesis, initiation of hook assembly
+"
+ECK120002683,flgE,"flagellar hook protein FlgE
+"
+ECK120002684,flgF,flagellar basal-body rod protein FlgF
+ECK120002685,flgG,flagellar basal-body rod protein FlgG
+ECK120002686,flgH,"flagellar L-ring protein
+"
+ECK120002687,flgI,flagellar P-ring protein
+ECK120002688,flgJ,putative peptidoglycan hydrolase FlgJ
+ECK120000778,ptsG,YnfM3'
+ECK120000300,fhuE,"ferric coprogen/ferric rhodotorulic acid outer membrane transporter
+"
+ECK120000642,ndh,NADH:quinone oxidoreductase II
+ECK120001503,pepT,"peptidase T
+"
+ECK120000723,phoQ,"sensory histidine kinase PhoQ
+"
+ECK120000722,phoP,DNA-binding transcriptional dual regulator PhoP
+ECK120001285,purB,adenylosuccinate lyase
+ECK120001316,hflD,lysogenization regulator
+ECK120000482,icd,isocitrate dehydrogenase
+ECK120003214,hlyE,hemolysin E
+ECK120001046,umuD,DNA polymerase V protein UmuD
+ECK120001045,umuC,DNA polymerase V catalytic protein
+ECK120000275,fadR,DNA-binding transcriptional dual regulator FadR
+ECK120001373,dadA,D-amino acid dehydrogenase
+ECK120001374,dadX,"alanine racemase 2
+"
+ECK120003218,ycgR,flagellar brake protein YcgR
+ECK120002261,dhaM,dihydroxyacetone kinase subunit M/protein-lysine deacetylase
+ECK120003221,dhaL,dihydroxyacetone kinase subunit L
+ECK120003222,dhaK,dihydroxyacetone kinase subunit K
+ECK120003223,dhaR,DNA-binding transcriptional dual regulator DhaR
+ECK120000765,prs,ribose-phosphate diphosphokinase
+ECK120000420,hemA,glutamyl-tRNA reductase
+ECK120002267,ychO,"putative invasin YchO
+"
+ECK120000636,narL,DNA-binding transcriptional dual regulator NarL
+ECK120000639,narX,"sensory histidine kinase NarX
+"
+ECK120000635,narK,nitrate:nitrite antiporter NarK
+ECK120000631,narG,nitrate reductase A subunit &alpha;
+ECK120000632,narH,nitrate reductase A subunit &beta;
+ECK120000634,narJ,nitrate reductase 1 molybdenum cofactor assembly chaperone
+ECK120000633,narI,nitrate reductase A subunit &gamma;
+ECK120000450,hns,DNA-binding transcriptional dual regulator H-NS
+ECK120000028,adhE,aldehyde-alcohol dehydrogenase
+ECK120000667,oppA,oligopeptide ABC transporter periplasmic binding protein
+ECK120000668,oppB,"murein tripeptide ABC transporter / oligopeptide ABC transporter inner membrane subunit OppB
+"
+ECK120000669,oppC,"murein tripeptide ABC transporter / oligopeptide ABC transporter inner membrane subunit OppC
+"
+ECK120000670,oppD,"murein tripeptide ABC transporter / oligopeptide ABC transporter ATP binding subunit OppD
+"
+ECK120000671,oppF,"murein tripeptide ABC transporter / oligopeptide ABC transporter ATP binding subunit OppF
+"
+ECK120001001,tonB,Ton complex subunit TonB
+ECK120001108,ompW,outer membrane protein W
+ECK120001109,yciE,"DUF892 domain-containing protein YciE
+"
+ECK120001110,yciF,DUF892 domain-containing protein YciF
+ECK120001111,yciG,"protein YciG
+"
+ECK120001013,trpA,"tryptophan synthase subunit &alpha;
+"
+ECK120001014,trpB,"tryptophan synthase subunit &beta;
+"
+ECK120001015,trpC,"fused indole-3-glycerol phosphate synthase/phosphoribosylanthranilate isomerase
+"
+ECK120001016,trpD,"anthranilate synthase subunit TrpD
+"
+ECK120001017,trpE,"anthranilate synthase subunit TrpE
+"
+ECK120001248,trpL, operon leader peptide
+ECK120000945,sohB,S49 peptidase family protein
+ECK120001002,topA,"DNA topoisomerase 1
+"
+ECK120000179,cysB,DNA-binding transcriptional dual regulator CysB
+ECK120001296,acnA,aconitate hydratase 1
+ECK120001302,ribA,"GTP cyclohydrolase 2
+"
+ECK120000672,osmB,"osmotically-inducible lipoprotein OsmB
+"
+ECK120002219,pspF,"DNA-binding transcriptional dual regulator PspF
+"
+ECK120000767,pspA,phage shock protein A
+ECK120000768,pspB,phage shock protein B
+ECK120000769,pspC,phage shock protein C
+ECK120000770,pspD,phage shock protein D
+ECK120000771,pspE,"thiosulfate sulfurtransferase PspE
+"
+ECK120001031,tyrR,DNA-binding transcriptional dual regulator TyrR
+ECK120003255,tpx,"lipid hydroperoxide peroxidase
+"
+ECK120000319,fnr,DNA-binding transcriptional dual regulator FNR
+ECK120003301,feaR,DNA-binding transcriptional activator FeaR
+ECK120004448,feaB,"phenylacetaldehyde dehydrogenase
+"
+ECK120003302,paaZ,"oxepin-CoA hydrolase/3-oxo-5,6-dehydrosuberyl-CoA semialdehyde dehydrogenase
+"
+ECK120003303,paaA,"phenylacetyl-CoA 1,2-epoxidase, monooxygenase subunit
+"
+ECK120003304,paaB,"phenylacetyl-CoA 1,2-epoxidase subunit B
+"
+ECK120003305,paaC,"phenylacetyl-CoA 1,2-epoxidase, structural subunit
+"
+ECK120003306,paaD,"phenylacetate degradation protein
+"
+ECK120003307,paaE,"phenylacetyl-CoA 1,2-epoxidase, reductase subunit
+"
+ECK120003308,paaF,"putative 2,3-dehydroadipyl-CoA hydratase"
+ECK120003309,paaG,"putative ring 1,2-epoxyphenylacetyl-CoA isomerase (oxepin-CoA forming)"
+ECK120003310,paaH,3-hydroxyadipyl-CoA dehydrogenase
+ECK120003311,paaI,"phenylacetyl-CoA thioesterase
+"
+ECK120003312,paaJ,"&beta;-ketoadipyl-CoA thiolase
+"
+ECK120003313,paaK,phenylacetate-CoA ligase
+ECK120003314,paaX,DNA-binding transcriptional repressor PaaX
+ECK120000032,aldA,aldehyde dehydrogenase A
+ECK120001813,tehA,"tellurite resistance protein
+"
+ECK120001814,tehB,"tellurite methyltransferase
+"
+ECK120001205,fdnG,"formate dehydrogenase N subunit &alpha;
+"
+ECK120001206,fdnH,formate dehydrogenase N subunit &beta;
+ECK120001207,fdnI,"formate dehydrogenase N subunit &gamma;
+"
+ECK120001464,sra,"30S ribosomal subunit protein S22
+"
+ECK120003365,bdm,biofilm-dependent modulation protein
+ECK120000673,osmC,"osmotically inducible peroxiredoxin
+"
+ECK120003366,ddpF,"putative D,D-dipeptide ABC transporter ATP-binding subunit DdpF
+"
+ECK120003367,ddpD,"putative D,D-dipeptide ABC transporter ATP-binding subunit DdpD
+"
+ECK120003368,ddpC,"putative D,D-dipeptide ABC transporter membrane subunit DdpC
+"
+ECK120003369,ddpB,"putative D,D-dipeptide ABC transporter membrane subunit DdpB
+"
+ECK120003370,ddpA,"putative D,D-dipeptide ABC transporter periplasmic binding protein"
+ECK120003371,ddpX,"D-alanyl-D-alanine dipeptidase
+"
+ECK120003375,gadC,L-glutamate:4-aminobutyrate antiporter
+ECK120001446,gadB,glutamate decarboxylase B
+ECK120003378,ydeO,DNA-binding transcriptional dual regulator YdeO
+ECK120000436,hipA,serine/threonine kinase HipA
+ECK120000435,hipB,antitoxin/DNA-binding transcriptional repressor HipB
+ECK120003389,lsrA,Autoinducer-2 ABC transporter ATP binding subunit
+ECK120003390,lsrC,Autoinducer-2 ABC transporter membrane subunit LsrC
+ECK120003391,lsrD,Autoinducer-2 ABC transporter membrane subunit LsrD
+ECK120003392,lsrB,"Autoinducer-2 ABC transporter periplasmic binding protein
+"
+ECK120003393,lsrF,"3-hydroxy-2,4-pentadione 5-phosphate thiolase"
+ECK120003394,lsrG,"(4)-4-hydroxy-5-phosphonooxypentane-2,3-dione isomerase"
+ECK120001054,uxaB,tagaturonate reductase
+ECK120001583,ydeA,L-arabinose exporter
+ECK120001399,marR,DNA-binding transcriptional repressor MarR
+ECK120001398,marA,DNA-binding transcriptional dual regulator MarA
+ECK120001547,marB,"multiple antibiotic resistance protein
+"
+ECK120001581,nohA,"Qin prophage; putative packaging protein
+"
+ECK120000220,dicA,DNA-binding transcriptional dual regulator DicA
+ECK120000221,dicB,Qin prophage; cell division inhibition protein DicB
+ECK120001276,ydfD,Qin prophage; lysis protein
+ECK120001277,ydfE,"Qin prophage; protein YdfE
+"
+ECK120003425,insD-7,"Qin prophage; putative transposase
+"
+ECK120003426,intQ,"Qin prophage; putative defective integrase
+"
+ECK120003434,ynfE,putative selenate reductase YnfE
+ECK120003435,ynfF,"putative selenate reductase YnfF
+"
+ECK120003436,ynfG,"putative oxidoreductase YnfG
+"
+ECK120003437,ynfH,putative menaquinol dehydrogenase
+ECK120003438,dmsD,redox enzyme maturation protein DmsD
+ECK120003441,mlc,DNA-binding transcriptional repressor Mlc
+ECK120003444,asr,acid shock protein
+ECK120003453,rstA,"DNA-binding transcriptional regulator RstA
+"
+ECK120001211,rstB,sensory histidine kinase RstB
+ECK120000351,fumC,fumarase C
+ECK120000349,fumA,fumarase A
+ECK120003455,uidC,"outer membrane porin family protein
+"
+ECK120001601,uidB,"glucuronide:H symporter
+"
+ECK120001044,uidA,&beta;-glucuronidase
+ECK120003456,uidR,DNA-binding transcriptional repressor UidR
+ECK120000550,malI,DNA-binding transcriptional repressor MalI
+ECK120000556,malX,PTS enzyme IIBC component MalX
+ECK120000557,malY,"negative regulator of MalT activity/cystathionine &beta;-lyase
+"
+ECK120000655,nth,endonuclease III
+ECK120003466,dtpA,dipeptide/tripeptide:H symporter DtpA
+ECK120003470,slyB,outer membrane lipoprotein SlyB
+ECK120003471,slyA,DNA-binding transcriptional dual regulator SlyA
+ECK120000943,sodB,superoxide dismutase (Fe)
+ECK120000791,purR,DNA-binding transcriptional repressor PurR
+ECK120000795,pykF,"pyruvate kinase I
+"
+ECK120003494,sufE,sulfur acceptor for SufS cysteine desulfurase
+ECK120003495,sufS,L-cysteine desulfurase
+ECK120003496,sufD,"Fe-S cluster scaffold complex subunit SufD
+"
+ECK120003497,sufC,Fe-S cluster scaffold complex subunit SufC
+ECK120003498,sufB,"Fe-S cluster scaffold complex subunit SufB
+"
+ECK120001346,sufA,"iron-sulfur cluster insertion protein SufA
+"
+ECK120000750,ppsA,"phosphoenolpyruvate synthetase
+"
+ECK120000076,aroH,"3-deoxy-7-phosphoheptulonate synthase, Trp-sensitive"
+ECK120003512,ydiU,"UPF0061 family protein YdiU
+"
+ECK120000433,ihfA,integration host factor subunit &alpha;
+ECK120001246,pheM, operon leader peptide
+ECK120000872,rplT,50S ribosomal subunit protein L20
+ECK120003521,ydjM,putative inner membrane protein regulated by LexA
+ECK120002087,chbG,"chitin disaccharide deacetylase
+"
+ECK120000140,chbF,monoacetylchitobiose-6-phosphate hydrolase
+ECK120000139,chbR,DNA-binding transcriptional dual regulator ChbR
+ECK120000138,chbA,"-diacetylchitobiose-specific PTS enzyme IIA component
+"
+ECK120000137,chbC,"-diacetylchitobiose-specific PTS enzyme IIC component
+"
+ECK120000136,chbB,"-diacetylchitobiose-specific PTS enzyme IIB component
+"
+ECK120000040,osmE,"osmotically-inducible lipoprotein OsmE
+"
+ECK120003527,spy,"ATP-independent periplasmic chaperone
+"
+ECK120003528,astE,"succinylglutamate desuccinylase
+"
+ECK120003529,astB,"-succinylarginine dihydrolase
+"
+ECK120003530,astD,"aldehyde dehydrogenase
+"
+ECK120003531,astA,"arginine -succinyltransferase
+"
+ECK120003532,astC,"succinylornithine transaminase
+"
+ECK120000365,gdhA,"glutamate dehydrogenase
+"
+ECK120000360,gapA,glyceraldehyde-3-phosphate dehydrogenase A
+ECK120003556,yeaG,protein kinase YeaG
+ECK120003557,yeaH,DUF444 domain-containing protein YeaH
+ECK120001484,fadD,fatty acyl-CoA synthetase
+ECK120000919,sdaA,"L-serine deaminase I
+"
+ECK120000560,manX,"mannose-specific PTS enzyme IIAB component
+"
+ECK120000561,manY,mannose-specific PTS enzyme IIC component
+ECK120000562,manZ,"mannose-specific PTS enzyme IID component
+"
+ECK120003589,mgrB,PhoQ kinase inhibitor
+ECK120000250,eda,KHG/KDPG aldolase
+ECK120000251,edd,phosphogluconate dehydratase
+ECK120001199,zwf,NADP-dependent glucose-6-phosphate dehydrogenase
+ECK120003604,znuA,"Zn ABC transporter periplasmic binding protein
+"
+ECK120003605,znuC,"Zn ABC transporter ATP binding subunit
+"
+ECK120002236,znuB,"Zn ABC transporter membrane subunit
+"
+ECK120004476,ruvB,"Holliday junction branch migration complex subunit RuvB
+"
+ECK120004475,ruvA,"Holliday junction branch migration complex subunit RuvA
+"
+ECK120003614,flhE,flagellar protein
+ECK120002690,flhA,"flagellar biosynthesis protein FlhA
+"
+ECK120003615,flhB,"flagellar biosynthesis protein FlhB
+"
+ECK120000147,cheZ,chemotaxis protein CheZ
+ECK120000146,cheY,chemotaxis protein CheY
+ECK120000143,cheB,chemotaxis response regulator protein-glutamate methylesterase
+ECK120000144,cheR,"chemotaxis protein methyltransferase
+"
+ECK120000976,tap,"methyl-accepting chemotaxis protein Tap
+"
+ECK120000977,tar,"methyl-accepting chemotaxis protein Tar
+"
+ECK120000145,cheW,chemotaxis protein CheW
+ECK120000142,cheA,chemotaxis protein CheA(S)
+ECK120000142,cheA,chemotaxis protein CheA
+ECK120000595,motB,"motility protein B
+"
+ECK120000594,motA,"motility protein A
+"
+ECK120000313,flhC,DNA-binding transcriptional dual regulator FlhC
+ECK120000314,flhD,DNA-binding transcriptional dual regulator FlhD
+ECK120000054,araG,"arabinose ABC transporter ATP binding subunit
+"
+ECK120000053,araF,arabinose ABC transporter periplasmic binding protein
+ECK120003621,yecR,lipoprotein YecR
+ECK120001030,tyrP,"tyrosine:H symporter
+"
+ECK120001052,uvrC,"excision nuclease subunit C
+"
+ECK120001124,uvrY,DNA-binding transcriptional activator UvrY
+ECK120000924,sdiA,DNA-binding transcriptional dual regulator SdiA
+ECK120003625,tcyJ,cystine/cysteine ABC transporter periplasmic binding protein
+ECK120001325,fliZ,DNA-binding transcriptional regulator FliZ
+ECK120001324,fliA,"RNA polymerase, sigma 28 (sigma F) factor
+"
+ECK120000315,fliC,"flagellar filament structural protein
+"
+ECK120000832,fliD,flagellar filament capping protein
+ECK120001355,fliS,flagellar biosynthesis protein FliS
+ECK120001356,fliT,flagellar biosynthesis protein FliT
+ECK120001317,fliE,"flagellar basal-body protein FliE
+"
+ECK120001318,fliF,"flagellar basal-body MS-ring and collar protein
+"
+ECK120001598,fliG,flagellar motor switch protein FliG
+ECK120001599,fliH,"flagellar biosynthesis protein FliH
+"
+ECK120002692,fliI,"flagellum-specific ATP synthase FliI
+"
+ECK120002693,fliJ,"flagellar biosynthesis protein FliJ
+"
+ECK120002694,fliK,flagellar hook-length control protein
+ECK120000316,fliL,flagellar protein FliL
+ECK120000317,fliM,"flagellar motor switch protein FliM
+"
+ECK120000318,fliN,"flagellar motor switch protein FliN
+"
+ECK120001202,fliO,"flagellar biosynthesis protein FliO
+"
+ECK120001900,fliP,"flagellar biosynthesis protein FliP
+"
+ECK120001901,fliQ,"flagellar biosynthesis protein FliQ
+"
+ECK120001902,fliR,"flagellar biosynthesis protein FliR
+"
+ECK120000811,rcsA,DNA-binding transcriptional activator RcsA
+ECK120003647,zinT,cadmium-induced cadmium binding protein
+ECK120003657,cbl,DNA-binding transcriptional activator Cbl
+ECK120003658,nac,DNA-binding transcriptional dual regulator Nac
+ECK120000404,gnd,"6-phosphogluconate dehydrogenase, decarboxylating"
+ECK120003689,wcaB,putative colanic acid biosynthesis acyl transferase
+ECK120003690,wcaA,putative colanic acid biosynthesis glycosyl transferase
+ECK120003691,wzc,"protein-tyrosine kinase Wzc
+"
+ECK120003692,wzb,protein-tyrosine phosphatase
+ECK120003693,wza,outer membrane polysaccharide export protein Wza
+ECK120001200,alkA,DNA-3-methyladenine glycosylase 2
+ECK120003699,mdtA,"multidrug efflux pump membrane fusion protein MdtA
+"
+ECK120003700,mdtB,"multidrug efflux pump RND permease subunit MdtB
+"
+ECK120003701,mdtC,"multidrug efflux pump RND permease subunit MdtC
+"
+ECK120002037,mdtD,putative multidrug efflux pump MdtD
+ECK120001565,baeS,sensory histidine kinase BaeS
+ECK120001566,baeR,DNA-binding transcriptional activator BaeR
+ECK120002277,gatD,"galactitol-1-phosphate 5-dehydrogenase
+"
+ECK120002276,gatC,"galactitol-specific PTS enzyme IIC component
+"
+ECK120002275,gatB,"galactitol-specific PTS enzyme IIB component
+"
+ECK120002274,gatA,"galactitol-specific PTS enzyme IIA component
+"
+ECK120003711,gatZ,"tagatose-1,6-bisphosphate aldolase 2 subunit GatZ
+"
+ECK120002278,gatY,"tagatose-1,6-bisphosphate aldolase 2 subunit GatY"
+ECK120000133,cdd,cytidine/deoxycytidine deaminase
+ECK120000587,mglC,"D-galactose/methyl-galactoside ABC transporter membrane subunit
+"
+ECK120000585,mglA,"D-galactose/methyl-galactoside ABC transporter ATP binding subunit
+"
+ECK120000586,mglB,D-galactose/methyl-galactoside ABC transporter periplasmic binding protein
+ECK120000358,galS,DNA-binding transcriptional dual regulator GalS
+ECK120000151,cirA,ferric dihyroxybenzoylserine outer membrane transporter
+ECK120000644,nfo,"endonuclease IV
+"
+ECK120001948,yeiL,putative DNA-binding transcriptional regulator YeiL
+ECK120000330,fruA,"fructose-specific PTS multiphosphoryl transfer protein FruA
+"
+ECK120000331,fruK,"1-phosphofructokinase
+"
+ECK120004449,fruB,fructose-specific PTS multiphosphoryl transfer protein FruB
+ECK120001481,narP,DNA-binding transcriptional dual regulator NarP
+ECK120001965,ccmH,"holocytochrome  synthetase - thiol:disulfide oxidoreductase CcmH
+"
+ECK120001966,ccmG,"holocytochrome  synthetase - thiol:disulfide oxidoreductase CcmG
+"
+ECK120001967,ccmF,"holocytochrome  synthetase membrane subunit CcmF
+"
+ECK120001968,ccmE,periplasmic heme chaperone
+ECK120002065,ccmD,"heme trafficking system membrane protein CcmD
+"
+ECK120001969,ccmC,"heme trafficking system membrane protein CcmC
+"
+ECK120001970,ccmB,"heme trafficking system membrane protein CcmB
+"
+ECK120001971,ccmA,heme trafficking system ATP-binding protein
+ECK120001972,napC,"periplasmic nitrate reductase cytochrome c protein
+"
+ECK120001973,napB,"periplasmic nitrate reductase cytochrome c protein
+"
+ECK120001974,napH,"ferredoxin-type protein NapH
+"
+ECK120001975,napG,"ferredoxin-type protein NapG
+"
+ECK120001976,napA,"periplasmic nitrate reductase subunit NapA
+"
+ECK120002044,napD,NapA signal peptide-binding chaperone NapD
+ECK120001977,napF,ferredoxin-type protein
+ECK120000034,alkB,DNA oxidative demethylase
+ECK120000026,ada,DNA-binding transcriptional dual regulator / DNA repair protein Ada
+ECK120000663,ompC,outer membrane porin C
+ECK120001611,atoC,DNA-binding transcriptional activator/ornithine decarboxylase inhibitor AtoC
+ECK120001612,atoD,"acetyl-CoA:acetoacetyl-CoA transferase subunit &alpha;
+"
+ECK120001613,atoA,"acetyl-CoA:acetoacetyl-CoA transferase subunit &beta;
+"
+ECK120001614,atoE,"short chain fatty acid transporter
+"
+ECK120001615,atoB,"acetyl-CoA acetyltransferase
+"
+ECK120000416,gyrA,"DNA gyrase subunit A
+"
+ECK120001127,ubiG,"bifunctional 3-demethylubiquinone--methyltransferase and 2-octaprenyl-6-hydroxyphenol methylase
+"
+ECK120000653,nrdA,"ribonucleoside-diphosphate reductase 1 subunit &alpha;
+"
+ECK120000654,nrdB,"ribonucleoside-diphosphate reductase 1 subunit &beta;
+"
+ECK120001386,inaA,putative lipopolysaccharide kinase InaA
+ECK120000392,glpQ,glycerophosphoryl diester phosphodiesterase
+ECK120000394,glpT,-glycerol 3-phosphate:phosphate antiporter
+ECK120000384,glpA,anaerobic glycerol-3-phosphate dehydrogenase subunit A
+ECK120000385,glpB,"anaerobic glycerol-3-phosphate dehydrogenase subunit B
+"
+ECK120000386,glpC,anaerobic glycerol-3-phosphate dehydrogenase subunit C
+ECK120001998,nuoN,NADH:quinone oxidoreductase subunit N
+ECK120001707,nuoM,NADH:quinone oxidoreductase subunit M
+ECK120001997,nuoL,NADH:quinone oxidoreductase subunit L
+ECK120001996,nuoK,"NADH:quinone oxidoreductase subunit K
+"
+ECK120001995,nuoJ,"NADH:quinone oxidoreductase subunit J
+"
+ECK120001994,nuoI,NADH:quinone oxidoreductase subunit I
+ECK120001993,nuoH,NADH:quinone oxidoreductase subunit H
+ECK120001992,nuoG,"NADH:quinone oxidoreductase subunit G
+"
+ECK120001708,nuoF,"NADH:quinone oxidoreductase subunit F
+"
+ECK120001991,nuoE,NADH:quinone oxidoreductase subunit E
+ECK120001990,nuoC,NADH:quinone oxidoreductase subunit CD
+ECK120001989,nuoB,NADH:quinone oxidoreductase subunit B
+ECK120001988,nuoA,"NADH:quinone oxidoreductase subunit A
+"
+ECK120002026,lrhA,DNA-binding transcriptional dual regulator LrhA
+ECK120000024,ackA,acetate kinase
+ECK120000445,hisP,"lysine/arginine/ornithine ABC transporter / histidine ABC transporter, ATP binding subunit
+"
+ECK120000006,hisM,"lysine/arginine/ornithine ABC transporter / histidine ABC transporter, membrane subunit HisM
+"
+ECK120002028,hisQ,"lysine/arginine/ornithine ABC transporter / histidine ABC transporter, membrane subunit HisQ
+"
+ECK120002027,hisJ,histidine ABC transporter periplasmic binding protein
+ECK120000068,argT,"lysine/arginine/ornithine ABC transporter periplasmic binding protein
+"
+ECK120001033,ubiX,flavin prenyltransferase
+ECK120000785,purF,amidophosphoribosyltransferase
+ECK120000165,cvpA,colicin V production protein
+ECK120000268,fabB,"&beta;-ketoacyl-[acyl carrier protein] synthase I
+"
+ECK120003787,fadJ,3-hydroxyacyl-CoA dehydrogenase FadJ
+ECK120003788,fadI,"3-ketoacyl-CoA thiolase FadI
+"
+ECK120000274,fadL,long-chain fatty acid outer membrane porin/bacteriophage T2 receptor
+ECK120002426,glk,glucokinase
+ECK120003828,mntH,Mn: H+ symporter MntH
+ECK120001896,nupC,"nucleoside:H symporter NupC
+"
+ECK120001130,xapR,"DNA-binding transcriptional activator XapR
+"
+ECK120002428,xapB,"xanthosine:H symporter XapB
+"
+ECK120004462,xapA,"xanthosine phosphorylase
+"
+ECK120000187,cysK,"-acetylserine sulfhydrylase A
+"
+ECK120000779,ptsH,phosphocarrier protein HPr
+ECK120000780,ptsI,"PTS enzyme I
+"
+ECK120000161,crr,Enzyme IIA
+ECK120000188,cysM,"cysteine synthase B
+"
+ECK120000178,cysA,"sulfate/thiosulfate ABC transporter ATP binding subunit
+"
+ECK120000193,cysW,"sulfate/thiosulfate ABC transporter inner membrane subunit CysW
+"
+ECK120000192,cysU,"sulfate/thiosulfate ABC transporter inner membrane subunit CysU
+"
+ECK120000190,cysP,"thiosulfate/sulfate ABC transporter periplasmic binding protein CysP
+"
+ECK120001755,amiA,-acetylmuramoyl-L-alanine amidase A
+ECK120002078,hemF,"coproporphyrinogen III oxidase
+"
+ECK120000012,acrD,"multidrug efflux pump RND permease AcrD
+"
+ECK120000782,purC,phosphoribosylaminoimidazole-succinocarboxamide synthase
+ECK120001133,hyfA,hydrogenase 4 component A
+ECK120001255,hyfB,hydrogenase 4 component B
+ECK120003872,hyfC,hydrogenase 4 component C
+ECK120003873,hyfD,hydrogenase 4 component D
+ECK120003874,hyfE,hydrogenase 4 component E
+ECK120003875,hyfF,hydrogenase 4 component F
+ECK120003876,hyfG,hydrogenase 4 catalytic subunit HyfG
+ECK120003877,hyfH,hydrogenase 4 component H
+ECK120003878,hyfI,hydrogenase 4 catalytic subunit HyfI
+ECK120003879,hyfJ,putative hydrogenase 4 assembly protein
+ECK120003880,hyfR,DNA-binding transcriptional activator HyfR
+ECK120003881,focB,putative formate transporter
+ECK120002031,uraA,
+ECK120001303,upp,uracil phosphoribosyltransferase
+ECK120000789,purM,phosphoribosylformylglycinamide cyclo-ligase
+ECK120000790,purN,phosphoribosylglycinamide formyltransferase 1
+ECK120000413,guaA,"GMP synthetase
+"
+ECK120000414,guaB,IMP dehydrogenase
+ECK120001061,xseA,"exodeoxyribonuclease VII subunit XseA
+"
+ECK120002034,iscA,iron-sulfur cluster insertion protein IscA
+ECK120003896,iscU,scaffold protein for iron-sulfur cluster assembly
+ECK120003897,iscS,cysteine desulfurase
+ECK120003898,iscR,DNA-binding transcriptional dual regulator IscR
+ECK120003901,csiE,stationary phase inducible protein CsiE
+ECK120003903,hcaR,DNA-binding transcriptional dual regulator HcaR
+ECK120004468,hcaE,"putative 3-phenylpropionate/cinnamate dioxygenase subunit &alpha;
+"
+ECK120004474,hcaF,"putative 3-phenylpropionate/cinnamate dioxygenase subunit &beta;
+"
+ECK120003904,hcaC,"putative 3-phenylpropionate/cinnamate dioxygenase ferredoxin subunit
+"
+ECK120003905,hcaB,"2,3-dihydroxy-2,3-dihydrophenylpropionate dehydrogenase
+"
+ECK120003906,hcaD,"putative 3-phenylpropionate/cinnamate dioxygenase ferredoxin reductase subunit
+"
+ECK120000401,glyA,serine hydroxymethyltransferase
+ECK120000449,hmp,nitric oxide dioxygenase
+ECK120000377,glnB,"nitrogen regulatory protein PII-1
+"
+ECK120003917,rseC,protein RseC
+ECK120003918,rseB,"anti-sigma factor stabilizing protein RseB
+"
+ECK120002216,rseA,anti-sigma factor
+ECK120001827,rpoE,RNA polymerase sigma E factor
+ECK120000624,nadB,L-aspartate oxidase
+ECK120001718,grcA,stress-induced alternate pyruvate formate-lyase subunit
+ECK120001047,ung,"uracil-DNA glycosylase
+"
+ECK120001817,trxC,reduced thioredoxin 2
+ECK120001028,tyrA,"fused chorismate mutase/prephenate dehydrogenase
+"
+ECK120000074,aroF,"3-deoxy-7-phosphoheptulonate synthase, Tyr-sensitive"
+ECK120000871,rplS,50S ribosomal subunit protein L19
+ECK120001012,trmD,tRNA mG37 methyltransferase
+ECK120001136,rimM,ribosome maturation factor RimM
+ECK120000906,rpsP,30S ribosomal subunit protein S16
+ECK120000184,cysH,"phosphoadenosine phosphosulfate reductase
+"
+ECK120000185,cysI,"sulfite reductase, hemoprotein subunit"
+ECK120000186,cysJ,"sulfite reductase, flavoprotein subunit
+"
+ECK120001224,mazF,"endoribonuclease toxin MazF
+"
+ECK120000564,mazE,"antitoxin of the MazF-MazE toxin-antitoxin system MazE
+"
+ECK120004008,gudD,-glucarate dehydratase
+ECK120004009,gudX,"glucarate dehydratase-related protein
+"
+ECK120004010,gudP,"galactarate/glucarate/glycerate transporter GudP
+"
+ECK120000345,fucO,"L-1,2-propanediol oxidoreductase"
+ECK120000342,fucA,"L-fuculose-phosphate aldolase
+"
+ECK120000346,fucP,L-fucose:H+ symporter
+ECK120000343,fucI,"L-fucose isomerase
+"
+ECK120000344,fucK,L-fuculokinase
+ECK120000348,fucU,"L-fucose mutarotase
+"
+ECK120000347,fucR,DNA-binding transcriptional activator FucR
+ECK120001729,gcvA,DNA-binding transcriptional dual regulator GcvA
+ECK120000059,argA,"N-acetylglutamate synthase
+"
+ECK120004048,xdhA,putative xanthine dehydrogenase molybdenum-binding subunit XdhA
+ECK120001059,dsbC,"protein disulfide isomerase/protein disulfide oxidoreductase - DsbC
+"
+ECK120002360,fldB,flavodoxin 2
+ECK120001744,gcvP,"glycine decarboxylase
+"
+ECK120000364,gcvH,glycine cleavage system H protein
+ECK120001406,gcvT,"aminomethyltransferase
+"
+ECK120000933,serA,phosphoglycerate dehydrogenase
+ECK120000483,argP,DNA-binding transcriptional dual regulator ArgP
+ECK120001408,scpA,"methylmalonyl-CoA mutase
+"
+ECK120001409,argK,"methylmalonyl-CoA mutase-interacting GTPase YgfD
+"
+ECK120004078,scpB,"methylmalonyl-CoA decarboxylase
+"
+ECK120004079,scpC,"propionyl-CoA:succinate CoA transferase
+"
+ECK120000276,fbaA,fructose-bisphosphate aldolase class II
+ECK120000695,pgk,phosphoglycerate kinase
+ECK120000361,epd,D-erythrose-4-phosphate dehydrogenase
+ECK120000949,speB,"agmatinase
+"
+ECK120000948,speA,"arginine decarboxylase, biosynthetic
+"
+ECK120000582,metK,"methionine adenosyltransferase
+"
+ECK120002048,galP,"galactose:H symporter
+"
+ECK120000042,ansB,"L-asparaginase 2
+"
+ECK120000657,nupG,"nucleoside:H symporter NupG
+"
+ECK120000950,speC,"ornithine decarboxylase, biosynthetic
+"
+ECK120002441,glcB,"malate synthase G
+"
+ECK120004103,glcG,putative heme-binding protein GlcG
+ECK120004105,glcD,"glycolate dehydrogenase, putative FAD-linked subunit
+"
+ECK120004106,glcC,"DNA-binding transcriptional dual regulator GlcC
+"
+ECK120001739,hybG,hydrogenase 2 accessory protein
+ECK120001738,hybF,hydrogenase maturation protein HybF
+ECK120001737,hybE,hydrogenase 2-specific chaperone
+ECK120001736,hybD,putative hydrogenase 2 maturation protease
+ECK120001735,hybC,"hydrogenase 2 large subunit
+"
+ECK120001734,hybB,"hydrogenase 2 membrane subunit
+"
+ECK120001733,hybA,"hydrogenase 2 iron-sulfur protein
+"
+ECK120004114,hybO,"hydrogenase 2 small subunit
+"
+ECK120000266,exbD,Ton complex subunit ExbD
+ECK120000265,exbB,Ton complex subunit ExbB
+ECK120000576,metC,"cystathionine &beta;-lyase / L-cysteine desulfhydrase
+"
+ECK120004133,qseB,DNA-binding transcriptional activator QseB
+ECK120002348,qseC,sensory histidine kinase QseC
+ECK120001349,glgS,surface composition regulator
+ECK120001608,bacA,undecaprenyl pyrophosphate phosphatase
+ECK120000911,rpsU,"30S ribosomal subunit protein S21
+"
+ECK120000233,dnaG,"DNA primase
+"
+ECK120000887,rpoD,"RNA polymerase, sigma 70 (sigma D) factor"
+ECK120004148,yqjI,"DNA-binding transcriptional repressor YqjI
+"
+ECK120004149,aer,"aerotaxis sensor receptor, flavoprotein"
+ECK120004150,patA,"putrescine aminotransferase
+"
+ECK120000248,ebgR,DNA-binding transcriptional repressor EbgR
+ECK120000246,ebgA,"evolved &beta;-D-galactosidase subunit &alpha;
+"
+ECK120000247,ebgC,"DUF386 domain-containing evolved &beta;-D-galactosidase subunit &beta;
+"
+ECK120002375,uxaA,"D-altronate dehydratase
+"
+ECK120004451,uxaC,D-glucoronate/D-galacturonate isomerase
+ECK120002376,exuT,"hexuronate transporter
+"
+ECK120002377,exuR,DNA-binding transcriptional repressor ExuR
+ECK120004177,tdcF,"putative enamine/imine deaminase
+"
+ECK120004178,tdcE,"2-ketobutyrate formate-lyase/pyruvate formate-lyase 4
+"
+ECK120001154,tdcD,"propionate kinase
+"
+ECK120000980,tdcC,"threonine/serine:H symporter
+"
+ECK120000979,tdcB,"catabolic threonine dehydratase
+"
+ECK120000978,tdcA,DNA-binding transcriptional activator TdcA
+ECK120000981,tdcR,DNA-binding transcriptional activator TdcR
+ECK120001157,garK,"glycerate 2-kinase 1
+"
+ECK120001158,garR,"tartronate semialdehyde reductase
+"
+ECK120000014,garL,"&alpha;-dehydro-&beta;-deoxy--glucarate aldolase
+"
+ECK120002379,garP,"galactarate/glucarate/glycerate transporter GarP
+"
+ECK120002315,garD,galactarate dehydratase
+ECK120004180,agaR,DNA-binding transcriptional repressor AgaR
+ECK120004181,kbaZ,"tagatose-1,6-bisphosphate aldolase 1 subunit KbaZ"
+ECK120004182,agaV,"-acetyl-D-galactosamine specific PTS enzyme IIB component
+"
+ECK120004183,agaW,-acetyl-D-galactosamine specific PTS truncated enzyme IIC component
+ECK120002380,agaA,putative truncated N-acetylgalactosamine-6-phosphate deacetylase
+ECK120004184,agaS,putative tagatose-6-phosphate aldose/ketose isomerase
+ECK120002381,kbaY,"tagatose-1,6-bisphosphate aldolase 1 subunit KbaY"
+ECK120002382,agaB,galactosamine-specific PTS enzyme IIB component
+ECK120002383,agaC,galactosamine-specific PTS enzyme IIC component
+ECK120004185,agaD,galactosamine-specific PTS enzyme IID component
+ECK120004186,agaI,putative galactosamine-6-phosphate isomerase
+ECK120000610,mtr,"tryptohan:H symporter Mtr
+"
+ECK120000734,pnp,polynucleotide phosphorylase
+ECK120000905,rpsO,"30S ribosomal subunit protein S15
+"
+ECK120001159,truB,tRNA pseudouridine synthase
+ECK120001160,rbfA,30S ribosome binding factor
+ECK120000498,infB,translation initiation factor IF-2
+ECK120000658,nusA,transcription termination/antitermination protein NusA
+ECK120001161,rimP,ribosome maturation factor RimP
+ECK120000064,argG,"argininosuccinate synthetase
+"
+ECK120004214,yrbL,protein kinase-like domain-containing protein YrbL
+ECK120004222,yhcH,"DUF386 domain-containing protein YhcH
+"
+ECK120004223,nanK,"-acetylmannosamine kinase
+"
+ECK120004224,nanE,putative -acetylmannosamine-6-phosphate epimerase
+ECK120002695,nanT,N-acetylneuraminate:H symporter
+ECK120000630,nanA,-acetylneuraminate lyase
+ECK120004225,nanR,DNA-binding transcriptional dual regulator NanR
+ECK120004226,dcuD,putative transporter DcuD
+ECK120000899,rpsI,"30S ribosomal subunit protein S9
+"
+ECK120000865,rplM,50S ribosomal subunit protein L13
+ECK120000569,mdh,"malate dehydrogenase
+"
+ECK120000066,argR,DNA-binding transcriptional dual regulator ArgR
+ECK120001272,rng,"RNase G
+"
+ECK120001271,yhdE,"nucleoside triphosphate pyrophosphatase YhdE
+"
+ECK120000603,mreD,cell shape determining protein MreD
+ECK120000602,mreC,cell shape determining protein MreC
+ECK120000601,mreB,dynamic cytoskeletal protein MreB
+ECK120001282,dusB,tRNA-dihydrouridine synthase B
+ECK120000311,fis,DNA-binding transcriptional dual regulator Fis
+ECK120000260,acrE,multidrug efflux pump membrane fusion protein AcrE
+ECK120000261,acrF,"multidrug efflux pump RND permease AcrF
+"
+ECK120002391,yhdW,"putative ABC transporter periplasmic binding protein YhdW
+"
+ECK120002392,yhdX,"putative ABC transporter membrane subunit YhdX
+"
+ECK120002393,yhdY,"putative ABC transporter membrane subunit YhdY
+"
+ECK120002394,yhdZ,"putative ABC transporter ATP-binding subunit YhdZ
+"
+ECK120000907,rpsQ,"30S ribosomal subunit protein S17
+"
+ECK120000878,rpmC,"50S ribosomal subunit protein L29
+"
+ECK120000868,rplP,50S ribosomal subunit protein L16
+ECK120000893,rpsC,"30S ribosomal subunit protein S3
+"
+ECK120000873,rplV,"50S ribosomal subunit protein L22
+"
+ECK120000909,rpsS,"30S ribosomal subunit protein S19
+"
+ECK120000856,rplB,"50S ribosomal subunit protein L2
+"
+ECK120000874,rplW,"50S ribosomal subunit protein L23
+"
+ECK120000858,rplD,50S ribosomal subunit protein L4
+ECK120000857,rplC,"50S ribosomal subunit protein L3
+"
+ECK120000900,rpsJ,30S ribosomal subunit protein S10
+ECK120001215,chiA,endochitinase
+ECK120001164,yhfA,"OsmC family protein
+"
+ECK120000160,crp,DNA-binding transcriptional dual regulator CRP
+ECK120000062,argD,-succinyldiaminopimelate aminotransferase
+ECK120000748,ppiA,"peptidyl-prolyl  isomerase A
+"
+ECK120000646,nirB,"nitrite reductase catalytic subunit NirB
+"
+ECK120000648,nirD,"nitrite reductase subunit NirD
+"
+ECK120000647,nirC,nitrite transporter NirC
+ECK120000183,cysG,siroheme synthase
+ECK120000681,pck,phosphopyruvate carboxykinase (ATP)
+ECK120000263,envZ,"sensory histidine kinase EnvZ
+"
+ECK120000665,ompR,DNA-binding transcriptional dual regulator OmpR
+ECK120002006,feoA,ferrous iron transport protein A
+ECK120002007,feoB,Fe transporter FeoB
+ECK120004290,yhgH,DNA utilization protein YhgH
+ECK120004291,nfuA,iron-sulfur cluster carrier protein NfuA
+ECK120002247,gntT,"high-affinity gluconate transporter
+"
+ECK120000554,malQ,"4-&alpha;-glucanotransferase
+"
+ECK120000553,malP,maltodextrin phosphorylase
+ECK120000555,malT,DNA-binding transcriptional activator MalT
+ECK120004293,rtcB,RNA-splicing ligase
+ECK120002224,rtcR,DNA-binding transcriptional activator RtcR
+ECK120000393,glpR,DNA-binding transcriptional repressor GlpR
+ECK120000390,glpG,rhomboid protease
+ECK120000388,glpE,"thiosulfate sulfurtransferase GlpE
+"
+ECK120000387,glpD,aerobic glycerol 3-phosphate dehydrogenase
+ECK120000373,glgP,"glycogen phosphorylase
+"
+ECK120000370,glgA,"glycogen synthase
+"
+ECK120000372,glgC,glucose-1-phosphate adenylyltransferase
+ECK120002342,gntR,DNA-binding transcriptional repressor GntR
+ECK120004298,yhhY,-acetyltransferase YhhY
+ECK120001039,ugpQ,glycerophosphodiester phosphodiesterase
+ECK120001037,ugpC,"-glycerol 3-phosphate ABC transporter ATP binding subunit
+"
+ECK120001038,ugpE,"-glycerol 3-phosphate ABC transporter membrane subunit UgpE
+"
+ECK120001035,ugpA,"-glycerol 3-phosphate ABC transporter membrane subunit UgpA
+"
+ECK120001036,ugpB,"-glycerol 3-phosphate ABC transporter periplasmic binding protein
+"
+ECK120000529,livF,"branched chain amino acid/phenylalanine ABC transporter ATP binding subunit LivF
+"
+ECK120000530,livG,"branched chain amino acid/phenylalanine ABC transporter ATP binding subunit LivG
+"
+ECK120000534,livM,branched chain amino acid/phenylalanine ABC transporter membrane subunit LivM
+ECK120000531,livH,"branched chain amino acid/phenylalanine ABC transporter membrane subunit LivH
+"
+ECK120000533,livK,L-leucine/L-phenylalanine ABC transporter periplasmic binding protein
+ECK120000532,livJ,branched chain amino acid/phenylalanine ABC transporter periplasmic binding protein
+ECK120000888,rpoH,"RNA polymerase, sigma 32 (sigma H) factor"
+ECK120002102,zntA,"Zn exporting P-type ATPase
+"
+ECK120001981,nikA,Ni(2+) ABC transporter periplasmic binding protein
+ECK120001982,nikB,"Ni(2+) ABC transporter membrane subunit NikB
+"
+ECK120001983,nikC,"Ni(2+) ABC transporter membrane subunit NikC
+"
+ECK120001984,nikD,"Ni(2+) ABC transporter ATP binding subunit NikD
+"
+ECK120001985,nikE,"Ni(2+) ABC transporter ATP binding subunit NikE
+"
+ECK120001473,nikR,DNA-binding transcriptional repressor NikR
+ECK120002114,pitA,metal phosphate:H symporter PitA
+ECK120001357,uspA,"universal stress global stress response regulator
+"
+ECK120000405,gor,"glutathione reductase (NADPH)
+"
+ECK120001820,slp,starvation lipoprotein
+ECK120001365,hdeB,"periplasmic acid stress chaperone
+"
+ECK120001364,hdeA,"HdeA monomer, chaperone active form"
+ECK120001451,hdeD,acid-resistance membrane protein
+ECK120001498,gadE,DNA-binding transcriptional activator GadE
+ECK120002125,gadW,DNA-binding transcriptional dual regulator GadW
+ECK120002126,gadX,DNA-binding transcriptional dual regulator GadX
+ECK120002568,gadA,glutamate decarboxylase A
+ECK120002134,pdeH,c-di-GMP phosphodiesterase PdeH
+ECK120002437,dctA,"C4 dicarboxylate/orotate:H symporter
+"
+ECK120002139,bcsZ,"endo-1,4-D-glucanase"
+ECK120002140,bcsB,cellulose synthase periplasmic subunit
+ECK120000162,cspA,DNA-binding transcriptional activator CspA
+ECK120004307,insK,"IS150 conserved protein InsB
+"
+ECK120001064,xylB,"xylulokinase
+"
+ECK120001063,xylA,"xylose isomerase
+"
+ECK120002448,xylF,xylose ABC transporter periplasmic binding protein
+ECK120002156,xylG,"xylose ABC transporter ATP binding subunit
+"
+ECK120002157,xylH,"xylose ABC transporter membrane subunit
+"
+ECK120002449,xylR,"DNA-binding transcriptional dual regulator XylR
+"
+ECK120001287,malS,"&alpha;-amylase
+"
+ECK120002159,yiaJ,DNA-binding transcriptional repressor YiaJ
+ECK120002160,yiaK,"2,3-diketo-L-gulonate reductase
+"
+ECK120002161,yiaL,"DUF386 domain-containing protein YiaL
+"
+ECK120002162,yiaM,"2,3-diketo-L-gulonate:Na symporter - membrane subunit
+"
+ECK120002163,yiaN,"2,3-diketo-L-gulonate:Na symporter - membrane subunit
+"
+ECK120002164,yiaO,"2,3-diketo-L-gulonate:Na symporter - periplasmic binding protein
+"
+ECK120002165,lyxK,L-xylulose kinase
+ECK120002166,sgbH,"3-keto-L-gulonate-6-phosphate decarboxylase SgbH
+"
+ECK120002167,sgbU,putative L-xylulose 5-phosphate 3-epimerase
+ECK120002168,sgbE,L-ribulose-5-phosphate 4-epimerase SgbE
+ECK120002173,aldB,aldehyde dehydrogenase B
+ECK120000608,mtlA,"mannitol-specific PTS enzyme IICBA component
+"
+ECK120000609,mtlD,mannitol-1-phosphate 5-dehydrogenase
+ECK120001891,mtlR,transcriptional repressor MtlR
+ECK120001887,lldP,(R)-lactate/(S)-lactate/glycolate:H+ symporter LldP
+ECK120001888,lldR,DNA-binding transcriptional dual regulator LldR
+ECK120001889,lldD,"L-lactate dehydrogenase
+"
+ECK120000982,tdh,threonine dehydrogenase
+ECK120000505,kbl,2-amino-3-ketobutyrate CoA ligase
+ECK120001169,htrL,"protein HtrL
+"
+ECK120001043,uhpT,hexose-6-phosphate:phosphate antiporter
+ECK120001040,uhpA,DNA-binding transcriptional activator UhpA
+ECK120000495,ilvN,"acetohydroxy acid synthase I subunit IlvN
+"
+ECK120000487,ilvB,"acetohydroxy acid synthase I subunit IlvB
+"
+ECK120001249,ivbL, operon leader peptide
+ECK120001489,ibpB,"small heat shock protein IbpB
+"
+ECK120001655,yidQ,"DUF1375 domain-containing putative lipoprotein YidQ
+"
+ECK120000417,gyrB,"DNA gyrase subunit B
+"
+ECK120000819,recF,"DNA repair protein RecF
+"
+ECK120000236,dnaN,&beta; sliding clamp
+ECK120000229,dnaA,chromosomal replication initiator protein DnaA
+ECK120001250,tnaC, operon leader peptide
+ECK120000994,tnaA,tryptophanase
+ECK120000995,tnaB,"tryptophan:H symporter TnaB
+"
+ECK120000110,bglB,6-phospho-&beta;-glucosidase B
+ECK120000111,bglF,"&beta;-glucoside specific PTS enzyme II / BglG kinase / BglG phosphatase
+"
+ECK120000112,bglG,"transcriptional antiterminator BglG
+"
+ECK120000726,phoU,"negative regulator of the  regulon
+"
+ECK120000774,pstB,"phosphate ABC transporter ATP binding subunit
+"
+ECK120000773,pstA,phosphate ABC transporter membrane subunit PstA
+ECK120000775,pstC,phosphate ABC transporter membrane subunit PstC
+ECK120000725,pstS,phosphate ABC transporter periplasmic binding protein
+ECK120000375,glmS,"L-glutamine&mdash;D-fructose-6-phosphate aminotransferase
+"
+ECK120001179,glmU,"fused N-acetylglucosamine-1-phosphate uridyltransferase and glucosamine-1-phosphate acetyltransferase
+"
+ECK120000089,asnC,DNA-binding transcriptional dual regulator AsnC
+ECK120000087,asnA,asparagine synthetase A
+ECK120000808,rbsD,D-ribose pyranase
+ECK120000805,rbsA,"ribose ABC transporter ATP binding subunit
+"
+ECK120000807,rbsC,ribose ABC transporter membrane subunit
+ECK120000806,rbsB,ribose ABC transporter periplasmic binding protein
+ECK120000809,rbsK,"ribokinase
+"
+ECK120000810,rbsR,DNA-binding transcriptional dual regulator RbsR
+ECK120001244,ilvL, operon leader peptide
+ECK120000494,ilvM,"acetolactate synthase II subunit IlvM
+"
+ECK120000490,ilvE,branched-chain-amino-acid aminotransferase
+ECK120000489,ilvD,"dihydroxy-acid dehydratase
+"
+ECK120000486,ilvA,"threonine deaminase
+"
+ECK120000496,ilvY,DNA-binding transcriptional dual regulator IlvY
+ECK120000488,ilvC,"ketol-acid reductoisomerase (NADP)
+"
+ECK120001020,trxA,thioredoxin 1
+ECK120000086,aslB,putative anaerobic sulfatase maturation enzyme
+ECK120000584,metR,DNA-binding transcriptional dual regulator MetR
+ECK120000577,metE,"cobalamin-independent homocysteine transmethylase
+"
+ECK120004313,ysgA,"putative dienelactone hydrolase
+"
+ECK120001034,udp,uridine phosphorylase
+ECK120000273,fadB,"dodecenoyl-CoA &delta;-isomerase, enoyl-CoA hydratase, 3-hydroxybutyryl-CoA epimerase, 3-hydroxyacyl-CoA dehydrogenase
+"
+ECK120001763,srkA,"stress response kinase A
+"
+ECK120001270,dsbA,protein disulfide oxidoreductase - DsbA
+ECK120000737,polA,DNA polymerase I
+ECK120000378,glnG,DNA-binding transcriptional dual regulator NtrC
+ECK120000380,glnL,sensory histidine kinase NtrB
+ECK120000376,glnA,"glutamine synthetase
+"
+ECK120001797,rhaD,"rhamnulose-1-phosphate aldolase
+"
+ECK120001798,rhaA,"L-rhamnose isomerase
+"
+ECK120001799,rhaB,"rhamnulokinase
+"
+ECK120000834,rhaS,DNA-binding transcriptional activator RhaS
+ECK120000833,rhaR,DNA-binding transcriptional activator RhaR
+ECK120001284,rhaT,"rhamnose/lyxose:H symporter
+"
+ECK120000942,sodA,superoxide dismutase (Mn)
+ECK120000159,cpxA,sensory histidine kinase CpxA
+ECK120000017,cpxR,DNA-binding transcriptional dual regulator CpxR
+ECK120000691,pfkA,"6-phosphofructokinase I
+"
+ECK120000621,fpr,flavodoxin/ferredoxin-NADP reductase
+ECK120001472,glpX,"fructose-1,6-bisphosphatase 2
+"
+ECK120000391,glpK,glycerol kinase
+ECK120000389,glpF,glycerol facilitator
+ECK120000194,cytR,DNA-binding transcriptional repressor CytR
+ECK120000581,metJ,"DNA-binding transcriptional repressor MetJ
+"
+ECK120000575,metB,"-succinylhomoserine lyase
+"
+ECK120000583,metL,"fused aspartate kinase/homoserine dehydrogenase 2
+"
+ECK120000578,metF,"5,10-methylenetetrahydrofolate reductase
+"
+ECK120000504,katG,hydroperoxidase I
+ECK120001259,argE,"acetylornithine deacetylase
+"
+ECK120000061,argC,"N-acetylglutamylphosphate reductase
+"
+ECK120000060,argB,"acetylglutamate kinase
+"
+ECK120001201,argH,"argininosuccinate lyase
+"
+ECK120001361,fabR,DNA-binding transcriptional repressor FabR
+ECK120001011,trmA,"tRNA mU54 methyltransferase
+"
+ECK120000119,birA,DNA-binding transcriptional repressor/biotin-[acetyl-CoA-carboxylase] ligase BirA
+ECK120001026,tufB,translation elongation factor Tu 2
+ECK120000459,hupA,"DNA-binding protein HU-&alpha;
+"
+ECK120001846,zraP,"zinc responsive, periplasmic protein with chaperone activity
+"
+ECK120000007,zraS,sensory histidine kinase ZraS
+ECK120000475,zraR,DNA-binding transcriptional activator ZraR
+ECK120000783,purD,phosphoribosylamine&mdash;glycine ligase
+ECK120000786,purH,bifunctional AICAR transformylase/IMP cyclohydrolase
+ECK120000574,metA,"homoserine -succinyltransferase
+"
+ECK120000020,aceB,malate synthase A
+ECK120000019,aceA,isocitrate lyase
+ECK120000023,aceK,"isocitrate dehydrogenase kinase/phosphatase
+"
+ECK120000484,iclR,DNA-binding transcriptional repressor IclR
+ECK120000580,metH,"cobalamin-dependent methionine synthase
+"
+ECK120001189,psiE,putative phosphate starvation-inducible protein
+ECK120000549,malG,maltose ABC transporter membrane subunit MalG
+ECK120000548,malF,maltose ABC transporter membrane subunit MalF
+ECK120000547,malE,maltose ABC transporter periplasmic binding protein
+ECK120000551,malK,maltose ABC transporter ATP binding subunit
+ECK120000521,lamB,"maltose outer membrane porin / phage lambda receptor protein
+"
+ECK120000552,malM,maltose regulon periplasmic protein
+ECK120001337,ubiC,chorismate lyase
+ECK120001338,ubiA,"4-hydroxybenzoate octaprenyltransferase
+"
+ECK120000526,lexA,DNA-binding transcriptional repressor LexA
+ECK120001447,dinF,"DNA damage-inducible protein F
+"
+ECK120001857,zur,DNA-binding transcriptional repressor Zur
+ECK120001861,pspG,"phage shock protein G
+"
+ECK120001029,tyrB,tyrosine aminotransferase
+ECK120001050,uvrA,"excision nuclease subunit A
+"
+ECK120000965,ssb,"ssDNA-binding protein
+"
+ECK120000947,soxS,DNA-binding transcriptional dual regulator SoxS
+ECK120000946,soxR,DNA-binding transcriptional dual regulator SoxR
+ECK120001870,actP,acetate/glycolate:cation symporter
+ECK120001871,yjcH,"conserved inner membrane protein YjcH
+"
+ECK120001411,acs,acetyl-CoA synthetase (AMP-forming)
+ECK120001715,nrfA,cytochrome  nitrite reductase
+ECK120001872,nrfB,"periplasmic nitrite reductase penta-heme -type cytochrome
+"
+ECK120001873,nrfC,"putative menaquinol-cytochrome  reductase 4Fe-4S subunit
+"
+ECK120001874,nrfD,"putative menaquinol-cytochrome  reductase subunit NrfD
+"
+ECK120001875,nrfE,putative cytochrome c-type biogenesis protein NrfE
+ECK120001876,nrfF,putative formate-dependent nitrite reductase complex subunit NrfF
+ECK120001877,nrfG,putative formate-dependent nitrite reductase complex subunit NrfG
+ECK120000279,fdhF,formate dehydrogenase H
+ECK120001884,alsE,"D-allulose-6-phosphate 3-epimerase
+"
+ECK120001885,alsC,"D-allose ABC transporter membrane subunit
+"
+ECK120001886,alsA,"D-allose ABC transporter ATP binding subunit
+"
+ECK120002305,alsB,D-allose ABC transporter periplasmic binding protein
+ECK120004319,alsR,DNA-binding transcriptional repressor AlsR
+ECK120001759,rpiB,allose-6-phosphate isomerase / ribose-5-phosphate isomerase B
+ECK120000717,phnP,"5-phospho-&alpha;-D-ribosyl 1,2-cyclic phosphate phosphodiesterase
+"
+ECK120000716,phnO,"aminoalkylphosphonate -acetyltransferase
+"
+ECK120000715,phnN,"ribose 1,5-bisphosphate phosphokinase
+"
+ECK120000714,phnM,RPnTP hydrolase
+ECK120000713,phnL,methylphosphonate degradation complex subunit PhnL
+ECK120000712,phnK,carbon-phosphorus lyase subunit PhnK
+ECK120000711,phnJ,"carbon-phosphorus lyase core complex subunit PhnJ
+"
+ECK120000710,phnI,carbon-phosphorus lyase core complex subunit PhnI
+ECK120000709,phnH,"carbon-phosphorus lyase core complex subunit PhnH
+"
+ECK120000708,phnG,"carbon-phosphorus lyase core complex subunit PhnG
+"
+ECK120000707,phnF,putative transcriptional regulator PhnF
+ECK120000706,phnD,cryptic phosphonate ABC transporter periplasmic binding protein
+ECK120000705,phnC,"cryptic phosphonate ABC transporter ATP binding subunit
+"
+ECK120001560,proP,osmolyte:H symporter ProP
+ECK120001892,adiY,DNA-binding transcriptional activator AdiY
+ECK120001457,adiA,"arginine decarboxylase, degradative
+"
+ECK120001208,melR,DNA-binding transcriptional dual regulator MelR
+ECK120000570,melA,&alpha;-galactosidase
+ECK120000571,melB,melibiose:H symporter
+ECK120000350,fumB,fumarase B
+ECK120000005,dcuB,anaerobic C4-dicarboxylate transporter DcuB
+ECK120004323,dcuR,DNA-binding transcriptional activator DcuR
+ECK120004324,dcuS,sensory histidine kinase DcuS
+ECK120000127,cadA,"lysine decarboxylase 1
+"
+ECK120000128,cadB,cadaverine:lysine antiporter
+ECK120000129,cadC,DNA-binding transcriptional activator CadC
+ECK120001203,dcuA,C4-dicarboxylate transporter DcuA
+ECK120000091,aspA,aspartate ammonia-lyase
+ECK120000036,ampC,&beta;-lactamase
+ECK120000327,frdD,fumarate reductase membrane protein FrdD
+ECK120000326,frdC,fumarate reductase membrane protein FrdC
+ECK120000325,frdB,"fumarate reductase iron-sulfur protein
+"
+ECK120000324,frdA,"fumarate reductase flavoprotein subunit
+"
+ECK120000766,psd,phosphatidylserine decarboxylase proenzyme
+ECK120000781,purA,"adenylosuccinate synthetase
+"
+ECK120001192,nsrR,"DNA-binding transcriptional repressor NsrR
+"
+ECK120001745,aidB,putative acyl-CoA dehydrogenase AidB
+ECK120004350,ulaR,DNA-binding transcriptional repressor UlaR
+ECK120004351,ulaG,L-ascorbate-6-phosphate lactonase
+ECK120004352,ulaA,L-ascorbate specific PTS enzyme IIC component
+ECK120002309,ulaB,L-ascorbate specific PTS enzyme IIB component
+ECK120002310,ulaC,"L-ascorbate specific PTS enzyme IIA component
+"
+ECK120004353,ulaD,3-keto-L-gulonate-6-phosphate decarboxylase UlaD
+ECK120004354,ulaE,L-ribulose-5-phosphate 3-epimerase UlaE
+ECK120004355,ulaF,"L-ribulose-5-phosphate 4-epimerase UlaF
+"
+ECK120004361,ytfE,iron-sulfur cluster repair protein YtfE
+ECK120000156,cpdB,2'3' cyclic nucleotide phosphodiesterase/3' nucleotidase
+ECK120002294,mpl,"UDP--2,6-diaminoheptanedioate ligase
+"
+ECK120004452,nrdG,anaerobic ribonucleoside-triphosphate reductase activating protein
+ECK120001382,nrdD,anaerobic ribonucleoside-triphosphate reductase
+ECK120001368,treC,"trehalose-6-phosphate hydrolase
+"
+ECK120002029,treB,"trehalose-specific PTS enzyme IIBC component
+"
+ECK120002090,treR,"DNA-binding transcriptional repressor TreR
+"
+ECK120002316,mgtA,"Mg importing P-type ATPase
+"
+ECK120000065,argI,"ornithine carbamoyltransferase ArgI
+"
+ECK120000686,pepA,aminopeptidase A/I
+ECK120004386,idnR,DNA-binding transcriptional dual regulator IdnR
+ECK120002317,idnT,"L-idonate/5-ketogluconate/gluconate transporter
+"
+ECK120004387,idnO,"5-keto-D-gluconate 5-reductase
+"
+ECK120004388,idnD,"L-idonate 5-dehydrogenase
+"
+ECK120002051,idnK,"D-gluconate kinase, thermosensitive"
+ECK120000284,fecE,"ferric citrate ABC transporter ATP binding subunit
+"
+ECK120000283,fecD,"ferric citrate ABC transporter membrane subunit FecD
+"
+ECK120000282,fecC,"ferric citrate ABC transporter membrane subunit FecC
+"
+ECK120000281,fecB,ferric citrate ABC transporter periplasmic binding protein
+ECK120000280,fecA,ferric citrate outer membrane transporter
+ECK120000286,fecR,"regulator for fec operon, periplasmic
+"
+ECK120000285,fecI,"RNA polymerase, sigma 19 factor
+"
+ECK120004416,nanC,-acetylneuraminic acid outer membrane channel
+ECK120000303,fimB,regulator for fimA
+ECK120000306,fimE,regulator for fimA
+ECK120000302,fimA,"type 1 fimbriae major subunit
+"
+ECK120001899,fimI,"putative fimbrial protein FimI
+"
+ECK120000304,fimC,type 1 fimbriae periplasmic chaperone
+ECK120000305,fimD,"type I fimbriae usher protein
+"
+ECK120000307,fimF,"type 1 fimbriae minor subunit FimF
+"
+ECK120000308,fimG,"type 1 fimbriae minor subunit FimG
+"
+ECK120000309,fimH,type 1 fimbriae D-mannose specific adhesin
+ECK120002323,gntP,"fructuronate transporter
+"
+ECK120001055,uxuA,D-mannonate dehydratase
+ECK120002446,uxuB,"D-mannonate oxidoreductase
+"
+ECK120002447,uxuR,DNA-binding transcriptional repressor UxuR
+ECK120004418,iraD,"anti-adaptor protein IraD, inhibitor of &sigma; proteolysis"
+ECK120001023,tsr,methyl-accepting chemotaxis protein Tsr
+ECK120004442,fhuF,hydroxamate siderophore iron reductase
+ECK120001358,osmY,periplasmic chaperone OsmY
+ECK120000215,deoC,deoxyribose-phosphate aldolase
+ECK120000213,deoA,thymidine phosphorylase
+ECK120000214,deoB,phosphopentomutase
+ECK120000216,deoD,"purine nucleoside phosphorylase
+"
+ECK120001306,nadR,"DNA-binding transcriptional repressor/NMN adenylyltransferase NadR
+"
+ECK120001018,trpR,DNA-binding transcriptional repressor TrpR
+ECK120001334,rob,DNA-binding transcriptional dual regulator Rob
+ECK120000057,arcA,DNA-binding transcriptional dual regulator ArcA

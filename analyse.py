@@ -7,15 +7,13 @@ import csv
 
 
 #
-# Part where the RegulonDB files are parsed to extract the Gene ID and the corresponding locus
+# Part where the RegulonDB files are parsed to extract the Gene ID, Gene Product and the corresponding locus
 #
 
 file_GeneProduct = open("File_Regulon_DB/GeneProductSet.txt","r")
-file_Condition = open("File_Regulon_DB/GCSet.txt","r")
 file_Cluster = open("list_locus.txt","r")
 
 products = file_GeneProduct.readline()
-condition = file_Condition.readline()
 cluster = file_Cluster.readline()
 
 list_locus_cluster = []
@@ -24,9 +22,6 @@ for line in file_Cluster:
     line = line.strip('\n')
     list_locus_cluster.append(str(line))
     nb_l+=1
-
-print("Nombre de locus in cluster = ", nb_l)
-print(list_locus_cluster)
 
 dict = {}
 list_locus = []
@@ -42,20 +37,20 @@ for line in file_GeneProduct:
             dict = {}       
             dict["Locus"]=locus
             geneID = line.split("	")[1]
+            if((len(line.split("	"))>6)):
+                product=line.split("	")[6]
+            else:
+                product=""
             dict["GeneID"]=geneID
+            dict["Product"]=product
             list_locus.append(dict)
             cpt+=1
-print(cpt)
-
-#for el in list_locus:
- #   print el["Locus"]
-#print("final number =",cpt )
 
 #
 # Part to save the list of dictionary in a csv file
 #
 
-csv_columns = ['Locus', 'GeneID']
+csv_columns = ['Locus', 'GeneID','Product']
 csv_file = "liste_locus.csv"
 
 try:
