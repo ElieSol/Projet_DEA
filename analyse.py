@@ -69,5 +69,5 @@ except IOError:
 # Part to execute the R script which contain the annotation service (RDavidWebService)
 # Note: not working
 #
-# os.system("RScript annotation.R")
+os.system("Rscript annotation.r")
 
