@@ -9,6 +9,7 @@ This project was part of our Master degree assignment and was done as a group of
 
 ## Summary and Final Rendering
 In order to achieve the goal mentionned previously, **Tulip software** was used and pipeline using **Python** programming language. 
+The final rendering, displayed below, allows the analysis of genes regulations over time with the red color corresponding to negative regulations and green color to positive regulations.
 
 ![alt text](https://github.com/ElieSol/Projet_DEA/blob/master/resultsSmall.png)
 
