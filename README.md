@@ -1,7 +1,5 @@
-# Projet_DEA
-
-# Visual Analysis of gene expression data
+# Project: Visual Analysis of gene expression data
 
 # Note:
-- Le script nommé "scriptFonctionnel.py" est le script à exécuter dans tulip
+- The script name "scriptFonctionnel.py" is the script to be executed within Tulip software.
 
