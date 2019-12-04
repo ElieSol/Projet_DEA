@@ -10,6 +10,7 @@ This project was part of our Master degree assignment and was done as a group of
 ## Summary and Final Rendering
 In order to achieve the goal mentionned previously, **Tulip software** was used and pipeline using **Python** programming language. 
 
+![alt text](https://github.com/ElieSol/Projet_DEA/blob/master/resultsSmall.png)
 
 ## Note:
 - The script name "scriptFonctionnel.py" is the script to be executed within Tulip software.
